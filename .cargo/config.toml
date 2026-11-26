@@ -1,0 +1,20 @@
+# Cargo settings the checkout brings along (cargo reads this file from the
+# workspace; xbuild reads it too). Desktop builds are not affected by
+# anything here: the keys name the Android targets.
+
+[env]
+# The Android library's C++ (Luau) links the NDK's static libc++, not
+# libc++_shared.so. The reason is Luau's native code (--!native scripts,
+# docs/ANDROID.md "Luau native code"): a Luau error is a C++ exception, and
+# libc++_shared.so throws it with the unwinder hidden inside that library,
+# which never sees the unwind tables Luau registers for its generated code
+# with the unwinder inside ours — the exception could not pass a native
+# frame and the process would abort. With libc++ and libc++abi static,
+# __cxa_throw, the unwinder (libunwind.a, which Rust's std links in) and
+# Luau's __register_frame are all one library's. The `cc` crate and the
+# vendored luau0-src read these (luau0-src adds libc++abi, which
+# c++_static needs); crates/rustudio-android/build.rs makes that link
+# refuse undefined symbols, so a missing piece is a build error and not a
+# phone's "cannot locate symbol".
+CXXSTDLIB_aarch64_linux_android = "c++_static"
+CXXSTDLIB_x86_64_linux_android = "c++_static"

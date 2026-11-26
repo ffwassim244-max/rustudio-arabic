@@ -1,0 +1,49 @@
+name: Feature Request
+description: Suggest an idea or enhancement for rustudio on Android
+title: "[Feature]: "
+labels: ["enhancement", "android"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve **rustudio for Android**!
+        
+        > **PC / Desktop Notice**: Feature requests for the PC/desktop version belong upstream at **[rippelz/rustudio/issues](https://github.com/rippelz/rustudio/issues)**.
+        
+        Please review [CONTRIBUTING.md](https://github.com/GoyDevv/Rustudio-Android/blob/main/CONTRIBUTING.md) to understand our mobile architecture and design philosophy.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a mobile problem?
+      description: A clear description of what the problem or limitation is on Android.
+      placeholder: On mobile devices, it's difficult to...
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution / Feature
+      description: A clear and concise description of the Android feature you want.
+    validations:
+      required: true
+  - type: textarea
+    id: studio_parity
+    attributes:
+      label: Roblox Studio Parity Reference
+      description: How does Roblox Studio handle this? Include references, API names, or screenshots where applicable.
+  - type: dropdown
+    id: target_area
+    attributes:
+      label: Target Android Area
+      options:
+        - Android Mobile UI (Floating Panels, Virtual Joystick, Touch Gestures)
+        - Android Renderer & Performance (Vulkan / GLES3, Shader Optimization, Battery / Thermal)
+        - Android Engine & Runtime (Luau, Place Loading, Physics Simulation)
+        - Android Packaging & Device Support (APK, Manifest, NDK, Permissions)
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Additional Context / Alternatives Considered
+      description: Any other mobile context, mockups, or alternatives you've considered.

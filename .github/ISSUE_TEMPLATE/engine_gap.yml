@@ -1,0 +1,40 @@
+name: Engine API Gap
+description: Report a missing Luau engine class, method, property, or event
+title: "[Engine Gap]: "
+labels: ["engine-gap", "luau"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        rustudio aims to match Roblox Studio engine behavior.
+        See [docs/ENGINE-GAPS.md](https://github.com/GoyDevv/Rustudio-Android/blob/main/docs/ENGINE-GAPS.md) for currently tracked engine gaps.
+  - type: input
+    id: member
+    attributes:
+      label: Missing Class / Member
+      description: Exact name of the Class and Member (e.g., `TweenService:Create`, `Part.MaterialVariant`, `BasePart.Touched`)
+      placeholder: ClassName.MemberName or ClassName:MethodName
+    validations:
+      required: true
+  - type: input
+    id: api_dump_reference
+    attributes:
+      label: Roblox API Dump Reference
+      description: Reference in `api-dump.json` confirming this exists in Roblox
+      placeholder: e.g. api-dump.json Class "BasePart" member "CanTouch"
+    validations:
+      required: false
+  - type: textarea
+    id: place_affected
+    attributes:
+      label: Real Experience / Place Impacted
+      description: Which place, script, or model is blocked or failing because of this missing member?
+    validations:
+      required: true
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected Behavior and Return Types
+      description: What should this member do and what arguments/returns does it have?
+    validations:
+      required: true

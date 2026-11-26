@@ -1,0 +1,2979 @@
+Q ray 1 nil nil
+Q ray 1 ex-actor nil
+Q ray 1 ex-empty nil
+Q ray 1 in-subset nil
+Q ray 1 in-level nil
+Q ray 1 ex-actor-collide nil
+Q ray 1 ignore-water nil
+Q ray 1 group-g2 nil
+Q ray 2 nil Workspace.Level.p836 -329.5518,6.4013,-251.3433 0.0000,1.0000,0.0000 Plastic 13.2713
+Q ray 2 ex-actor Workspace.Level.p836 -329.5518,6.4013,-251.3433 0.0000,1.0000,0.0000 Plastic 13.2713
+Q ray 2 ex-empty Workspace.Level.p836 -329.5518,6.4013,-251.3433 0.0000,1.0000,0.0000 Plastic 13.2713
+Q ray 2 in-subset nil
+Q ray 2 in-level Workspace.Level.p836 -329.5518,6.4013,-251.3433 0.0000,1.0000,0.0000 Plastic 13.2713
+Q ray 2 ex-actor-collide Workspace.Level.p836 -329.5518,6.4013,-251.3433 0.0000,1.0000,0.0000 Plastic 13.2713
+Q ray 2 ignore-water Workspace.Level.p836 -329.5518,6.4013,-251.3433 0.0000,1.0000,0.0000 Plastic 13.2713
+Q ray 2 group-g2 nil
+Q ray 3 nil nil
+Q ray 3 ex-actor nil
+Q ray 3 ex-empty nil
+Q ray 3 in-subset nil
+Q ray 3 in-level nil
+Q ray 3 ex-actor-collide nil
+Q ray 3 ignore-water nil
+Q ray 3 group-g2 nil
+Q ray 4 nil Workspace.Level.p1360 250.6866,9.2131,-67.0354 0.0000,1.0000,0.0000 Plastic 21.6828
+Q ray 4 ex-actor Workspace.Level.p1360 250.6866,9.2131,-67.0354 0.0000,1.0000,0.0000 Plastic 21.6828
+Q ray 4 ex-empty Workspace.Level.p1360 250.6866,9.2131,-67.0354 0.0000,1.0000,0.0000 Plastic 21.6828
+Q ray 4 in-subset nil
+Q ray 4 in-level Workspace.Level.p1360 250.6866,9.2131,-67.0354 0.0000,1.0000,0.0000 Plastic 21.6828
+Q ray 4 ex-actor-collide Workspace.Level.p1360 250.6866,9.2131,-67.0354 0.0000,1.0000,0.0000 Plastic 21.6828
+Q ray 4 ignore-water Workspace.Level.p1360 250.6866,9.2131,-67.0354 0.0000,1.0000,0.0000 Plastic 21.6828
+Q ray 4 group-g2 nil
+Q ray 5 nil nil
+Q ray 5 ex-actor nil
+Q ray 5 ex-empty nil
+Q ray 5 in-subset nil
+Q ray 5 in-level nil
+Q ray 5 ex-actor-collide nil
+Q ray 5 ignore-water nil
+Q ray 5 group-g2 nil
+Q ray 6 nil nil
+Q ray 6 ex-actor nil
+Q ray 6 ex-empty nil
+Q ray 6 in-subset nil
+Q ray 6 in-level nil
+Q ray 6 ex-actor-collide nil
+Q ray 6 ignore-water nil
+Q ray 6 group-g2 nil
+Q ray 7 nil nil
+Q ray 7 ex-actor nil
+Q ray 7 ex-empty nil
+Q ray 7 in-subset nil
+Q ray 7 in-level nil
+Q ray 7 ex-actor-collide nil
+Q ray 7 ignore-water nil
+Q ray 7 group-g2 nil
+Q ray 8 nil Workspace.Terrain 233.2936,0.0156,-104.0971 0.0000,1.0000,0.0000 Grass 21.0628
+Q ray 8 ex-actor Workspace.Terrain 233.2936,0.0156,-104.0971 0.0000,1.0000,0.0000 Grass 21.0628
+Q ray 8 ex-empty Workspace.Terrain 233.2936,0.0156,-104.0971 0.0000,1.0000,0.0000 Grass 21.0628
+Q ray 8 in-subset nil
+Q ray 8 in-level nil
+Q ray 8 ex-actor-collide Workspace.Terrain 233.2936,0.0156,-104.0971 0.0000,1.0000,0.0000 Grass 21.0628
+Q ray 8 ignore-water Workspace.Terrain 233.2936,0.0156,-104.0971 0.0000,1.0000,0.0000 Grass 21.0628
+Q ray 8 group-g2 nil
+Q ray 9 nil Workspace.Level.p1300 154.2592,4.9324,-86.1132 0.0000,1.0000,0.0000 Plastic 61.2236
+Q ray 9 ex-actor Workspace.Level.p1300 154.2592,4.9324,-86.1132 0.0000,1.0000,0.0000 Plastic 61.2236
+Q ray 9 ex-empty Workspace.Level.p1300 154.2592,4.9324,-86.1132 0.0000,1.0000,0.0000 Plastic 61.2236
+Q ray 9 in-subset nil
+Q ray 9 in-level Workspace.Level.p1300 154.2592,4.9324,-86.1132 0.0000,1.0000,0.0000 Plastic 61.2236
+Q ray 9 ex-actor-collide Workspace.Level.p1300 154.2592,4.9324,-86.1132 0.0000,1.0000,0.0000 Plastic 61.2236
+Q ray 9 ignore-water Workspace.Level.p1300 154.2592,4.9324,-86.1132 0.0000,1.0000,0.0000 Plastic 61.2236
+Q ray 9 group-g2 nil
+Q ray 10 nil nil
+Q ray 10 ex-actor nil
+Q ray 10 ex-empty nil
+Q ray 10 in-subset nil
+Q ray 10 in-level nil
+Q ray 10 ex-actor-collide nil
+Q ray 10 ignore-water nil
+Q ray 10 group-g2 nil
+Q ray 11 nil Workspace.Terrain -196.6152,0.0156,-47.5052 0.0000,1.0000,0.0000 Grass 21.2260
+Q ray 11 ex-actor Workspace.Terrain -196.6152,0.0156,-47.5052 0.0000,1.0000,0.0000 Grass 21.2260
+Q ray 11 ex-empty Workspace.Terrain -196.6152,0.0156,-47.5052 0.0000,1.0000,0.0000 Grass 21.2260
+Q ray 11 in-subset nil
+Q ray 11 in-level nil
+Q ray 11 ex-actor-collide Workspace.Terrain -196.6152,0.0156,-47.5052 0.0000,1.0000,0.0000 Grass 21.2260
+Q ray 11 ignore-water Workspace.Terrain -196.6152,0.0156,-47.5052 0.0000,1.0000,0.0000 Grass 21.2260
+Q ray 11 group-g2 nil
+Q ray 12 nil Workspace.Level.p733 -187.2477,10.1120,-284.7054 0.0000,1.0000,0.0000 Plastic 114.3781
+Q ray 12 ex-actor Workspace.Level.p733 -187.2477,10.1120,-284.7054 0.0000,1.0000,0.0000 Plastic 114.3781
+Q ray 12 ex-empty Workspace.Level.p733 -187.2477,10.1120,-284.7054 0.0000,1.0000,0.0000 Plastic 114.3781
+Q ray 12 in-subset nil
+Q ray 12 in-level Workspace.Level.p733 -187.2477,10.1120,-284.7054 0.0000,1.0000,0.0000 Plastic 114.3781
+Q ray 12 ex-actor-collide Workspace.Level.p733 -187.2477,10.1120,-284.7054 0.0000,1.0000,0.0000 Plastic 114.3781
+Q ray 12 ignore-water Workspace.Level.p733 -187.2477,10.1120,-284.7054 0.0000,1.0000,0.0000 Plastic 114.3781
+Q ray 12 group-g2 nil
+Q ray 13 nil nil
+Q ray 13 ex-actor nil
+Q ray 13 ex-empty nil
+Q ray 13 in-subset nil
+Q ray 13 in-level nil
+Q ray 13 ex-actor-collide nil
+Q ray 13 ignore-water nil
+Q ray 13 group-g2 nil
+Q ray 14 nil nil
+Q ray 14 ex-actor nil
+Q ray 14 ex-empty nil
+Q ray 14 in-subset nil
+Q ray 14 in-level nil
+Q ray 14 ex-actor-collide nil
+Q ray 14 ignore-water nil
+Q ray 14 group-g2 nil
+Q ray 15 nil nil
+Q ray 15 ex-actor nil
+Q ray 15 ex-empty nil
+Q ray 15 in-subset nil
+Q ray 15 in-level nil
+Q ray 15 ex-actor-collide nil
+Q ray 15 ignore-water nil
+Q ray 15 group-g2 nil
+Q ray 16 nil Workspace.Terrain 55.7062,0.0000,53.2778 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 16 ex-actor Workspace.Terrain 55.7062,0.0000,53.2778 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 16 ex-empty Workspace.Terrain 55.7062,0.0000,53.2778 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 16 in-subset nil
+Q ray 16 in-level nil
+Q ray 16 ex-actor-collide Workspace.Terrain 55.7062,0.0000,53.2778 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 16 ignore-water Workspace.Terrain 55.7062,-7.9844,53.2778 0.0000,1.0000,0.0000 Grass 17.9844
+Q ray 16 group-g2 nil
+Q ray 17 nil Workspace.Terrain 8.4504,0.0156,-245.4397 0.0000,1.0000,0.0000 Grass 27.9309
+Q ray 17 ex-actor Workspace.Terrain 8.4504,0.0156,-245.4397 0.0000,1.0000,0.0000 Grass 27.9309
+Q ray 17 ex-empty Workspace.Terrain 8.4504,0.0156,-245.4397 0.0000,1.0000,0.0000 Grass 27.9309
+Q ray 17 in-subset nil
+Q ray 17 in-level nil
+Q ray 17 ex-actor-collide Workspace.Terrain 8.4504,0.0156,-245.4397 0.0000,1.0000,0.0000 Grass 27.9309
+Q ray 17 ignore-water Workspace.Terrain 8.4504,0.0156,-245.4397 0.0000,1.0000,0.0000 Grass 27.9309
+Q ray 17 group-g2 nil
+Q ray 18 nil Workspace.Level.p2166 -123.5499,1.0978,228.4441 0.0000,0.8954,-0.4453 Plastic 56.8689
+Q ray 18 ex-actor Workspace.Level.p2166 -123.5499,1.0978,228.4441 0.0000,0.8954,-0.4453 Plastic 56.8689
+Q ray 18 ex-empty Workspace.Level.p2166 -123.5499,1.0978,228.4441 0.0000,0.8954,-0.4453 Plastic 56.8689
+Q ray 18 in-subset nil
+Q ray 18 in-level Workspace.Level.p2166 -123.5499,1.0978,228.4441 0.0000,0.8954,-0.4453 Plastic 56.8689
+Q ray 18 ex-actor-collide Workspace.Level.p2166 -123.5499,1.0978,228.4441 0.0000,0.8954,-0.4453 Plastic 56.8689
+Q ray 18 ignore-water Workspace.Level.p2166 -123.5499,1.0978,228.4441 0.0000,0.8954,-0.4453 Plastic 56.8689
+Q ray 18 group-g2 nil
+Q ray 19 nil nil
+Q ray 19 ex-actor nil
+Q ray 19 ex-empty nil
+Q ray 19 in-subset nil
+Q ray 19 in-level nil
+Q ray 19 ex-actor-collide nil
+Q ray 19 ignore-water nil
+Q ray 19 group-g2 nil
+Q ray 20 nil nil
+Q ray 20 ex-actor nil
+Q ray 20 ex-empty nil
+Q ray 20 in-subset nil
+Q ray 20 in-level nil
+Q ray 20 ex-actor-collide nil
+Q ray 20 ignore-water nil
+Q ray 20 group-g2 nil
+Q ray 21 nil nil
+Q ray 21 ex-actor nil
+Q ray 21 ex-empty nil
+Q ray 21 in-subset nil
+Q ray 21 in-level nil
+Q ray 21 ex-actor-collide nil
+Q ray 21 ignore-water nil
+Q ray 21 group-g2 nil
+Q ray 22 nil Workspace.Terrain -11.0398,0.0156,-52.4988 0.0000,1.0000,0.0000 Grass 7.7613
+Q ray 22 ex-actor Workspace.Terrain -11.0398,0.0156,-52.4988 0.0000,1.0000,0.0000 Grass 7.7613
+Q ray 22 ex-empty Workspace.Terrain -11.0398,0.0156,-52.4988 0.0000,1.0000,0.0000 Grass 7.7613
+Q ray 22 in-subset nil
+Q ray 22 in-level nil
+Q ray 22 ex-actor-collide Workspace.Terrain -11.0398,0.0156,-52.4988 0.0000,1.0000,0.0000 Grass 7.7613
+Q ray 22 ignore-water Workspace.Terrain -11.0398,0.0156,-52.4988 0.0000,1.0000,0.0000 Grass 7.7613
+Q ray 22 group-g2 nil
+Q ray 23 nil nil
+Q ray 23 ex-actor nil
+Q ray 23 ex-empty nil
+Q ray 23 in-subset nil
+Q ray 23 in-level nil
+Q ray 23 ex-actor-collide nil
+Q ray 23 ignore-water nil
+Q ray 23 group-g2 nil
+Q ray 24 nil nil
+Q ray 24 ex-actor nil
+Q ray 24 ex-empty nil
+Q ray 24 in-subset nil
+Q ray 24 in-level nil
+Q ray 24 ex-actor-collide nil
+Q ray 24 ignore-water nil
+Q ray 24 group-g2 nil
+Q ray 25 nil nil
+Q ray 25 ex-actor nil
+Q ray 25 ex-empty nil
+Q ray 25 in-subset nil
+Q ray 25 in-level nil
+Q ray 25 ex-actor-collide nil
+Q ray 25 ignore-water nil
+Q ray 25 group-g2 nil
+Q ray 26 nil nil
+Q ray 26 ex-actor nil
+Q ray 26 ex-empty nil
+Q ray 26 in-subset nil
+Q ray 26 in-level nil
+Q ray 26 ex-actor-collide nil
+Q ray 26 ignore-water nil
+Q ray 26 group-g2 nil
+Q ray 27 nil nil
+Q ray 27 ex-actor nil
+Q ray 27 ex-empty nil
+Q ray 27 in-subset nil
+Q ray 27 in-level nil
+Q ray 27 ex-actor-collide nil
+Q ray 27 ignore-water nil
+Q ray 27 group-g2 nil
+Q ray 28 nil Workspace.Terrain -106.6639,0.0156,68.1922 0.0000,1.0000,0.0000 Grass 11.3756
+Q ray 28 ex-actor Workspace.Terrain -106.6639,0.0156,68.1922 0.0000,1.0000,0.0000 Grass 11.3756
+Q ray 28 ex-empty Workspace.Terrain -106.6639,0.0156,68.1922 0.0000,1.0000,0.0000 Grass 11.3756
+Q ray 28 in-subset nil
+Q ray 28 in-level nil
+Q ray 28 ex-actor-collide Workspace.Terrain -106.6639,0.0156,68.1922 0.0000,1.0000,0.0000 Grass 11.3756
+Q ray 28 ignore-water Workspace.Terrain -106.6639,0.0156,68.1922 0.0000,1.0000,0.0000 Grass 11.3756
+Q ray 28 group-g2 nil
+Q ray 29 nil Workspace.Terrain 80.3712,-0.1856,54.2085 0.4472,0.8944,0.0000 Water 29.1093
+Q ray 29 ex-actor Workspace.Terrain 80.3712,-0.1856,54.2085 0.4472,0.8944,0.0000 Water 29.1093
+Q ray 29 ex-empty Workspace.Terrain 80.3712,-0.1856,54.2085 0.4472,0.8944,0.0000 Water 29.1093
+Q ray 29 in-subset nil
+Q ray 29 in-level nil
+Q ray 29 ex-actor-collide Workspace.Terrain 80.3712,-0.1856,54.2085 0.4472,0.8944,0.0000 Water 29.1093
+Q ray 29 ignore-water Workspace.Terrain 80.3712,-1.9261,54.2085 -0.8327,0.5537,0.0000 Grass 30.8497
+Q ray 29 group-g2 nil
+Q ray 30 nil nil
+Q ray 30 ex-actor nil
+Q ray 30 ex-empty nil
+Q ray 30 in-subset nil
+Q ray 30 in-level nil
+Q ray 30 ex-actor-collide nil
+Q ray 30 ignore-water nil
+Q ray 30 group-g2 nil
+Q ray 31 nil Workspace.Terrain 65.0677,0.0156,-162.3063 0.0000,1.0000,0.0000 Grass 33.5556
+Q ray 31 ex-actor Workspace.Terrain 65.0677,0.0156,-162.3063 0.0000,1.0000,0.0000 Grass 33.5556
+Q ray 31 ex-empty Workspace.Terrain 65.0677,0.0156,-162.3063 0.0000,1.0000,0.0000 Grass 33.5556
+Q ray 31 in-subset nil
+Q ray 31 in-level nil
+Q ray 31 ex-actor-collide Workspace.Terrain 65.0677,0.0156,-162.3063 0.0000,1.0000,0.0000 Grass 33.5556
+Q ray 31 ignore-water Workspace.Terrain 65.0677,0.0156,-162.3063 0.0000,1.0000,0.0000 Grass 33.5556
+Q ray 31 group-g2 nil
+Q ray 32 nil Workspace.Terrain 64.9045,0.0000,51.4028 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 32 ex-actor Workspace.Terrain 64.9045,0.0000,51.4028 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 32 ex-empty Workspace.Terrain 64.9045,0.0000,51.4028 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 32 in-subset nil
+Q ray 32 in-level nil
+Q ray 32 ex-actor-collide Workspace.Terrain 64.9045,0.0000,51.4028 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 32 ignore-water Workspace.Terrain 64.9045,-7.9844,51.4028 0.0000,1.0000,0.0000 Grass 17.9844
+Q ray 32 group-g2 nil
+Q ray 33 nil Workspace.Terrain -198.7054,0.0156,141.4798 0.0000,1.0000,0.0000 Grass 26.1220
+Q ray 33 ex-actor Workspace.Terrain -198.7054,0.0156,141.4798 0.0000,1.0000,0.0000 Grass 26.1220
+Q ray 33 ex-empty Workspace.Terrain -198.7054,0.0156,141.4798 0.0000,1.0000,0.0000 Grass 26.1220
+Q ray 33 in-subset nil
+Q ray 33 in-level nil
+Q ray 33 ex-actor-collide Workspace.Terrain -198.7054,0.0156,141.4798 0.0000,1.0000,0.0000 Grass 26.1220
+Q ray 33 ignore-water Workspace.Terrain -198.7054,0.0156,141.4798 0.0000,1.0000,0.0000 Grass 26.1220
+Q ray 33 group-g2 nil
+Q ray 34 nil Workspace.Terrain 157.7110,0.0156,100.1417 0.0000,1.0000,0.0000 Grass 14.0216
+Q ray 34 ex-actor Workspace.Terrain 157.7110,0.0156,100.1417 0.0000,1.0000,0.0000 Grass 14.0216
+Q ray 34 ex-empty Workspace.Terrain 157.7110,0.0156,100.1417 0.0000,1.0000,0.0000 Grass 14.0216
+Q ray 34 in-subset nil
+Q ray 34 in-level nil
+Q ray 34 ex-actor-collide Workspace.Terrain 157.7110,0.0156,100.1417 0.0000,1.0000,0.0000 Grass 14.0216
+Q ray 34 ignore-water Workspace.Terrain 157.7110,0.0156,100.1417 0.0000,1.0000,0.0000 Grass 14.0216
+Q ray 34 group-g2 nil
+Q ray 35 nil nil
+Q ray 35 ex-actor nil
+Q ray 35 ex-empty nil
+Q ray 35 in-subset nil
+Q ray 35 in-level nil
+Q ray 35 ex-actor-collide nil
+Q ray 35 ignore-water nil
+Q ray 35 group-g2 nil
+Q ray 36 nil Workspace.Terrain 61.2223,0.0156,-76.4382 0.0000,1.0000,0.0000 Grass 186.2280
+Q ray 36 ex-actor Workspace.Terrain 61.2223,0.0156,-76.4382 0.0000,1.0000,0.0000 Grass 186.2280
+Q ray 36 ex-empty Workspace.Terrain 61.2223,0.0156,-76.4382 0.0000,1.0000,0.0000 Grass 186.2280
+Q ray 36 in-subset nil
+Q ray 36 in-level nil
+Q ray 36 ex-actor-collide Workspace.Terrain 61.2223,0.0156,-76.4382 0.0000,1.0000,0.0000 Grass 186.2280
+Q ray 36 ignore-water Workspace.Terrain 61.2223,0.0156,-76.4382 0.0000,1.0000,0.0000 Grass 186.2280
+Q ray 36 group-g2 nil
+Q ray 37 nil nil
+Q ray 37 ex-actor nil
+Q ray 37 ex-empty nil
+Q ray 37 in-subset nil
+Q ray 37 in-level nil
+Q ray 37 ex-actor-collide nil
+Q ray 37 ignore-water nil
+Q ray 37 group-g2 nil
+Q ray 38 nil Workspace.Terrain -221.0233,0.0156,-203.3990 0.0000,1.0000,0.0000 Grass 22.3711
+Q ray 38 ex-actor Workspace.Terrain -221.0233,0.0156,-203.3990 0.0000,1.0000,0.0000 Grass 22.3711
+Q ray 38 ex-empty Workspace.Terrain -221.0233,0.0156,-203.3990 0.0000,1.0000,0.0000 Grass 22.3711
+Q ray 38 in-subset nil
+Q ray 38 in-level nil
+Q ray 38 ex-actor-collide Workspace.Terrain -221.0233,0.0156,-203.3990 0.0000,1.0000,0.0000 Grass 22.3711
+Q ray 38 ignore-water Workspace.Terrain -221.0233,0.0156,-203.3990 0.0000,1.0000,0.0000 Grass 22.3711
+Q ray 38 group-g2 nil
+Q ray 39 nil nil
+Q ray 39 ex-actor nil
+Q ray 39 ex-empty nil
+Q ray 39 in-subset nil
+Q ray 39 in-level nil
+Q ray 39 ex-actor-collide nil
+Q ray 39 ignore-water nil
+Q ray 39 group-g2 nil
+Q ray 40 nil Workspace.Terrain 108.1709,0.0156,-162.0438 0.0000,1.0000,0.0000 Grass 38.8650
+Q ray 40 ex-actor Workspace.Terrain 108.1709,0.0156,-162.0438 0.0000,1.0000,0.0000 Grass 38.8650
+Q ray 40 ex-empty Workspace.Terrain 108.1709,0.0156,-162.0438 0.0000,1.0000,0.0000 Grass 38.8650
+Q ray 40 in-subset nil
+Q ray 40 in-level nil
+Q ray 40 ex-actor-collide Workspace.Terrain 108.1709,0.0156,-162.0438 0.0000,1.0000,0.0000 Grass 38.8650
+Q ray 40 ignore-water Workspace.Terrain 108.1709,0.0156,-162.0438 0.0000,1.0000,0.0000 Grass 38.8650
+Q ray 40 group-g2 nil
+Q ray 41 nil nil
+Q ray 41 ex-actor nil
+Q ray 41 ex-empty nil
+Q ray 41 in-subset nil
+Q ray 41 in-level nil
+Q ray 41 ex-actor-collide nil
+Q ray 41 ignore-water nil
+Q ray 41 group-g2 nil
+Q ray 42 nil nil
+Q ray 42 ex-actor nil
+Q ray 42 ex-empty nil
+Q ray 42 in-subset nil
+Q ray 42 in-level nil
+Q ray 42 ex-actor-collide nil
+Q ray 42 ignore-water nil
+Q ray 42 group-g2 nil
+Q ray 43 nil Workspace.Terrain 208.9746,0.0156,-44.0507 0.0000,1.0000,0.0000 Grass 48.1453
+Q ray 43 ex-actor Workspace.Terrain 208.9746,0.0156,-44.0507 0.0000,1.0000,0.0000 Grass 48.1453
+Q ray 43 ex-empty Workspace.Terrain 208.9746,0.0156,-44.0507 0.0000,1.0000,0.0000 Grass 48.1453
+Q ray 43 in-subset nil
+Q ray 43 in-level nil
+Q ray 43 ex-actor-collide Workspace.Terrain 208.9746,0.0156,-44.0507 0.0000,1.0000,0.0000 Grass 48.1453
+Q ray 43 ignore-water Workspace.Terrain 208.9746,0.0156,-44.0507 0.0000,1.0000,0.0000 Grass 48.1453
+Q ray 43 group-g2 nil
+Q ray 44 nil nil
+Q ray 44 ex-actor nil
+Q ray 44 ex-empty nil
+Q ray 44 in-subset nil
+Q ray 44 in-level nil
+Q ray 44 ex-actor-collide nil
+Q ray 44 ignore-water nil
+Q ray 44 group-g2 nil
+Q ray 45 nil nil
+Q ray 45 ex-actor nil
+Q ray 45 ex-empty nil
+Q ray 45 in-subset nil
+Q ray 45 in-level nil
+Q ray 45 ex-actor-collide nil
+Q ray 45 ignore-water nil
+Q ray 45 group-g2 nil
+Q ray 46 nil Workspace.Terrain -28.6862,0.0156,-108.1470 0.0000,1.0000,0.0000 Grass 26.2476
+Q ray 46 ex-actor Workspace.Terrain -28.6862,0.0156,-108.1470 0.0000,1.0000,0.0000 Grass 26.2476
+Q ray 46 ex-empty Workspace.Terrain -28.6862,0.0156,-108.1470 0.0000,1.0000,0.0000 Grass 26.2476
+Q ray 46 in-subset nil
+Q ray 46 in-level nil
+Q ray 46 ex-actor-collide Workspace.Terrain -28.6862,0.0156,-108.1470 0.0000,1.0000,0.0000 Grass 26.2476
+Q ray 46 ignore-water Workspace.Terrain -28.6862,0.0156,-108.1470 0.0000,1.0000,0.0000 Grass 26.2476
+Q ray 46 group-g2 nil
+Q ray 47 nil nil
+Q ray 47 ex-actor nil
+Q ray 47 ex-empty nil
+Q ray 47 in-subset nil
+Q ray 47 in-level nil
+Q ray 47 ex-actor-collide nil
+Q ray 47 ignore-water nil
+Q ray 47 group-g2 nil
+Q ray 48 nil Workspace.Level.p1736 68.7646,4.6138,57.3957 0.0000,1.0000,0.0000 Plastic 5.3862
+Q ray 48 ex-actor Workspace.Level.p1736 68.7646,4.6138,57.3957 0.0000,1.0000,0.0000 Plastic 5.3862
+Q ray 48 ex-empty Workspace.Level.p1736 68.7646,4.6138,57.3957 0.0000,1.0000,0.0000 Plastic 5.3862
+Q ray 48 in-subset nil
+Q ray 48 in-level Workspace.Level.p1736 68.7646,4.6138,57.3957 0.0000,1.0000,0.0000 Plastic 5.3862
+Q ray 48 ex-actor-collide Workspace.Level.p1736 68.7646,4.6138,57.3957 0.0000,1.0000,0.0000 Plastic 5.3862
+Q ray 48 ignore-water Workspace.Level.p1736 68.7646,4.6138,57.3957 0.0000,1.0000,0.0000 Plastic 5.3862
+Q ray 48 group-g2 nil
+Q ray 49 nil nil
+Q ray 49 ex-actor nil
+Q ray 49 ex-empty nil
+Q ray 49 in-subset nil
+Q ray 49 in-level nil
+Q ray 49 ex-actor-collide nil
+Q ray 49 ignore-water nil
+Q ray 49 group-g2 nil
+Q ray 50 nil Workspace.Terrain -28.0958,0.0156,-206.5471 0.0000,1.0000,0.0000 Grass 33.1294
+Q ray 50 ex-actor Workspace.Terrain -28.0958,0.0156,-206.5471 0.0000,1.0000,0.0000 Grass 33.1294
+Q ray 50 ex-empty Workspace.Terrain -28.0958,0.0156,-206.5471 0.0000,1.0000,0.0000 Grass 33.1294
+Q ray 50 in-subset nil
+Q ray 50 in-level nil
+Q ray 50 ex-actor-collide Workspace.Terrain -28.0958,0.0156,-206.5471 0.0000,1.0000,0.0000 Grass 33.1294
+Q ray 50 ignore-water Workspace.Terrain -28.0958,0.0156,-206.5471 0.0000,1.0000,0.0000 Grass 33.1294
+Q ray 50 group-g2 nil
+Q ray 51 nil nil
+Q ray 51 ex-actor nil
+Q ray 51 ex-empty nil
+Q ray 51 in-subset nil
+Q ray 51 in-level nil
+Q ray 51 ex-actor-collide nil
+Q ray 51 ignore-water nil
+Q ray 51 group-g2 nil
+Q ray 52 nil nil
+Q ray 52 ex-actor nil
+Q ray 52 ex-empty nil
+Q ray 52 in-subset nil
+Q ray 52 in-level nil
+Q ray 52 ex-actor-collide nil
+Q ray 52 ignore-water nil
+Q ray 52 group-g2 nil
+Q ray 53 nil Workspace.Terrain 17.1300,0.0156,-183.4641 0.0000,1.0000,0.0000 Grass 5.7932
+Q ray 53 ex-actor Workspace.Terrain 17.1300,0.0156,-183.4641 0.0000,1.0000,0.0000 Grass 5.7932
+Q ray 53 ex-empty Workspace.Terrain 17.1300,0.0156,-183.4641 0.0000,1.0000,0.0000 Grass 5.7932
+Q ray 53 in-subset nil
+Q ray 53 in-level nil
+Q ray 53 ex-actor-collide Workspace.Terrain 17.1300,0.0156,-183.4641 0.0000,1.0000,0.0000 Grass 5.7932
+Q ray 53 ignore-water Workspace.Terrain 17.1300,0.0156,-183.4641 0.0000,1.0000,0.0000 Grass 5.7932
+Q ray 53 group-g2 nil
+Q ray 54 nil nil
+Q ray 54 ex-actor nil
+Q ray 54 ex-empty nil
+Q ray 54 in-subset nil
+Q ray 54 in-level nil
+Q ray 54 ex-actor-collide nil
+Q ray 54 ignore-water nil
+Q ray 54 group-g2 nil
+Q ray 55 nil Workspace.Terrain -168.9178,0.0156,-46.7654 0.0000,1.0000,0.0000 Grass 11.0304
+Q ray 55 ex-actor Workspace.Terrain -168.9178,0.0156,-46.7654 0.0000,1.0000,0.0000 Grass 11.0304
+Q ray 55 ex-empty Workspace.Terrain -168.9178,0.0156,-46.7654 0.0000,1.0000,0.0000 Grass 11.0304
+Q ray 55 in-subset nil
+Q ray 55 in-level nil
+Q ray 55 ex-actor-collide Workspace.Terrain -168.9178,0.0156,-46.7654 0.0000,1.0000,0.0000 Grass 11.0304
+Q ray 55 ignore-water Workspace.Terrain -168.9178,0.0156,-46.7654 0.0000,1.0000,0.0000 Grass 11.0304
+Q ray 55 group-g2 nil
+Q ray 56 nil Workspace.Terrain -152.6998,0.0156,-93.1016 0.0000,1.0000,0.0000 Grass 12.8201
+Q ray 56 ex-actor Workspace.Terrain -152.6998,0.0156,-93.1016 0.0000,1.0000,0.0000 Grass 12.8201
+Q ray 56 ex-empty Workspace.Terrain -152.6998,0.0156,-93.1016 0.0000,1.0000,0.0000 Grass 12.8201
+Q ray 56 in-subset nil
+Q ray 56 in-level nil
+Q ray 56 ex-actor-collide Workspace.Terrain -152.6998,0.0156,-93.1016 0.0000,1.0000,0.0000 Grass 12.8201
+Q ray 56 ignore-water Workspace.Terrain -152.6998,0.0156,-93.1016 0.0000,1.0000,0.0000 Grass 12.8201
+Q ray 56 group-g2 nil
+Q ray 57 nil nil
+Q ray 57 ex-actor nil
+Q ray 57 ex-empty nil
+Q ray 57 in-subset nil
+Q ray 57 in-level nil
+Q ray 57 ex-actor-collide nil
+Q ray 57 ignore-water nil
+Q ray 57 group-g2 nil
+Q ray 58 nil nil
+Q ray 58 ex-actor nil
+Q ray 58 ex-empty nil
+Q ray 58 in-subset nil
+Q ray 58 in-level nil
+Q ray 58 ex-actor-collide nil
+Q ray 58 ignore-water nil
+Q ray 58 group-g2 nil
+Q ray 59 nil nil
+Q ray 59 ex-actor nil
+Q ray 59 ex-empty nil
+Q ray 59 in-subset nil
+Q ray 59 in-level nil
+Q ray 59 ex-actor-collide nil
+Q ray 59 ignore-water nil
+Q ray 59 group-g2 nil
+Q ray 60 nil nil
+Q ray 60 ex-actor nil
+Q ray 60 ex-empty nil
+Q ray 60 in-subset nil
+Q ray 60 in-level nil
+Q ray 60 ex-actor-collide nil
+Q ray 60 ignore-water nil
+Q ray 60 group-g2 nil
+Q ray 61 nil Workspace.Level.p573 -97.1807,5.1640,-354.3802 -0.0139,0.9986,-0.0518 Plastic 1.2166
+Q ray 61 ex-actor Workspace.Level.p573 -97.1807,5.1640,-354.3802 -0.0139,0.9986,-0.0518 Plastic 1.2166
+Q ray 61 ex-empty Workspace.Level.p573 -97.1807,5.1640,-354.3802 -0.0139,0.9986,-0.0518 Plastic 1.2166
+Q ray 61 in-subset nil
+Q ray 61 in-level Workspace.Level.p573 -97.1807,5.1640,-354.3802 -0.0139,0.9986,-0.0518 Plastic 1.2166
+Q ray 61 ex-actor-collide Workspace.Level.p573 -97.1807,5.1640,-354.3802 -0.0139,0.9986,-0.0518 Plastic 1.2166
+Q ray 61 ignore-water Workspace.Level.p573 -97.1807,5.1640,-354.3802 -0.0139,0.9986,-0.0518 Plastic 1.2166
+Q ray 61 group-g2 nil
+Q ray 62 nil nil
+Q ray 62 ex-actor nil
+Q ray 62 ex-empty nil
+Q ray 62 in-subset nil
+Q ray 62 in-level nil
+Q ray 62 ex-actor-collide nil
+Q ray 62 ignore-water nil
+Q ray 62 group-g2 nil
+Q ray 63 nil nil
+Q ray 63 ex-actor nil
+Q ray 63 ex-empty nil
+Q ray 63 in-subset nil
+Q ray 63 in-level nil
+Q ray 63 ex-actor-collide nil
+Q ray 63 ignore-water nil
+Q ray 63 group-g2 nil
+Q ray 64 nil Workspace.Terrain 46.7608,0.0000,56.2127 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 64 ex-actor Workspace.Terrain 46.7608,0.0000,56.2127 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 64 ex-empty Workspace.Terrain 46.7608,0.0000,56.2127 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 64 in-subset nil
+Q ray 64 in-level nil
+Q ray 64 ex-actor-collide Workspace.Terrain 46.7608,0.0000,56.2127 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 64 ignore-water Workspace.Terrain 46.7608,-7.9844,56.2127 0.0000,1.0000,0.0000 Grass 17.9844
+Q ray 64 group-g2 nil
+Q ray 65 nil nil
+Q ray 65 ex-actor nil
+Q ray 65 ex-empty nil
+Q ray 65 in-subset nil
+Q ray 65 in-level nil
+Q ray 65 ex-actor-collide nil
+Q ray 65 ignore-water nil
+Q ray 65 group-g2 nil
+Q ray 66 nil nil
+Q ray 66 ex-actor nil
+Q ray 66 ex-empty nil
+Q ray 66 in-subset nil
+Q ray 66 in-level nil
+Q ray 66 ex-actor-collide nil
+Q ray 66 ignore-water nil
+Q ray 66 group-g2 nil
+Q ray 67 nil nil
+Q ray 67 ex-actor nil
+Q ray 67 ex-empty nil
+Q ray 67 in-subset nil
+Q ray 67 in-level nil
+Q ray 67 ex-actor-collide nil
+Q ray 67 ignore-water nil
+Q ray 67 group-g2 nil
+Q ray 68 nil nil
+Q ray 68 ex-actor nil
+Q ray 68 ex-empty nil
+Q ray 68 in-subset nil
+Q ray 68 in-level nil
+Q ray 68 ex-actor-collide nil
+Q ray 68 ignore-water nil
+Q ray 68 group-g2 nil
+Q ray 69 nil nil
+Q ray 69 ex-actor nil
+Q ray 69 ex-empty nil
+Q ray 69 in-subset nil
+Q ray 69 in-level nil
+Q ray 69 ex-actor-collide nil
+Q ray 69 ignore-water nil
+Q ray 69 group-g2 nil
+Q ray 70 nil Workspace.Terrain 123.4759,0.0156,-170.5370 0.0000,1.0000,0.0000 Grass 20.7093
+Q ray 70 ex-actor Workspace.Terrain 123.4759,0.0156,-170.5370 0.0000,1.0000,0.0000 Grass 20.7093
+Q ray 70 ex-empty Workspace.Terrain 123.4759,0.0156,-170.5370 0.0000,1.0000,0.0000 Grass 20.7093
+Q ray 70 in-subset nil
+Q ray 70 in-level nil
+Q ray 70 ex-actor-collide Workspace.Terrain 123.4759,0.0156,-170.5370 0.0000,1.0000,0.0000 Grass 20.7093
+Q ray 70 ignore-water Workspace.Terrain 123.4759,0.0156,-170.5370 0.0000,1.0000,0.0000 Grass 20.7093
+Q ray 70 group-g2 nil
+Q ray 71 nil nil
+Q ray 71 ex-actor nil
+Q ray 71 ex-empty nil
+Q ray 71 in-subset nil
+Q ray 71 in-level nil
+Q ray 71 ex-actor-collide nil
+Q ray 71 ignore-water nil
+Q ray 71 group-g2 nil
+Q ray 72 nil nil
+Q ray 72 ex-actor nil
+Q ray 72 ex-empty nil
+Q ray 72 in-subset nil
+Q ray 72 in-level nil
+Q ray 72 ex-actor-collide nil
+Q ray 72 ignore-water nil
+Q ray 72 group-g2 nil
+Q ray 73 nil nil
+Q ray 73 ex-actor nil
+Q ray 73 ex-empty nil
+Q ray 73 in-subset nil
+Q ray 73 in-level nil
+Q ray 73 ex-actor-collide nil
+Q ray 73 ignore-water nil
+Q ray 73 group-g2 nil
+Q ray 74 nil nil
+Q ray 74 ex-actor nil
+Q ray 74 ex-empty nil
+Q ray 74 in-subset nil
+Q ray 74 in-level nil
+Q ray 74 ex-actor-collide nil
+Q ray 74 ignore-water nil
+Q ray 74 group-g2 nil
+Q ray 75 nil nil
+Q ray 75 ex-actor nil
+Q ray 75 ex-empty nil
+Q ray 75 in-subset nil
+Q ray 75 in-level nil
+Q ray 75 ex-actor-collide nil
+Q ray 75 ignore-water nil
+Q ray 75 group-g2 nil
+Q ray 76 nil nil
+Q ray 76 ex-actor nil
+Q ray 76 ex-empty nil
+Q ray 76 in-subset nil
+Q ray 76 in-level nil
+Q ray 76 ex-actor-collide nil
+Q ray 76 ignore-water nil
+Q ray 76 group-g2 nil
+Q ray 77 nil Workspace.Level.p2216 -232.1564,5.7666,256.4366 0.0000,1.0000,0.0000 Plastic 10.1780
+Q ray 77 ex-actor Workspace.Level.p2216 -232.1564,5.7666,256.4366 0.0000,1.0000,0.0000 Plastic 10.1780
+Q ray 77 ex-empty Workspace.Level.p2216 -232.1564,5.7666,256.4366 0.0000,1.0000,0.0000 Plastic 10.1780
+Q ray 77 in-subset nil
+Q ray 77 in-level Workspace.Level.p2216 -232.1564,5.7666,256.4366 0.0000,1.0000,0.0000 Plastic 10.1780
+Q ray 77 ex-actor-collide Workspace.Level.p2216 -232.1564,5.7666,256.4366 0.0000,1.0000,0.0000 Plastic 10.1780
+Q ray 77 ignore-water Workspace.Level.p2216 -232.1564,5.7666,256.4366 0.0000,1.0000,0.0000 Plastic 10.1780
+Q ray 77 group-g2 nil
+Q ray 78 nil nil
+Q ray 78 ex-actor nil
+Q ray 78 ex-empty nil
+Q ray 78 in-subset nil
+Q ray 78 in-level nil
+Q ray 78 ex-actor-collide nil
+Q ray 78 ignore-water nil
+Q ray 78 group-g2 nil
+Q ray 79 nil nil
+Q ray 79 ex-actor nil
+Q ray 79 ex-empty nil
+Q ray 79 in-subset nil
+Q ray 79 in-level nil
+Q ray 79 ex-actor-collide nil
+Q ray 79 ignore-water nil
+Q ray 79 group-g2 nil
+Q ray 80 nil Workspace.Terrain 51.0708,0.0000,47.4732 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 80 ex-actor Workspace.Terrain 51.0708,0.0000,47.4732 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 80 ex-empty Workspace.Terrain 51.0708,0.0000,47.4732 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 80 in-subset nil
+Q ray 80 in-level nil
+Q ray 80 ex-actor-collide Workspace.Terrain 51.0708,0.0000,47.4732 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 80 ignore-water Workspace.Terrain 51.0708,-7.9844,47.4732 0.0000,1.0000,0.0000 Grass 17.9844
+Q ray 80 group-g2 nil
+Q ray 81 nil Workspace.Level.p1063 -186.6933,3.6985,-162.1615 0.0196,0.0000,0.9998 Plastic 47.3292
+Q ray 81 ex-actor Workspace.Level.p1063 -186.6933,3.6985,-162.1615 0.0196,0.0000,0.9998 Plastic 47.3292
+Q ray 81 ex-empty Workspace.Level.p1063 -186.6933,3.6985,-162.1615 0.0196,0.0000,0.9998 Plastic 47.3292
+Q ray 81 in-subset nil
+Q ray 81 in-level Workspace.Level.p1063 -186.6933,3.6985,-162.1615 0.0196,0.0000,0.9998 Plastic 47.3292
+Q ray 81 ex-actor-collide Workspace.Level.p1063 -186.6933,3.6985,-162.1615 0.0196,0.0000,0.9998 Plastic 47.3292
+Q ray 81 ignore-water Workspace.Level.p1063 -186.6933,3.6985,-162.1615 0.0196,0.0000,0.9998 Plastic 47.3292
+Q ray 81 group-g2 nil
+Q ray 82 nil nil
+Q ray 82 ex-actor nil
+Q ray 82 ex-empty nil
+Q ray 82 in-subset nil
+Q ray 82 in-level nil
+Q ray 82 ex-actor-collide nil
+Q ray 82 ignore-water nil
+Q ray 82 group-g2 nil
+Q ray 83 nil nil
+Q ray 83 ex-actor nil
+Q ray 83 ex-empty nil
+Q ray 83 in-subset nil
+Q ray 83 in-level nil
+Q ray 83 ex-actor-collide nil
+Q ray 83 ignore-water nil
+Q ray 83 group-g2 nil
+Q ray 84 nil Workspace.Terrain -26.5468,0.0156,-173.4200 0.0000,1.0000,0.0000 Grass 59.3084
+Q ray 84 ex-actor Workspace.Terrain -26.5468,0.0156,-173.4200 0.0000,1.0000,0.0000 Grass 59.3084
+Q ray 84 ex-empty Workspace.Terrain -26.5468,0.0156,-173.4200 0.0000,1.0000,0.0000 Grass 59.3084
+Q ray 84 in-subset nil
+Q ray 84 in-level nil
+Q ray 84 ex-actor-collide Workspace.Terrain -26.5468,0.0156,-173.4200 0.0000,1.0000,0.0000 Grass 59.3084
+Q ray 84 ignore-water Workspace.Terrain -26.5468,0.0156,-173.4200 0.0000,1.0000,0.0000 Grass 59.3084
+Q ray 84 group-g2 nil
+Q ray 85 nil nil
+Q ray 85 ex-actor nil
+Q ray 85 ex-empty nil
+Q ray 85 in-subset nil
+Q ray 85 in-level nil
+Q ray 85 ex-actor-collide nil
+Q ray 85 ignore-water nil
+Q ray 85 group-g2 nil
+Q ray 86 nil nil
+Q ray 86 ex-actor nil
+Q ray 86 ex-empty nil
+Q ray 86 in-subset nil
+Q ray 86 in-level nil
+Q ray 86 ex-actor-collide nil
+Q ray 86 ignore-water nil
+Q ray 86 group-g2 nil
+Q ray 87 nil nil
+Q ray 87 ex-actor nil
+Q ray 87 ex-empty nil
+Q ray 87 in-subset nil
+Q ray 87 in-level nil
+Q ray 87 ex-actor-collide nil
+Q ray 87 ignore-water nil
+Q ray 87 group-g2 nil
+Q ray 88 nil nil
+Q ray 88 ex-actor nil
+Q ray 88 ex-empty nil
+Q ray 88 in-subset nil
+Q ray 88 in-level nil
+Q ray 88 ex-actor-collide nil
+Q ray 88 ignore-water nil
+Q ray 88 group-g2 nil
+Q ray 89 nil nil
+Q ray 89 ex-actor nil
+Q ray 89 ex-empty nil
+Q ray 89 in-subset nil
+Q ray 89 in-level nil
+Q ray 89 ex-actor-collide nil
+Q ray 89 ignore-water nil
+Q ray 89 group-g2 nil
+Q ray 90 nil nil
+Q ray 90 ex-actor nil
+Q ray 90 ex-empty nil
+Q ray 90 in-subset nil
+Q ray 90 in-level nil
+Q ray 90 ex-actor-collide nil
+Q ray 90 ignore-water nil
+Q ray 90 group-g2 nil
+Q ray 91 nil nil
+Q ray 91 ex-actor nil
+Q ray 91 ex-empty nil
+Q ray 91 in-subset nil
+Q ray 91 in-level nil
+Q ray 91 ex-actor-collide nil
+Q ray 91 ignore-water nil
+Q ray 91 group-g2 nil
+Q ray 92 nil nil
+Q ray 92 ex-actor nil
+Q ray 92 ex-empty nil
+Q ray 92 in-subset nil
+Q ray 92 in-level nil
+Q ray 92 ex-actor-collide nil
+Q ray 92 ignore-water nil
+Q ray 92 group-g2 nil
+Q ray 93 nil Workspace.Terrain -23.6440,0.0156,217.2935 0.0000,1.0000,0.0000 Grass 114.5359
+Q ray 93 ex-actor Workspace.Terrain -23.6440,0.0156,217.2935 0.0000,1.0000,0.0000 Grass 114.5359
+Q ray 93 ex-empty Workspace.Terrain -23.6440,0.0156,217.2935 0.0000,1.0000,0.0000 Grass 114.5359
+Q ray 93 in-subset nil
+Q ray 93 in-level nil
+Q ray 93 ex-actor-collide Workspace.Terrain -23.6440,0.0156,217.2935 0.0000,1.0000,0.0000 Grass 114.5359
+Q ray 93 ignore-water Workspace.Terrain -23.6440,0.0156,217.2935 0.0000,1.0000,0.0000 Grass 114.5359
+Q ray 93 group-g2 nil
+Q ray 94 nil Workspace.Terrain -147.9686,0.0156,-191.6500 0.0000,1.0000,0.0000 Grass 46.9432
+Q ray 94 ex-actor Workspace.Terrain -147.9686,0.0156,-191.6500 0.0000,1.0000,0.0000 Grass 46.9432
+Q ray 94 ex-empty Workspace.Terrain -147.9686,0.0156,-191.6500 0.0000,1.0000,0.0000 Grass 46.9432
+Q ray 94 in-subset nil
+Q ray 94 in-level nil
+Q ray 94 ex-actor-collide Workspace.Terrain -147.9686,0.0156,-191.6500 0.0000,1.0000,0.0000 Grass 46.9432
+Q ray 94 ignore-water Workspace.Terrain -147.9686,0.0156,-191.6500 0.0000,1.0000,0.0000 Grass 46.9432
+Q ray 94 group-g2 nil
+Q ray 95 nil Workspace.Level.p1476 368.7881,6.1059,-29.0894 0.0000,0.8535,-0.5211 Plastic 28.1999
+Q ray 95 ex-actor Workspace.Level.p1476 368.7881,6.1059,-29.0894 0.0000,0.8535,-0.5211 Plastic 28.1999
+Q ray 95 ex-empty Workspace.Level.p1476 368.7881,6.1059,-29.0894 0.0000,0.8535,-0.5211 Plastic 28.1999
+Q ray 95 in-subset nil
+Q ray 95 in-level Workspace.Level.p1476 368.7881,6.1059,-29.0894 0.0000,0.8535,-0.5211 Plastic 28.1999
+Q ray 95 ex-actor-collide Workspace.Level.p1476 368.7881,6.1059,-29.0894 0.0000,0.8535,-0.5211 Plastic 28.1999
+Q ray 95 ignore-water Workspace.Level.p1476 368.7881,6.1059,-29.0894 0.0000,0.8535,-0.5211 Plastic 28.1999
+Q ray 95 group-g2 nil
+Q ray 96 nil Workspace.Terrain 50.5046,0.0000,70.7260 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 96 ex-actor Workspace.Terrain 50.5046,0.0000,70.7260 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 96 ex-empty Workspace.Terrain 50.5046,0.0000,70.7260 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 96 in-subset nil
+Q ray 96 in-level nil
+Q ray 96 ex-actor-collide Workspace.Terrain 50.5046,0.0000,70.7260 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 96 ignore-water Workspace.Terrain 50.5046,-7.9844,70.7260 0.0000,1.0000,0.0000 Grass 17.9844
+Q ray 96 group-g2 nil
+Q ray 97 nil Workspace.Terrain -39.2919,0.0156,-193.5919 0.0000,1.0000,0.0000 Grass 14.8618
+Q ray 97 ex-actor Workspace.Terrain -39.2919,0.0156,-193.5919 0.0000,1.0000,0.0000 Grass 14.8618
+Q ray 97 ex-empty Workspace.Terrain -39.2919,0.0156,-193.5919 0.0000,1.0000,0.0000 Grass 14.8618
+Q ray 97 in-subset nil
+Q ray 97 in-level nil
+Q ray 97 ex-actor-collide Workspace.Terrain -39.2919,0.0156,-193.5919 0.0000,1.0000,0.0000 Grass 14.8618
+Q ray 97 ignore-water Workspace.Terrain -39.2919,0.0156,-193.5919 0.0000,1.0000,0.0000 Grass 14.8618
+Q ray 97 group-g2 nil
+Q ray 98 nil nil
+Q ray 98 ex-actor nil
+Q ray 98 ex-empty nil
+Q ray 98 in-subset nil
+Q ray 98 in-level nil
+Q ray 98 ex-actor-collide nil
+Q ray 98 ignore-water nil
+Q ray 98 group-g2 nil
+Q ray 99 nil nil
+Q ray 99 ex-actor nil
+Q ray 99 ex-empty nil
+Q ray 99 in-subset nil
+Q ray 99 in-level nil
+Q ray 99 ex-actor-collide nil
+Q ray 99 ignore-water nil
+Q ray 99 group-g2 nil
+Q ray 100 nil Workspace.Terrain 150.3916,0.0156,14.5072 0.0000,1.0000,0.0000 Grass 41.4460
+Q ray 100 ex-actor Workspace.Terrain 150.3916,0.0156,14.5072 0.0000,1.0000,0.0000 Grass 41.4460
+Q ray 100 ex-empty Workspace.Terrain 150.3916,0.0156,14.5072 0.0000,1.0000,0.0000 Grass 41.4460
+Q ray 100 in-subset nil
+Q ray 100 in-level nil
+Q ray 100 ex-actor-collide Workspace.Terrain 150.3916,0.0156,14.5072 0.0000,1.0000,0.0000 Grass 41.4460
+Q ray 100 ignore-water Workspace.Terrain 150.3916,0.0156,14.5072 0.0000,1.0000,0.0000 Grass 41.4460
+Q ray 100 group-g2 nil
+Q ray 101 nil nil
+Q ray 101 ex-actor nil
+Q ray 101 ex-empty nil
+Q ray 101 in-subset nil
+Q ray 101 in-level nil
+Q ray 101 ex-actor-collide nil
+Q ray 101 ignore-water nil
+Q ray 101 group-g2 nil
+Q ray 102 nil nil
+Q ray 102 ex-actor nil
+Q ray 102 ex-empty nil
+Q ray 102 in-subset nil
+Q ray 102 in-level nil
+Q ray 102 ex-actor-collide nil
+Q ray 102 ignore-water nil
+Q ray 102 group-g2 nil
+Q ray 103 nil Workspace.Terrain -207.2819,0.0156,-101.0940 0.0000,1.0000,0.0000 Grass 3.7771
+Q ray 103 ex-actor Workspace.Terrain -207.2819,0.0156,-101.0940 0.0000,1.0000,0.0000 Grass 3.7771
+Q ray 103 ex-empty Workspace.Terrain -207.2819,0.0156,-101.0940 0.0000,1.0000,0.0000 Grass 3.7771
+Q ray 103 in-subset nil
+Q ray 103 in-level nil
+Q ray 103 ex-actor-collide Workspace.Terrain -207.2819,0.0156,-101.0940 0.0000,1.0000,0.0000 Grass 3.7771
+Q ray 103 ignore-water Workspace.Terrain -207.2819,0.0156,-101.0940 0.0000,1.0000,0.0000 Grass 3.7771
+Q ray 103 group-g2 nil
+Q ray 104 nil nil
+Q ray 104 ex-actor nil
+Q ray 104 ex-empty nil
+Q ray 104 in-subset nil
+Q ray 104 in-level nil
+Q ray 104 ex-actor-collide nil
+Q ray 104 ignore-water nil
+Q ray 104 group-g2 nil
+Q ray 105 nil nil
+Q ray 105 ex-actor nil
+Q ray 105 ex-empty nil
+Q ray 105 in-subset nil
+Q ray 105 in-level nil
+Q ray 105 ex-actor-collide nil
+Q ray 105 ignore-water nil
+Q ray 105 group-g2 nil
+Q ray 106 nil Workspace.Terrain 39.2208,0.0156,-159.3240 0.0000,1.0000,0.0000 Grass 7.7344
+Q ray 106 ex-actor Workspace.Terrain 39.2208,0.0156,-159.3240 0.0000,1.0000,0.0000 Grass 7.7344
+Q ray 106 ex-empty Workspace.Terrain 39.2208,0.0156,-159.3240 0.0000,1.0000,0.0000 Grass 7.7344
+Q ray 106 in-subset nil
+Q ray 106 in-level nil
+Q ray 106 ex-actor-collide Workspace.Terrain 39.2208,0.0156,-159.3240 0.0000,1.0000,0.0000 Grass 7.7344
+Q ray 106 ignore-water Workspace.Terrain 39.2208,0.0156,-159.3240 0.0000,1.0000,0.0000 Grass 7.7344
+Q ray 106 group-g2 nil
+Q ray 107 nil Workspace.Terrain -157.1463,0.0156,246.0201 0.0000,1.0000,0.0000 Grass 16.6943
+Q ray 107 ex-actor Workspace.Terrain -157.1463,0.0156,246.0201 0.0000,1.0000,0.0000 Grass 16.6943
+Q ray 107 ex-empty Workspace.Terrain -157.1463,0.0156,246.0201 0.0000,1.0000,0.0000 Grass 16.6943
+Q ray 107 in-subset nil
+Q ray 107 in-level nil
+Q ray 107 ex-actor-collide Workspace.Terrain -157.1463,0.0156,246.0201 0.0000,1.0000,0.0000 Grass 16.6943
+Q ray 107 ignore-water Workspace.Terrain -157.1463,0.0156,246.0201 0.0000,1.0000,0.0000 Grass 16.6943
+Q ray 107 group-g2 nil
+Q ray 108 nil nil
+Q ray 108 ex-actor nil
+Q ray 108 ex-empty nil
+Q ray 108 in-subset nil
+Q ray 108 in-level nil
+Q ray 108 ex-actor-collide nil
+Q ray 108 ignore-water nil
+Q ray 108 group-g2 nil
+Q ray 109 nil nil
+Q ray 109 ex-actor nil
+Q ray 109 ex-empty nil
+Q ray 109 in-subset nil
+Q ray 109 in-level nil
+Q ray 109 ex-actor-collide nil
+Q ray 109 ignore-water nil
+Q ray 109 group-g2 nil
+Q ray 110 nil nil
+Q ray 110 ex-actor nil
+Q ray 110 ex-empty nil
+Q ray 110 in-subset nil
+Q ray 110 in-level nil
+Q ray 110 ex-actor-collide nil
+Q ray 110 ignore-water nil
+Q ray 110 group-g2 nil
+Q ray 111 nil Workspace.Terrain -122.5657,0.0156,-188.7733 0.0000,1.0000,0.0000 Grass 43.7438
+Q ray 111 ex-actor Workspace.Terrain -122.5657,0.0156,-188.7733 0.0000,1.0000,0.0000 Grass 43.7438
+Q ray 111 ex-empty Workspace.Terrain -122.5657,0.0156,-188.7733 0.0000,1.0000,0.0000 Grass 43.7438
+Q ray 111 in-subset nil
+Q ray 111 in-level nil
+Q ray 111 ex-actor-collide Workspace.Terrain -122.5657,0.0156,-188.7733 0.0000,1.0000,0.0000 Grass 43.7438
+Q ray 111 ignore-water Workspace.Terrain -122.5657,0.0156,-188.7733 0.0000,1.0000,0.0000 Grass 43.7438
+Q ray 111 group-g2 nil
+Q ray 112 nil Workspace.Terrain 53.8371,0.0000,57.0449 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 112 ex-actor Workspace.Terrain 53.8371,0.0000,57.0449 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 112 ex-empty Workspace.Terrain 53.8371,0.0000,57.0449 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 112 in-subset nil
+Q ray 112 in-level nil
+Q ray 112 ex-actor-collide Workspace.Terrain 53.8371,0.0000,57.0449 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 112 ignore-water Workspace.Terrain 53.8371,-7.9844,57.0449 0.0000,1.0000,0.0000 Grass 17.9844
+Q ray 112 group-g2 nil
+Q ray 113 nil nil
+Q ray 113 ex-actor nil
+Q ray 113 ex-empty nil
+Q ray 113 in-subset nil
+Q ray 113 in-level nil
+Q ray 113 ex-actor-collide nil
+Q ray 113 ignore-water nil
+Q ray 113 group-g2 nil
+Q ray 114 nil nil
+Q ray 114 ex-actor nil
+Q ray 114 ex-empty nil
+Q ray 114 in-subset nil
+Q ray 114 in-level nil
+Q ray 114 ex-actor-collide nil
+Q ray 114 ignore-water nil
+Q ray 114 group-g2 nil
+Q ray 115 nil nil
+Q ray 115 ex-actor nil
+Q ray 115 ex-empty nil
+Q ray 115 in-subset nil
+Q ray 115 in-level nil
+Q ray 115 ex-actor-collide nil
+Q ray 115 ignore-water nil
+Q ray 115 group-g2 nil
+Q ray 116 nil nil
+Q ray 116 ex-actor nil
+Q ray 116 ex-empty nil
+Q ray 116 in-subset nil
+Q ray 116 in-level nil
+Q ray 116 ex-actor-collide nil
+Q ray 116 ignore-water nil
+Q ray 116 group-g2 nil
+Q ray 117 nil Workspace.Level.p1613 -180.3135,14.8402,28.9330 0.8418,0.0000,-0.5398 Plastic 36.1592
+Q ray 117 ex-actor Workspace.Level.p1613 -180.3135,14.8402,28.9330 0.8418,0.0000,-0.5398 Plastic 36.1592
+Q ray 117 ex-empty Workspace.Level.p1613 -180.3135,14.8402,28.9330 0.8418,0.0000,-0.5398 Plastic 36.1592
+Q ray 117 in-subset nil
+Q ray 117 in-level Workspace.Level.p1613 -180.3135,14.8402,28.9330 0.8418,0.0000,-0.5398 Plastic 36.1592
+Q ray 117 ex-actor-collide Workspace.Level.p1613 -180.3135,14.8402,28.9330 0.8418,0.0000,-0.5398 Plastic 36.1592
+Q ray 117 ignore-water Workspace.Level.p1613 -180.3135,14.8402,28.9330 0.8418,0.0000,-0.5398 Plastic 36.1592
+Q ray 117 group-g2 nil
+Q ray 118 nil Workspace.Terrain -42.9769,0.0156,43.9114 0.0000,1.0000,0.0000 Grass 48.6796
+Q ray 118 ex-actor Workspace.Terrain -42.9769,0.0156,43.9114 0.0000,1.0000,0.0000 Grass 48.6796
+Q ray 118 ex-empty Workspace.Terrain -42.9769,0.0156,43.9114 0.0000,1.0000,0.0000 Grass 48.6796
+Q ray 118 in-subset nil
+Q ray 118 in-level nil
+Q ray 118 ex-actor-collide Workspace.Terrain -42.9769,0.0156,43.9114 0.0000,1.0000,0.0000 Grass 48.6796
+Q ray 118 ignore-water Workspace.Terrain -42.9769,0.0156,43.9114 0.0000,1.0000,0.0000 Grass 48.6796
+Q ray 118 group-g2 nil
+Q ray 119 nil nil
+Q ray 119 ex-actor nil
+Q ray 119 ex-empty nil
+Q ray 119 in-subset nil
+Q ray 119 in-level nil
+Q ray 119 ex-actor-collide nil
+Q ray 119 ignore-water nil
+Q ray 119 group-g2 nil
+Q ray 120 nil Workspace.Terrain -34.4536,0.0156,16.2459 0.0000,1.0000,0.0000 Grass 47.9109
+Q ray 120 ex-actor Workspace.Terrain -34.4536,0.0156,16.2459 0.0000,1.0000,0.0000 Grass 47.9109
+Q ray 120 ex-empty Workspace.Terrain -34.4536,0.0156,16.2459 0.0000,1.0000,0.0000 Grass 47.9109
+Q ray 120 in-subset nil
+Q ray 120 in-level nil
+Q ray 120 ex-actor-collide Workspace.Terrain -34.4536,0.0156,16.2459 0.0000,1.0000,0.0000 Grass 47.9109
+Q ray 120 ignore-water Workspace.Terrain -34.4536,0.0156,16.2459 0.0000,1.0000,0.0000 Grass 47.9109
+Q ray 120 group-g2 nil
+Q ray 121 nil Workspace.Terrain -240.1488,0.0156,-54.4050 0.0000,1.0000,0.0000 Grass 55.1496
+Q ray 121 ex-actor Workspace.Terrain -240.1488,0.0156,-54.4050 0.0000,1.0000,0.0000 Grass 55.1496
+Q ray 121 ex-empty Workspace.Terrain -240.1488,0.0156,-54.4050 0.0000,1.0000,0.0000 Grass 55.1496
+Q ray 121 in-subset nil
+Q ray 121 in-level nil
+Q ray 121 ex-actor-collide Workspace.Terrain -240.1488,0.0156,-54.4050 0.0000,1.0000,0.0000 Grass 55.1496
+Q ray 121 ignore-water Workspace.Terrain -240.1488,0.0156,-54.4050 0.0000,1.0000,0.0000 Grass 55.1496
+Q ray 121 group-g2 nil
+Q ray 122 nil nil
+Q ray 122 ex-actor nil
+Q ray 122 ex-empty nil
+Q ray 122 in-subset nil
+Q ray 122 in-level nil
+Q ray 122 ex-actor-collide nil
+Q ray 122 ignore-water nil
+Q ray 122 group-g2 nil
+Q ray 123 nil Workspace.Terrain -167.8863,0.0156,-52.8435 0.0000,1.0000,0.0000 Grass 27.8018
+Q ray 123 ex-actor Workspace.Terrain -167.8863,0.0156,-52.8435 0.0000,1.0000,0.0000 Grass 27.8018
+Q ray 123 ex-empty Workspace.Terrain -167.8863,0.0156,-52.8435 0.0000,1.0000,0.0000 Grass 27.8018
+Q ray 123 in-subset nil
+Q ray 123 in-level nil
+Q ray 123 ex-actor-collide Workspace.Terrain -167.8863,0.0156,-52.8435 0.0000,1.0000,0.0000 Grass 27.8018
+Q ray 123 ignore-water Workspace.Terrain -167.8863,0.0156,-52.8435 0.0000,1.0000,0.0000 Grass 27.8018
+Q ray 123 group-g2 nil
+Q ray 124 nil nil
+Q ray 124 ex-actor nil
+Q ray 124 ex-empty nil
+Q ray 124 in-subset nil
+Q ray 124 in-level nil
+Q ray 124 ex-actor-collide nil
+Q ray 124 ignore-water nil
+Q ray 124 group-g2 nil
+Q ray 125 nil nil
+Q ray 125 ex-actor nil
+Q ray 125 ex-empty nil
+Q ray 125 in-subset nil
+Q ray 125 in-level nil
+Q ray 125 ex-actor-collide nil
+Q ray 125 ignore-water nil
+Q ray 125 group-g2 nil
+Q ray 126 nil Workspace.Terrain 159.4545,0.0156,105.6873 0.0000,1.0000,0.0000 Grass 151.1727
+Q ray 126 ex-actor Workspace.Terrain 159.4545,0.0156,105.6873 0.0000,1.0000,0.0000 Grass 151.1727
+Q ray 126 ex-empty Workspace.Terrain 159.4545,0.0156,105.6873 0.0000,1.0000,0.0000 Grass 151.1727
+Q ray 126 in-subset nil
+Q ray 126 in-level nil
+Q ray 126 ex-actor-collide Workspace.Terrain 159.4545,0.0156,105.6873 0.0000,1.0000,0.0000 Grass 151.1727
+Q ray 126 ignore-water Workspace.Terrain 159.4545,0.0156,105.6873 0.0000,1.0000,0.0000 Grass 151.1727
+Q ray 126 group-g2 nil
+Q ray 127 nil nil
+Q ray 127 ex-actor nil
+Q ray 127 ex-empty nil
+Q ray 127 in-subset nil
+Q ray 127 in-level nil
+Q ray 127 ex-actor-collide nil
+Q ray 127 ignore-water nil
+Q ray 127 group-g2 nil
+Q ray 128 nil Workspace.Terrain 74.3260,0.0000,49.0429 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 128 ex-actor Workspace.Terrain 74.3260,0.0000,49.0429 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 128 ex-empty Workspace.Terrain 74.3260,0.0000,49.0429 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 128 in-subset nil
+Q ray 128 in-level nil
+Q ray 128 ex-actor-collide Workspace.Terrain 74.3260,0.0000,49.0429 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 128 ignore-water Workspace.Terrain 74.3260,-7.9844,49.0429 0.0000,1.0000,0.0000 Grass 17.9844
+Q ray 128 group-g2 nil
+Q ray 129 nil nil
+Q ray 129 ex-actor nil
+Q ray 129 ex-empty nil
+Q ray 129 in-subset nil
+Q ray 129 in-level nil
+Q ray 129 ex-actor-collide nil
+Q ray 129 ignore-water nil
+Q ray 129 group-g2 nil
+Q ray 130 nil Workspace.Terrain 3.1444,0.0156,58.2172 0.0000,1.0000,0.0000 Grass 36.9888
+Q ray 130 ex-actor Workspace.Terrain 3.1444,0.0156,58.2172 0.0000,1.0000,0.0000 Grass 36.9888
+Q ray 130 ex-empty Workspace.Terrain 3.1444,0.0156,58.2172 0.0000,1.0000,0.0000 Grass 36.9888
+Q ray 130 in-subset nil
+Q ray 130 in-level nil
+Q ray 130 ex-actor-collide Workspace.Terrain 3.1444,0.0156,58.2172 0.0000,1.0000,0.0000 Grass 36.9888
+Q ray 130 ignore-water Workspace.Terrain 3.1444,0.0156,58.2172 0.0000,1.0000,0.0000 Grass 36.9888
+Q ray 130 group-g2 nil
+Q ray 131 nil nil
+Q ray 131 ex-actor nil
+Q ray 131 ex-empty nil
+Q ray 131 in-subset nil
+Q ray 131 in-level nil
+Q ray 131 ex-actor-collide nil
+Q ray 131 ignore-water nil
+Q ray 131 group-g2 nil
+Q ray 132 nil nil
+Q ray 132 ex-actor nil
+Q ray 132 ex-empty nil
+Q ray 132 in-subset nil
+Q ray 132 in-level nil
+Q ray 132 ex-actor-collide nil
+Q ray 132 ignore-water nil
+Q ray 132 group-g2 nil
+Q ray 133 nil Workspace.Level.p393 -392.5010,6.9103,-410.5098 0.8665,0.4826,0.1279 Plastic 30.2299
+Q ray 133 ex-actor Workspace.Level.p393 -392.5010,6.9103,-410.5098 0.8665,0.4826,0.1279 Plastic 30.2299
+Q ray 133 ex-empty Workspace.Level.p393 -392.5010,6.9103,-410.5098 0.8665,0.4826,0.1279 Plastic 30.2299
+Q ray 133 in-subset nil
+Q ray 133 in-level Workspace.Level.p393 -392.5010,6.9103,-410.5098 0.8665,0.4826,0.1279 Plastic 30.2299
+Q ray 133 ex-actor-collide Workspace.Level.p393 -392.5010,6.9103,-410.5098 0.8665,0.4826,0.1279 Plastic 30.2299
+Q ray 133 ignore-water Workspace.Level.p393 -392.5010,6.9103,-410.5098 0.8665,0.4826,0.1279 Plastic 30.2299
+Q ray 133 group-g2 nil
+Q ray 134 nil nil
+Q ray 134 ex-actor nil
+Q ray 134 ex-empty nil
+Q ray 134 in-subset nil
+Q ray 134 in-level nil
+Q ray 134 ex-actor-collide nil
+Q ray 134 ignore-water nil
+Q ray 134 group-g2 nil
+Q ray 135 nil Workspace.Terrain -111.4517,0.0156,193.4904 0.0000,1.0000,0.0000 Grass 173.4158
+Q ray 135 ex-actor Workspace.Terrain -111.4517,0.0156,193.4904 0.0000,1.0000,0.0000 Grass 173.4158
+Q ray 135 ex-empty Workspace.Terrain -111.4517,0.0156,193.4904 0.0000,1.0000,0.0000 Grass 173.4158
+Q ray 135 in-subset nil
+Q ray 135 in-level nil
+Q ray 135 ex-actor-collide Workspace.Terrain -111.4517,0.0156,193.4904 0.0000,1.0000,0.0000 Grass 173.4158
+Q ray 135 ignore-water Workspace.Terrain -111.4517,0.0156,193.4904 0.0000,1.0000,0.0000 Grass 173.4158
+Q ray 135 group-g2 nil
+Q ray 136 nil nil
+Q ray 136 ex-actor nil
+Q ray 136 ex-empty nil
+Q ray 136 in-subset nil
+Q ray 136 in-level nil
+Q ray 136 ex-actor-collide nil
+Q ray 136 ignore-water nil
+Q ray 136 group-g2 nil
+Q ray 137 nil Workspace.Terrain -87.7281,0.0156,217.1981 0.0000,1.0000,0.0000 Grass 4.6625
+Q ray 137 ex-actor Workspace.Terrain -87.7281,0.0156,217.1981 0.0000,1.0000,0.0000 Grass 4.6625
+Q ray 137 ex-empty Workspace.Terrain -87.7281,0.0156,217.1981 0.0000,1.0000,0.0000 Grass 4.6625
+Q ray 137 in-subset nil
+Q ray 137 in-level nil
+Q ray 137 ex-actor-collide Workspace.Terrain -87.7281,0.0156,217.1981 0.0000,1.0000,0.0000 Grass 4.6625
+Q ray 137 ignore-water Workspace.Terrain -87.7281,0.0156,217.1981 0.0000,1.0000,0.0000 Grass 4.6625
+Q ray 137 group-g2 nil
+Q ray 138 nil Workspace.Level.p1716 -332.1385,14.2896,71.7108 0.0000,0.9000,-0.4359 Plastic 16.8718
+Q ray 138 ex-actor Workspace.Level.p1716 -332.1385,14.2896,71.7108 0.0000,0.9000,-0.4359 Plastic 16.8718
+Q ray 138 ex-empty Workspace.Level.p1716 -332.1385,14.2896,71.7108 0.0000,0.9000,-0.4359 Plastic 16.8718
+Q ray 138 in-subset nil
+Q ray 138 in-level Workspace.Level.p1716 -332.1385,14.2896,71.7108 0.0000,0.9000,-0.4359 Plastic 16.8718
+Q ray 138 ex-actor-collide Workspace.Level.p1716 -332.1385,14.2896,71.7108 0.0000,0.9000,-0.4359 Plastic 16.8718
+Q ray 138 ignore-water Workspace.Level.p1716 -332.1385,14.2896,71.7108 0.0000,0.9000,-0.4359 Plastic 16.8718
+Q ray 138 group-g2 nil
+Q ray 139 nil Workspace.Terrain -92.7066,0.0156,12.7475 0.0000,1.0000,0.0000 Grass 35.3642
+Q ray 139 ex-actor Workspace.Terrain -92.7066,0.0156,12.7475 0.0000,1.0000,0.0000 Grass 35.3642
+Q ray 139 ex-empty Workspace.Terrain -92.7066,0.0156,12.7475 0.0000,1.0000,0.0000 Grass 35.3642
+Q ray 139 in-subset nil
+Q ray 139 in-level nil
+Q ray 139 ex-actor-collide Workspace.Terrain -92.7066,0.0156,12.7475 0.0000,1.0000,0.0000 Grass 35.3642
+Q ray 139 ignore-water Workspace.Terrain -92.7066,0.0156,12.7475 0.0000,1.0000,0.0000 Grass 35.3642
+Q ray 139 group-g2 nil
+Q ray 140 nil nil
+Q ray 140 ex-actor nil
+Q ray 140 ex-empty nil
+Q ray 140 in-subset nil
+Q ray 140 in-level nil
+Q ray 140 ex-actor-collide nil
+Q ray 140 ignore-water nil
+Q ray 140 group-g2 nil
+Q ray 141 nil Workspace.Terrain -89.2661,0.0156,-229.0774 0.0000,1.0000,0.0000 Grass 32.3548
+Q ray 141 ex-actor Workspace.Terrain -89.2661,0.0156,-229.0774 0.0000,1.0000,0.0000 Grass 32.3548
+Q ray 141 ex-empty Workspace.Terrain -89.2661,0.0156,-229.0774 0.0000,1.0000,0.0000 Grass 32.3548
+Q ray 141 in-subset nil
+Q ray 141 in-level nil
+Q ray 141 ex-actor-collide Workspace.Terrain -89.2661,0.0156,-229.0774 0.0000,1.0000,0.0000 Grass 32.3548
+Q ray 141 ignore-water Workspace.Terrain -89.2661,0.0156,-229.0774 0.0000,1.0000,0.0000 Grass 32.3548
+Q ray 141 group-g2 nil
+Q ray 142 nil nil
+Q ray 142 ex-actor nil
+Q ray 142 ex-empty nil
+Q ray 142 in-subset nil
+Q ray 142 in-level nil
+Q ray 142 ex-actor-collide nil
+Q ray 142 ignore-water nil
+Q ray 142 group-g2 nil
+Q ray 143 nil nil
+Q ray 143 ex-actor nil
+Q ray 143 ex-empty nil
+Q ray 143 in-subset nil
+Q ray 143 in-level nil
+Q ray 143 ex-actor-collide nil
+Q ray 143 ignore-water nil
+Q ray 143 group-g2 nil
+Q ray 144 nil Workspace.Level.p1736 67.7978,4.6138,57.0828 0.0000,1.0000,0.0000 Plastic 5.3862
+Q ray 144 ex-actor Workspace.Level.p1736 67.7978,4.6138,57.0828 0.0000,1.0000,0.0000 Plastic 5.3862
+Q ray 144 ex-empty Workspace.Level.p1736 67.7978,4.6138,57.0828 0.0000,1.0000,0.0000 Plastic 5.3862
+Q ray 144 in-subset nil
+Q ray 144 in-level Workspace.Level.p1736 67.7978,4.6138,57.0828 0.0000,1.0000,0.0000 Plastic 5.3862
+Q ray 144 ex-actor-collide Workspace.Level.p1736 67.7978,4.6138,57.0828 0.0000,1.0000,0.0000 Plastic 5.3862
+Q ray 144 ignore-water Workspace.Level.p1736 67.7978,4.6138,57.0828 0.0000,1.0000,0.0000 Plastic 5.3862
+Q ray 144 group-g2 nil
+Q ray 145 nil nil
+Q ray 145 ex-actor nil
+Q ray 145 ex-empty nil
+Q ray 145 in-subset nil
+Q ray 145 in-level nil
+Q ray 145 ex-actor-collide nil
+Q ray 145 ignore-water nil
+Q ray 145 group-g2 nil
+Q ray 146 nil nil
+Q ray 146 ex-actor nil
+Q ray 146 ex-empty nil
+Q ray 146 in-subset nil
+Q ray 146 in-level nil
+Q ray 146 ex-actor-collide nil
+Q ray 146 ignore-water nil
+Q ray 146 group-g2 nil
+Q ray 147 nil Workspace.Terrain -63.7594,0.0156,117.3612 0.0000,1.0000,0.0000 Grass 61.7352
+Q ray 147 ex-actor Workspace.Terrain -63.7594,0.0156,117.3612 0.0000,1.0000,0.0000 Grass 61.7352
+Q ray 147 ex-empty Workspace.Terrain -63.7594,0.0156,117.3612 0.0000,1.0000,0.0000 Grass 61.7352
+Q ray 147 in-subset nil
+Q ray 147 in-level nil
+Q ray 147 ex-actor-collide Workspace.Terrain -63.7594,0.0156,117.3612 0.0000,1.0000,0.0000 Grass 61.7352
+Q ray 147 ignore-water Workspace.Terrain -63.7594,0.0156,117.3612 0.0000,1.0000,0.0000 Grass 61.7352
+Q ray 147 group-g2 nil
+Q ray 148 nil nil
+Q ray 148 ex-actor nil
+Q ray 148 ex-empty nil
+Q ray 148 in-subset nil
+Q ray 148 in-level nil
+Q ray 148 ex-actor-collide nil
+Q ray 148 ignore-water nil
+Q ray 148 group-g2 nil
+Q ray 149 nil Workspace.Terrain 235.7003,0.0156,-100.7764 0.0000,1.0000,0.0000 Grass 32.0429
+Q ray 149 ex-actor Workspace.Terrain 235.7003,0.0156,-100.7764 0.0000,1.0000,0.0000 Grass 32.0429
+Q ray 149 ex-empty Workspace.Terrain 235.7003,0.0156,-100.7764 0.0000,1.0000,0.0000 Grass 32.0429
+Q ray 149 in-subset nil
+Q ray 149 in-level nil
+Q ray 149 ex-actor-collide Workspace.Terrain 235.7003,0.0156,-100.7764 0.0000,1.0000,0.0000 Grass 32.0429
+Q ray 149 ignore-water Workspace.Terrain 235.7003,0.0156,-100.7764 0.0000,1.0000,0.0000 Grass 32.0429
+Q ray 149 group-g2 nil
+Q ray 150 nil nil
+Q ray 150 ex-actor nil
+Q ray 150 ex-empty nil
+Q ray 150 in-subset nil
+Q ray 150 in-level nil
+Q ray 150 ex-actor-collide nil
+Q ray 150 ignore-water nil
+Q ray 150 group-g2 nil
+Q ray 151 nil nil
+Q ray 151 ex-actor nil
+Q ray 151 ex-empty nil
+Q ray 151 in-subset nil
+Q ray 151 in-level nil
+Q ray 151 ex-actor-collide nil
+Q ray 151 ignore-water nil
+Q ray 151 group-g2 nil
+Q ray 152 nil nil
+Q ray 152 ex-actor nil
+Q ray 152 ex-empty nil
+Q ray 152 in-subset nil
+Q ray 152 in-level nil
+Q ray 152 ex-actor-collide nil
+Q ray 152 ignore-water nil
+Q ray 152 group-g2 nil
+Q ray 153 nil Workspace.Terrain -206.7262,0.0156,-137.1220 0.0000,1.0000,0.0000 Grass 62.1937
+Q ray 153 ex-actor Workspace.Terrain -206.7262,0.0156,-137.1220 0.0000,1.0000,0.0000 Grass 62.1937
+Q ray 153 ex-empty Workspace.Terrain -206.7262,0.0156,-137.1220 0.0000,1.0000,0.0000 Grass 62.1937
+Q ray 153 in-subset nil
+Q ray 153 in-level nil
+Q ray 153 ex-actor-collide Workspace.Terrain -206.7262,0.0156,-137.1220 0.0000,1.0000,0.0000 Grass 62.1937
+Q ray 153 ignore-water Workspace.Terrain -206.7262,0.0156,-137.1220 0.0000,1.0000,0.0000 Grass 62.1937
+Q ray 153 group-g2 nil
+Q ray 154 nil Workspace.Level.p2633 410.1364,2.5366,381.9861 0.0000,1.0000,0.0000 Plastic 1.3472
+Q ray 154 ex-actor Workspace.Level.p2633 410.1364,2.5366,381.9861 0.0000,1.0000,0.0000 Plastic 1.3472
+Q ray 154 ex-empty Workspace.Level.p2633 410.1364,2.5366,381.9861 0.0000,1.0000,0.0000 Plastic 1.3472
+Q ray 154 in-subset nil
+Q ray 154 in-level Workspace.Level.p2633 410.1364,2.5366,381.9861 0.0000,1.0000,0.0000 Plastic 1.3472
+Q ray 154 ex-actor-collide Workspace.Level.p2633 410.1364,2.5366,381.9861 0.0000,1.0000,0.0000 Plastic 1.3472
+Q ray 154 ignore-water Workspace.Level.p2633 410.1364,2.5366,381.9861 0.0000,1.0000,0.0000 Plastic 1.3472
+Q ray 154 group-g2 nil
+Q ray 155 nil nil
+Q ray 155 ex-actor nil
+Q ray 155 ex-empty nil
+Q ray 155 in-subset nil
+Q ray 155 in-level nil
+Q ray 155 ex-actor-collide nil
+Q ray 155 ignore-water nil
+Q ray 155 group-g2 nil
+Q ray 156 nil Workspace.Terrain -68.3507,0.0156,70.0404 0.0000,1.0000,0.0000 Grass 9.2773
+Q ray 156 ex-actor Workspace.Terrain -68.3507,0.0156,70.0404 0.0000,1.0000,0.0000 Grass 9.2773
+Q ray 156 ex-empty Workspace.Terrain -68.3507,0.0156,70.0404 0.0000,1.0000,0.0000 Grass 9.2773
+Q ray 156 in-subset nil
+Q ray 156 in-level nil
+Q ray 156 ex-actor-collide Workspace.Terrain -68.3507,0.0156,70.0404 0.0000,1.0000,0.0000 Grass 9.2773
+Q ray 156 ignore-water Workspace.Terrain -68.3507,0.0156,70.0404 0.0000,1.0000,0.0000 Grass 9.2773
+Q ray 156 group-g2 nil
+Q ray 157 nil nil
+Q ray 157 ex-actor nil
+Q ray 157 ex-empty nil
+Q ray 157 in-subset nil
+Q ray 157 in-level nil
+Q ray 157 ex-actor-collide nil
+Q ray 157 ignore-water nil
+Q ray 157 group-g2 nil
+Q ray 158 nil Workspace.Terrain -76.7524,0.0156,-111.6140 0.0000,1.0000,0.0000 Grass 23.2863
+Q ray 158 ex-actor Workspace.Terrain -76.7524,0.0156,-111.6140 0.0000,1.0000,0.0000 Grass 23.2863
+Q ray 158 ex-empty Workspace.Terrain -76.7524,0.0156,-111.6140 0.0000,1.0000,0.0000 Grass 23.2863
+Q ray 158 in-subset nil
+Q ray 158 in-level nil
+Q ray 158 ex-actor-collide Workspace.Terrain -76.7524,0.0156,-111.6140 0.0000,1.0000,0.0000 Grass 23.2863
+Q ray 158 ignore-water Workspace.Terrain -76.7524,0.0156,-111.6140 0.0000,1.0000,0.0000 Grass 23.2863
+Q ray 158 group-g2 nil
+Q ray 159 nil nil
+Q ray 159 ex-actor nil
+Q ray 159 ex-empty nil
+Q ray 159 in-subset nil
+Q ray 159 in-level nil
+Q ray 159 ex-actor-collide nil
+Q ray 159 ignore-water nil
+Q ray 159 group-g2 nil
+Q ray 160 nil Workspace.Terrain 56.3051,0.0000,52.6329 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 160 ex-actor Workspace.Terrain 56.3051,0.0000,52.6329 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 160 ex-empty Workspace.Terrain 56.3051,0.0000,52.6329 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 160 in-subset nil
+Q ray 160 in-level nil
+Q ray 160 ex-actor-collide Workspace.Terrain 56.3051,0.0000,52.6329 0.0000,1.0000,0.0000 Water 10.0000
+Q ray 160 ignore-water Workspace.Terrain 56.3051,-7.9844,52.6329 0.0000,1.0000,0.0000 Grass 17.9844
+Q ray 160 group-g2 nil
+Q sphere 1 nil nil
+Q block 1 nil nil
+Q shape 1 nil nil
+Q sphere 1 ex-actor nil
+Q block 1 ex-actor nil
+Q shape 1 ex-actor nil
+Q sphere 1 in-subset nil
+Q block 1 in-subset nil
+Q shape 1 in-subset nil
+Q sphere 1 group-g2 nil
+Q block 1 group-g2 nil
+Q shape 1 group-g2 nil
+Q sphere 2 nil Workspace.Level.p836 -329.5518,6.4013,-251.3433 0.0000,1.0000,0.0000 Plastic 11.7713
+Q block 2 nil Workspace.Level.p836 -328.3467,6.4013,-251.0847 0.0000,1.0000,0.0000 Plastic 12.2713
+Q shape 2 nil Workspace.Level.p836 -330.0450,6.4013,-250.3423 0.0000,1.0000,0.0000 Plastic 11.5379
+Q sphere 2 ex-actor Workspace.Level.p836 -329.5518,6.4013,-251.3433 0.0000,1.0000,0.0000 Plastic 11.7713
+Q block 2 ex-actor Workspace.Level.p836 -328.3467,6.4013,-251.0847 0.0000,1.0000,0.0000 Plastic 12.2713
+Q shape 2 ex-actor Workspace.Level.p836 -330.0450,6.4013,-250.3423 0.0000,1.0000,0.0000 Plastic 11.5379
+Q sphere 2 in-subset nil
+Q block 2 in-subset nil
+Q shape 2 in-subset nil
+Q sphere 2 group-g2 nil
+Q block 2 group-g2 nil
+Q shape 2 group-g2 nil
+Q sphere 3 nil nil
+Q block 3 nil nil
+Q shape 3 nil nil
+Q sphere 3 ex-actor nil
+Q block 3 ex-actor nil
+Q shape 3 ex-actor nil
+Q sphere 3 in-subset nil
+Q block 3 in-subset nil
+Q shape 3 in-subset nil
+Q sphere 3 group-g2 nil
+Q block 3 group-g2 nil
+Q shape 3 group-g2 nil
+Q sphere 4 nil Workspace.Level.p1360 250.6866,9.2131,-67.0354 0.0000,1.0000,0.0000 Plastic 20.1828
+Q block 4 nil Workspace.Level.p1360 251.6943,9.2131,-67.1947 0.0000,1.0000,0.0000 Plastic 20.6828
+Q shape 4 nil Workspace.Level.p1360 250.7898,9.2131,-65.9511 0.0000,1.0000,0.0000 Plastic 19.9325
+Q sphere 4 ex-actor Workspace.Level.p1360 250.6866,9.2131,-67.0354 0.0000,1.0000,0.0000 Plastic 20.1828
+Q block 4 ex-actor Workspace.Level.p1360 251.6943,9.2131,-67.1947 0.0000,1.0000,0.0000 Plastic 20.6828
+Q shape 4 ex-actor Workspace.Level.p1360 250.7898,9.2131,-65.9511 0.0000,1.0000,0.0000 Plastic 19.9325
+Q sphere 4 in-subset nil
+Q block 4 in-subset nil
+Q shape 4 in-subset nil
+Q sphere 4 group-g2 nil
+Q block 4 group-g2 nil
+Q shape 4 group-g2 nil
+Q sphere 5 nil nil
+Q block 5 nil nil
+Q shape 5 nil nil
+Q sphere 5 ex-actor nil
+Q block 5 ex-actor nil
+Q shape 5 ex-actor nil
+Q sphere 5 in-subset nil
+Q block 5 in-subset nil
+Q shape 5 in-subset nil
+Q sphere 5 group-g2 nil
+Q block 5 group-g2 nil
+Q shape 5 group-g2 nil
+Q sphere 6 nil nil
+Q block 6 nil nil
+Q shape 6 nil nil
+Q sphere 6 ex-actor nil
+Q block 6 ex-actor nil
+Q shape 6 ex-actor nil
+Q sphere 6 in-subset nil
+Q block 6 in-subset nil
+Q shape 6 in-subset nil
+Q sphere 6 group-g2 nil
+Q block 6 group-g2 nil
+Q shape 6 group-g2 nil
+Q sphere 7 nil nil
+Q block 7 nil nil
+Q shape 7 nil nil
+Q sphere 7 ex-actor nil
+Q block 7 ex-actor nil
+Q shape 7 ex-actor nil
+Q sphere 7 in-subset nil
+Q block 7 in-subset nil
+Q shape 7 in-subset nil
+Q sphere 7 group-g2 nil
+Q block 7 group-g2 nil
+Q shape 7 group-g2 nil
+Q sphere 8 nil Workspace.Terrain 233.2935,0.0156,-104.0971 0.0001,1.0000,0.0000 Grass 19.5628
+Q block 8 nil Workspace.Terrain 233.6602,0.0156,-103.9394 -0.0000,1.0000,0.0000 Grass 20.0628
+Q shape 8 nil Workspace.Terrain 232.4497,0.0156,-103.2828 -0.0000,1.0000,-0.0000 Grass 19.3673
+Q sphere 8 ex-actor Workspace.Terrain 233.2935,0.0156,-104.0971 0.0001,1.0000,0.0000 Grass 19.5628
+Q block 8 ex-actor Workspace.Terrain 233.6602,0.0156,-103.9394 -0.0000,1.0000,0.0000 Grass 20.0628
+Q shape 8 ex-actor Workspace.Terrain 232.4497,0.0156,-103.2828 -0.0000,1.0000,-0.0000 Grass 19.3673
+Q sphere 8 in-subset nil
+Q block 8 in-subset nil
+Q shape 8 in-subset nil
+Q sphere 8 group-g2 nil
+Q block 8 group-g2 nil
+Q shape 8 group-g2 nil
+Q sphere 9 nil Workspace.Level.p1300 154.8127,4.9324,-84.9351 0.0000,1.0000,0.0000 Plastic 59.2376
+Q block 9 nil Workspace.Level.p1300 154.7635,4.9324,-85.3690 0.0000,1.0000,0.0000 Plastic 59.8996
+Q shape 9 nil Workspace.Level.p1300 155.3978,4.9324,-83.7532 0.0000,1.0000,0.0000 Plastic 58.9291
+Q sphere 9 ex-actor Workspace.Level.p1300 154.8127,4.9324,-84.9351 0.0000,1.0000,0.0000 Plastic 59.2376
+Q block 9 ex-actor Workspace.Level.p1300 154.7635,4.9324,-85.3690 0.0000,1.0000,0.0000 Plastic 59.8996
+Q shape 9 ex-actor Workspace.Level.p1300 155.3978,4.9324,-83.7532 0.0000,1.0000,0.0000 Plastic 58.9291
+Q sphere 9 in-subset nil
+Q block 9 in-subset nil
+Q shape 9 in-subset nil
+Q sphere 9 group-g2 nil
+Q block 9 group-g2 nil
+Q shape 9 group-g2 nil
+Q sphere 10 nil nil
+Q block 10 nil nil
+Q shape 10 nil nil
+Q sphere 10 ex-actor nil
+Q block 10 ex-actor nil
+Q shape 10 ex-actor nil
+Q sphere 10 in-subset nil
+Q block 10 in-subset nil
+Q shape 10 in-subset nil
+Q sphere 10 group-g2 nil
+Q block 10 group-g2 nil
+Q shape 10 group-g2 nil
+Q sphere 11 nil Workspace.Terrain -196.6162,0.0156,-47.5064 0.0000,1.0000,-0.0000 Grass 19.7260
+Q block 11 nil Workspace.Terrain -197.9748,0.0156,-48.0000 -0.0000,1.0000,-0.0000 Grass 20.2260
+Q shape 11 nil Workspace.Terrain -197.6107,0.0156,-46.8188 -0.0000,1.0000,-0.0000 Grass 19.5563
+Q sphere 11 ex-actor Workspace.Terrain -196.6162,0.0156,-47.5064 0.0000,1.0000,-0.0000 Grass 19.7260
+Q block 11 ex-actor Workspace.Terrain -197.9748,0.0156,-48.0000 -0.0000,1.0000,-0.0000 Grass 20.2260
+Q shape 11 ex-actor Workspace.Terrain -197.6107,0.0156,-46.8188 -0.0000,1.0000,-0.0000 Grass 19.5563
+Q sphere 11 in-subset nil
+Q block 11 in-subset nil
+Q shape 11 in-subset nil
+Q sphere 11 group-g2 nil
+Q block 11 group-g2 nil
+Q shape 11 group-g2 nil
+Q sphere 12 nil Workspace.Level.p733 -186.0641,10.1120,-289.3475 -0.2344,0.0152,-0.9720 Plastic 108.2215
+Q block 12 nil Workspace.Level.p733 -186.0826,9.3291,-289.3430 -0.2344,0.0000,-0.9721 Plastic 107.1819
+Q shape 12 nil Workspace.Level.p733 -186.1176,10.1120,-289.3346 -0.2300,0.1933,-0.9538 Plastic 108.2891
+Q sphere 12 ex-actor Workspace.Level.p733 -186.0641,10.1120,-289.3475 -0.2344,0.0152,-0.9720 Plastic 108.2215
+Q block 12 ex-actor Workspace.Level.p733 -186.0826,9.3291,-289.3430 -0.2344,0.0000,-0.9721 Plastic 107.1819
+Q shape 12 ex-actor Workspace.Level.p733 -186.1176,10.1120,-289.3346 -0.2300,0.1933,-0.9538 Plastic 108.2891
+Q sphere 12 in-subset nil
+Q block 12 in-subset nil
+Q shape 12 in-subset nil
+Q sphere 12 group-g2 nil
+Q block 12 group-g2 nil
+Q shape 12 group-g2 nil
+Q sphere 13 nil nil
+Q block 13 nil nil
+Q shape 13 nil nil
+Q sphere 13 ex-actor nil
+Q block 13 ex-actor nil
+Q shape 13 ex-actor nil
+Q sphere 13 in-subset nil
+Q block 13 in-subset nil
+Q shape 13 in-subset nil
+Q sphere 13 group-g2 nil
+Q block 13 group-g2 nil
+Q shape 13 group-g2 nil
+Q sphere 14 nil nil
+Q block 14 nil nil
+Q shape 14 nil nil
+Q sphere 14 ex-actor nil
+Q block 14 ex-actor nil
+Q shape 14 ex-actor nil
+Q sphere 14 in-subset nil
+Q block 14 in-subset nil
+Q shape 14 in-subset nil
+Q sphere 14 group-g2 nil
+Q block 14 group-g2 nil
+Q shape 14 group-g2 nil
+Q sphere 15 nil nil
+Q block 15 nil nil
+Q shape 15 nil nil
+Q sphere 15 ex-actor nil
+Q block 15 ex-actor nil
+Q shape 15 ex-actor nil
+Q sphere 15 in-subset nil
+Q block 15 in-subset nil
+Q shape 15 in-subset nil
+Q sphere 15 group-g2 nil
+Q block 15 group-g2 nil
+Q shape 15 group-g2 nil
+Q sphere 16 nil Workspace.Terrain 55.7059,0.0000,53.2779 -0.0000,1.0000,-0.0000 Water 8.5000
+Q block 16 nil Workspace.Terrain 54.5470,0.0000,52.0000 0.0000,1.0000,-0.0000 Water 9.0000
+Q shape 16 nil Workspace.Terrain 55.0364,0.0000,54.2005 -0.0000,1.0000,-0.0000 Water 8.2824
+Q sphere 16 ex-actor Workspace.Terrain 55.7059,0.0000,53.2779 -0.0000,1.0000,-0.0000 Water 8.5000
+Q block 16 ex-actor Workspace.Terrain 54.5470,0.0000,52.0000 0.0000,1.0000,-0.0000 Water 9.0000
+Q shape 16 ex-actor Workspace.Terrain 55.0364,0.0000,54.2005 -0.0000,1.0000,-0.0000 Water 8.2824
+Q sphere 16 in-subset nil
+Q block 16 in-subset nil
+Q shape 16 in-subset nil
+Q sphere 16 group-g2 nil
+Q block 16 group-g2 nil
+Q shape 16 group-g2 nil
+Q sphere 17 nil Workspace.Terrain 8.4493,0.0156,-245.4416 -0.0000,1.0000,-0.0000 Grass 26.4309
+Q block 17 nil Workspace.Terrain 7.1607,0.0156,-244.2485 0.0000,1.0000,-0.0000 Grass 26.9309
+Q shape 17 nil Workspace.Terrain 9.1366,0.0156,-244.5257 -0.0000,1.0000,-0.0000 Grass 26.2152
+Q sphere 17 ex-actor Workspace.Terrain 8.4493,0.0156,-245.4416 -0.0000,1.0000,-0.0000 Grass 26.4309
+Q block 17 ex-actor Workspace.Terrain 7.1607,0.0156,-244.2485 0.0000,1.0000,-0.0000 Grass 26.9309
+Q shape 17 ex-actor Workspace.Terrain 9.1366,0.0156,-244.5257 -0.0000,1.0000,-0.0000 Grass 26.2152
+Q sphere 17 in-subset nil
+Q block 17 in-subset nil
+Q shape 17 in-subset nil
+Q sphere 17 group-g2 nil
+Q block 17 group-g2 nil
+Q shape 17 group-g2 nil
+Q sphere 18 nil Workspace.Level.p2166 -122.8018,0.7950,227.8352 0.0000,0.8953,-0.4454 Plastic 55.0506
+Q block 18 nil Workspace.Level.p2166 -123.0605,1.4649,229.1822 0.0000,0.8954,-0.4453 Plastic 54.4623
+Q shape 18 nil Workspace.Level.p2166 -122.6066,0.7595,227.7639 0.0000,0.8954,-0.4453 Plastic 54.3830
+Q sphere 18 ex-actor Workspace.Level.p2166 -122.8018,0.7950,227.8352 0.0000,0.8953,-0.4454 Plastic 55.0506
+Q block 18 ex-actor Workspace.Level.p2166 -123.0605,1.4649,229.1822 0.0000,0.8954,-0.4453 Plastic 54.4623
+Q shape 18 ex-actor Workspace.Level.p2166 -122.6066,0.7595,227.7639 0.0000,0.8954,-0.4453 Plastic 54.3830
+Q sphere 18 in-subset nil
+Q block 18 in-subset nil
+Q shape 18 in-subset nil
+Q sphere 18 group-g2 nil
+Q block 18 group-g2 nil
+Q shape 18 group-g2 nil
+Q sphere 19 nil nil
+Q block 19 nil nil
+Q shape 19 nil nil
+Q sphere 19 ex-actor nil
+Q block 19 ex-actor nil
+Q shape 19 ex-actor nil
+Q sphere 19 in-subset nil
+Q block 19 in-subset nil
+Q shape 19 in-subset nil
+Q sphere 19 group-g2 nil
+Q block 19 group-g2 nil
+Q shape 19 group-g2 nil
+Q sphere 20 nil nil
+Q block 20 nil nil
+Q shape 20 nil nil
+Q sphere 20 ex-actor nil
+Q block 20 ex-actor nil
+Q shape 20 ex-actor nil
+Q sphere 20 in-subset nil
+Q block 20 in-subset nil
+Q shape 20 in-subset nil
+Q sphere 20 group-g2 nil
+Q block 20 group-g2 nil
+Q shape 20 group-g2 nil
+Q sphere 21 nil nil
+Q block 21 nil nil
+Q shape 21 nil nil
+Q sphere 21 ex-actor nil
+Q block 21 ex-actor nil
+Q shape 21 ex-actor nil
+Q sphere 21 in-subset nil
+Q block 21 in-subset nil
+Q shape 21 in-subset nil
+Q sphere 21 group-g2 nil
+Q block 21 group-g2 nil
+Q shape 21 group-g2 nil
+Q sphere 22 nil Workspace.Terrain -11.0398,0.0156,-52.4988 0.0001,1.0000,-0.0000 Grass 6.2613
+Q block 22 nil Workspace.Terrain -10.9010,0.0156,-53.7995 -0.0000,1.0000,0.0000 Grass 6.7613
+Q shape 22 nil Workspace.Terrain -12.0309,0.0156,-51.8081 -0.0000,1.0000,-0.0000 Grass 6.0908
+Q sphere 22 ex-actor Workspace.Terrain -11.0398,0.0156,-52.4988 0.0001,1.0000,-0.0000 Grass 6.2613
+Q block 22 ex-actor Workspace.Terrain -10.9010,0.0156,-53.7995 -0.0000,1.0000,0.0000 Grass 6.7613
+Q shape 22 ex-actor Workspace.Terrain -12.0309,0.0156,-51.8081 -0.0000,1.0000,-0.0000 Grass 6.0908
+Q sphere 22 in-subset nil
+Q block 22 in-subset nil
+Q shape 22 in-subset nil
+Q sphere 22 group-g2 nil
+Q block 22 group-g2 nil
+Q shape 22 group-g2 nil
+Q sphere 23 nil nil
+Q block 23 nil nil
+Q shape 23 nil nil
+Q sphere 23 ex-actor nil
+Q block 23 ex-actor nil
+Q shape 23 ex-actor nil
+Q sphere 23 in-subset nil
+Q block 23 in-subset nil
+Q shape 23 in-subset nil
+Q sphere 23 group-g2 nil
+Q block 23 group-g2 nil
+Q shape 23 group-g2 nil
+Q sphere 24 nil nil
+Q block 24 nil nil
+Q shape 24 nil nil
+Q sphere 24 ex-actor nil
+Q block 24 ex-actor nil
+Q shape 24 ex-actor nil
+Q sphere 24 in-subset nil
+Q block 24 in-subset nil
+Q shape 24 in-subset nil
+Q sphere 24 group-g2 nil
+Q block 24 group-g2 nil
+Q shape 24 group-g2 nil
+Q sphere 25 nil nil
+Q block 25 nil nil
+Q shape 25 nil nil
+Q sphere 25 ex-actor nil
+Q block 25 ex-actor nil
+Q shape 25 ex-actor nil
+Q sphere 25 in-subset nil
+Q block 25 in-subset nil
+Q shape 25 in-subset nil
+Q sphere 25 group-g2 nil
+Q block 25 group-g2 nil
+Q shape 25 group-g2 nil
+Q sphere 26 nil nil
+Q block 26 nil nil
+Q shape 26 nil nil
+Q sphere 26 ex-actor nil
+Q block 26 ex-actor nil
+Q shape 26 ex-actor nil
+Q sphere 26 in-subset nil
+Q block 26 in-subset nil
+Q shape 26 in-subset nil
+Q sphere 26 group-g2 nil
+Q block 26 group-g2 nil
+Q shape 26 group-g2 nil
+Q sphere 27 nil nil
+Q block 27 nil nil
+Q shape 27 nil nil
+Q sphere 27 ex-actor nil
+Q block 27 ex-actor nil
+Q shape 27 ex-actor nil
+Q sphere 27 in-subset nil
+Q block 27 in-subset nil
+Q shape 27 in-subset nil
+Q sphere 27 group-g2 nil
+Q block 27 group-g2 nil
+Q shape 27 group-g2 nil
+Q sphere 28 nil Workspace.Terrain -106.6643,0.0156,68.1920 -0.0001,1.0000,-0.0000 Grass 9.8756
+Q block 28 nil Workspace.Terrain -106.2065,0.0156,67.1383 -0.0000,1.0000,0.0000 Grass 10.3756
+Q shape 28 nil Workspace.Terrain -105.9722,0.0156,69.1031 -0.0000,1.0000,-0.0000 Grass 9.6604
+Q sphere 28 ex-actor Workspace.Terrain -106.6643,0.0156,68.1920 -0.0001,1.0000,-0.0000 Grass 9.8756
+Q block 28 ex-actor Workspace.Terrain -106.2065,0.0156,67.1383 -0.0000,1.0000,0.0000 Grass 10.3756
+Q shape 28 ex-actor Workspace.Terrain -105.9722,0.0156,69.1031 -0.0000,1.0000,-0.0000 Grass 9.6604
+Q sphere 28 in-subset nil
+Q block 28 in-subset nil
+Q shape 28 in-subset nil
+Q sphere 28 group-g2 nil
+Q block 28 group-g2 nil
+Q shape 28 group-g2 nil
+Q sphere 29 nil Workspace.Terrain 80.0000,0.0000,54.2086 0.2468,0.9691,-0.0000 Water 27.4703
+Q block 29 nil Workspace.Terrain 78.6827,0.0000,53.3173 0.0000,1.0000,-0.0000 Water 27.9237
+Q shape 29 nil Workspace.Terrain 80.0000,0.0000,54.9772 0.2185,0.9758,0.0000 Water 27.2373
+Q sphere 29 ex-actor Workspace.Terrain 80.0000,0.0000,54.2086 0.2468,0.9691,-0.0000 Water 27.4703
+Q block 29 ex-actor Workspace.Terrain 78.6827,0.0000,53.3173 0.0000,1.0000,-0.0000 Water 27.9237
+Q shape 29 ex-actor Workspace.Terrain 80.0000,0.0000,54.9772 0.2185,0.9758,0.0000 Water 27.2373
+Q sphere 29 in-subset nil
+Q block 29 in-subset nil
+Q shape 29 in-subset nil
+Q sphere 29 group-g2 nil
+Q block 29 group-g2 nil
+Q shape 29 group-g2 nil
+Q sphere 30 nil nil
+Q block 30 nil nil
+Q shape 30 nil nil
+Q sphere 30 ex-actor nil
+Q block 30 ex-actor nil
+Q shape 30 ex-actor nil
+Q sphere 30 in-subset nil
+Q block 30 in-subset nil
+Q shape 30 in-subset nil
+Q sphere 30 group-g2 nil
+Q block 30 group-g2 nil
+Q shape 30 group-g2 nil
+Q sphere 31 nil Workspace.Terrain 65.0677,0.0156,-162.3067 -0.0000,1.0000,-0.0000 Grass 32.0556
+Q block 31 nil Workspace.Terrain 65.9351,0.0156,-164.0524 -0.0000,1.0000,-0.0000 Grass 32.5556
+Q shape 31 nil Workspace.Terrain 65.5784,0.0156,-161.3118 0.0000,1.0000,-0.0000 Grass 31.8235
+Q sphere 31 ex-actor Workspace.Terrain 65.0677,0.0156,-162.3067 -0.0000,1.0000,-0.0000 Grass 32.0556
+Q block 31 ex-actor Workspace.Terrain 65.9351,0.0156,-164.0524 -0.0000,1.0000,-0.0000 Grass 32.5556
+Q shape 31 ex-actor Workspace.Terrain 65.5784,0.0156,-161.3118 0.0000,1.0000,-0.0000 Grass 31.8235
+Q sphere 31 in-subset nil
+Q block 31 in-subset nil
+Q shape 31 in-subset nil
+Q sphere 31 group-g2 nil
+Q block 31 group-g2 nil
+Q shape 31 group-g2 nil
+Q sphere 32 nil Workspace.Terrain 64.9041,0.0000,51.4030 -0.0001,1.0000,-0.0001 Water 8.5000
+Q block 32 nil Workspace.Terrain 65.2099,0.0000,50.7901 0.0000,1.0000,-0.0000 Water 9.0000
+Q shape 32 nil Workspace.Terrain 64.6217,0.0000,52.4628 0.0000,1.0000,-0.0000 Water 8.2546
+Q sphere 32 ex-actor Workspace.Terrain 64.9041,0.0000,51.4030 -0.0001,1.0000,-0.0001 Water 8.5000
+Q block 32 ex-actor Workspace.Terrain 65.2099,0.0000,50.7901 0.0000,1.0000,-0.0000 Water 9.0000
+Q shape 32 ex-actor Workspace.Terrain 64.6217,0.0000,52.4628 0.0000,1.0000,-0.0000 Water 8.2546
+Q sphere 32 in-subset nil
+Q block 32 in-subset nil
+Q shape 32 in-subset nil
+Q sphere 32 group-g2 nil
+Q block 32 group-g2 nil
+Q shape 32 group-g2 nil
+Q sphere 33 nil Workspace.Terrain -198.2373,0.0156,142.8198 -0.0000,1.0000,-0.0001 Grass 24.0565
+Q block 33 nil Workspace.Terrain -200.1975,0.0156,142.3119 -0.0000,1.0000,0.0000 Grass 24.7450
+Q shape 33 nil Workspace.Terrain -199.1715,0.0156,143.6687 -0.0000,1.0000,-0.0000 Grass 23.8206
+Q sphere 33 ex-actor Workspace.Terrain -198.2373,0.0156,142.8198 -0.0000,1.0000,-0.0001 Grass 24.0565
+Q block 33 ex-actor Workspace.Terrain -200.1975,0.0156,142.3119 -0.0000,1.0000,0.0000 Grass 24.7450
+Q shape 33 ex-actor Workspace.Terrain -199.1715,0.0156,143.6687 -0.0000,1.0000,-0.0000 Grass 23.8206
+Q sphere 33 in-subset nil
+Q block 33 in-subset nil
+Q shape 33 in-subset nil
+Q sphere 33 group-g2 nil
+Q block 33 group-g2 nil
+Q shape 33 group-g2 nil
+Q sphere 34 nil Workspace.Terrain 157.7109,0.0156,100.1417 0.0001,1.0000,-0.0000 Grass 12.5216
+Q block 34 nil Workspace.Terrain 155.8166,0.0156,100.6048 0.0000,1.0000,-0.0000 Grass 13.0216
+Q shape 34 nil Workspace.Terrain 158.0304,0.0156,101.1939 -0.0000,1.0000,-0.0000 Grass 12.2778
+Q sphere 34 ex-actor Workspace.Terrain 157.7109,0.0156,100.1417 0.0001,1.0000,-0.0000 Grass 12.5216
+Q block 34 ex-actor Workspace.Terrain 155.8166,0.0156,100.6048 0.0000,1.0000,-0.0000 Grass 13.0216
+Q shape 34 ex-actor Workspace.Terrain 158.0304,0.0156,101.1939 -0.0000,1.0000,-0.0000 Grass 12.2778
+Q sphere 34 in-subset nil
+Q block 34 in-subset nil
+Q shape 34 in-subset nil
+Q sphere 34 group-g2 nil
+Q block 34 group-g2 nil
+Q shape 34 group-g2 nil
+Q sphere 35 nil nil
+Q block 35 nil nil
+Q shape 35 nil nil
+Q sphere 35 ex-actor nil
+Q block 35 ex-actor nil
+Q shape 35 ex-actor nil
+Q sphere 35 in-subset nil
+Q block 35 in-subset nil
+Q shape 35 in-subset nil
+Q sphere 35 group-g2 nil
+Q block 35 group-g2 nil
+Q shape 35 group-g2 nil
+Q sphere 36 nil Workspace.Terrain 57.6644,0.0156,-79.2242 -0.0000,1.0000,-0.0000 Grass 181.4673
+Q block 36 nil Workspace.Terrain 58.4856,0.0156,-79.2652 0.0000,1.0000,0.0000 Grass 183.0538
+Q shape 36 nil Workspace.Terrain 58.0715,0.0156,-78.7814 -0.0000,1.0000,0.0000 Grass 180.8561
+Q sphere 36 ex-actor Workspace.Terrain 57.6644,0.0156,-79.2242 -0.0000,1.0000,-0.0000 Grass 181.4673
+Q block 36 ex-actor Workspace.Terrain 58.4856,0.0156,-79.2652 0.0000,1.0000,0.0000 Grass 183.0538
+Q shape 36 ex-actor Workspace.Terrain 58.0715,0.0156,-78.7814 -0.0000,1.0000,0.0000 Grass 180.8561
+Q sphere 36 in-subset nil
+Q block 36 in-subset nil
+Q shape 36 in-subset nil
+Q sphere 36 group-g2 nil
+Q block 36 group-g2 nil
+Q shape 36 group-g2 nil
+Q sphere 37 nil nil
+Q block 37 nil nil
+Q shape 37 nil nil
+Q sphere 37 ex-actor nil
+Q block 37 ex-actor nil
+Q shape 37 ex-actor nil
+Q sphere 37 in-subset nil
+Q block 37 in-subset nil
+Q shape 37 in-subset nil
+Q sphere 37 group-g2 nil
+Q block 37 group-g2 nil
+Q shape 37 group-g2 nil
+Q sphere 38 nil Workspace.Terrain -221.0275,0.0156,-203.3991 -0.0000,1.0000,-0.0000 Grass 20.8711
+Q block 38 nil Workspace.Terrain -219.7979,0.0156,-204.0000 -0.0000,1.0000,0.0000 Grass 21.3711
+Q shape 38 nil Workspace.Terrain -221.6821,0.0156,-202.4706 -0.0000,1.0000,-0.0000 Grass 20.6524
+Q sphere 38 ex-actor Workspace.Terrain -221.0275,0.0156,-203.3991 -0.0000,1.0000,-0.0000 Grass 20.8711
+Q block 38 ex-actor Workspace.Terrain -219.7979,0.0156,-204.0000 -0.0000,1.0000,0.0000 Grass 21.3711
+Q shape 38 ex-actor Workspace.Terrain -221.6821,0.0156,-202.4706 -0.0000,1.0000,-0.0000 Grass 20.6524
+Q sphere 38 in-subset nil
+Q block 38 in-subset nil
+Q shape 38 in-subset nil
+Q sphere 38 group-g2 nil
+Q block 38 group-g2 nil
+Q shape 38 group-g2 nil
+Q sphere 39 nil nil
+Q block 39 nil nil
+Q shape 39 nil nil
+Q sphere 39 ex-actor nil
+Q block 39 ex-actor nil
+Q shape 39 ex-actor nil
+Q sphere 39 in-subset nil
+Q block 39 in-subset nil
+Q shape 39 in-subset nil
+Q sphere 39 group-g2 nil
+Q block 39 group-g2 nil
+Q shape 39 group-g2 nil
+Q sphere 40 nil Workspace.Terrain 108.1707,0.0156,-162.0442 -0.0000,1.0000,-0.0000 Grass 37.3650
+Q block 40 nil Workspace.Terrain 109.1041,0.0156,-164.0000 -0.0000,1.0000,-0.0000 Grass 37.8650
+Q shape 40 nil Workspace.Terrain 108.0928,0.0156,-160.9579 -0.0000,1.0000,-0.0000 Grass 37.1144
+Q sphere 40 ex-actor Workspace.Terrain 108.1707,0.0156,-162.0442 -0.0000,1.0000,-0.0000 Grass 37.3650
+Q block 40 ex-actor Workspace.Terrain 109.1041,0.0156,-164.0000 -0.0000,1.0000,-0.0000 Grass 37.8650
+Q shape 40 ex-actor Workspace.Terrain 108.0928,0.0156,-160.9579 -0.0000,1.0000,-0.0000 Grass 37.1144
+Q sphere 40 in-subset nil
+Q block 40 in-subset nil
+Q shape 40 in-subset nil
+Q sphere 40 group-g2 nil
+Q block 40 group-g2 nil
+Q shape 40 group-g2 nil
+Q sphere 41 nil nil
+Q block 41 nil nil
+Q shape 41 nil nil
+Q sphere 41 ex-actor nil
+Q block 41 ex-actor nil
+Q shape 41 ex-actor nil
+Q sphere 41 in-subset nil
+Q block 41 in-subset nil
+Q shape 41 in-subset nil
+Q sphere 41 group-g2 nil
+Q block 41 group-g2 nil
+Q shape 41 group-g2 nil
+Q sphere 42 nil nil
+Q block 42 nil nil
+Q shape 42 nil nil
+Q sphere 42 ex-actor nil
+Q block 42 ex-actor nil
+Q shape 42 ex-actor nil
+Q sphere 42 in-subset nil
+Q block 42 in-subset nil
+Q shape 42 in-subset nil
+Q sphere 42 group-g2 nil
+Q block 42 group-g2 nil
+Q shape 42 group-g2 nil
+Q sphere 43 nil Workspace.Terrain 208.9751,0.0156,-44.0507 -0.0000,1.0000,-0.0000 Grass 46.6453
+Q block 43 nil Workspace.Terrain 207.0295,0.0156,-44.0000 -0.0000,1.0000,-0.0000 Grass 47.1453
+Q shape 43 nil Workspace.Terrain 208.6979,0.0156,-42.9895 -0.0000,1.0000,0.0000 Grass 46.3997
+Q sphere 43 ex-actor Workspace.Terrain 208.9751,0.0156,-44.0507 -0.0000,1.0000,-0.0000 Grass 46.6453
+Q block 43 ex-actor Workspace.Terrain 207.0295,0.0156,-44.0000 -0.0000,1.0000,-0.0000 Grass 47.1453
+Q shape 43 ex-actor Workspace.Terrain 208.6979,0.0156,-42.9895 -0.0000,1.0000,0.0000 Grass 46.3997
+Q sphere 43 in-subset nil
+Q block 43 in-subset nil
+Q shape 43 in-subset nil
+Q sphere 43 group-g2 nil
+Q block 43 group-g2 nil
+Q shape 43 group-g2 nil
+Q sphere 44 nil nil
+Q block 44 nil nil
+Q shape 44 nil nil
+Q sphere 44 ex-actor nil
+Q block 44 ex-actor nil
+Q shape 44 ex-actor nil
+Q sphere 44 in-subset nil
+Q block 44 in-subset nil
+Q shape 44 in-subset nil
+Q sphere 44 group-g2 nil
+Q block 44 group-g2 nil
+Q shape 44 group-g2 nil
+Q sphere 45 nil nil
+Q block 45 nil nil
+Q shape 45 nil nil
+Q sphere 45 ex-actor nil
+Q block 45 ex-actor nil
+Q shape 45 ex-actor nil
+Q sphere 45 in-subset nil
+Q block 45 in-subset nil
+Q shape 45 in-subset nil
+Q sphere 45 group-g2 nil
+Q block 45 group-g2 nil
+Q shape 45 group-g2 nil
+Q sphere 46 nil Workspace.Terrain -28.6863,0.0156,-108.1470 -0.0000,1.0000,-0.0000 Grass 24.7476
+Q block 46 nil Workspace.Terrain -29.0290,0.0156,-106.6153 -0.0000,1.0000,0.0000 Grass 25.2476
+Q shape 46 nil Workspace.Terrain -29.1559,0.0156,-107.1377 -0.0000,1.0000,-0.0000 Grass 24.5125
+Q sphere 46 ex-actor Workspace.Terrain -28.6863,0.0156,-108.1470 -0.0000,1.0000,-0.0000 Grass 24.7476
+Q block 46 ex-actor Workspace.Terrain -29.0290,0.0156,-106.6153 -0.0000,1.0000,0.0000 Grass 25.2476
+Q shape 46 ex-actor Workspace.Terrain -29.1559,0.0156,-107.1377 -0.0000,1.0000,-0.0000 Grass 24.5125
+Q sphere 46 in-subset nil
+Q block 46 in-subset nil
+Q shape 46 in-subset nil
+Q sphere 46 group-g2 nil
+Q block 46 group-g2 nil
+Q shape 46 group-g2 nil
+Q sphere 47 nil nil
+Q block 47 nil nil
+Q shape 47 nil nil
+Q sphere 47 ex-actor nil
+Q block 47 ex-actor nil
+Q shape 47 ex-actor nil
+Q sphere 47 in-subset nil
+Q block 47 in-subset nil
+Q shape 47 in-subset nil
+Q sphere 47 group-g2 nil
+Q block 47 group-g2 nil
+Q shape 47 group-g2 nil
+Q sphere 48 nil Workspace.Level.p1736 68.7646,4.6138,57.3957 0.0000,1.0000,0.0000 Plastic 3.8862
+Q block 48 nil Workspace.Level.p1736 69.0205,4.6138,59.0164 0.0000,1.0000,0.0000 Plastic 4.3862
+Q shape 48 nil Workspace.Level.p1736 68.8928,4.6138,58.4780 0.0000,1.0000,0.0000 Plastic 3.6363
+Q sphere 48 ex-actor Workspace.Level.p1736 68.7646,4.6138,57.3957 0.0000,1.0000,0.0000 Plastic 3.8862
+Q block 48 ex-actor Workspace.Level.p1736 69.0205,4.6138,59.0164 0.0000,1.0000,0.0000 Plastic 4.3862
+Q shape 48 ex-actor Workspace.Level.p1736 68.8928,4.6138,58.4780 0.0000,1.0000,0.0000 Plastic 3.6363
+Q sphere 48 in-subset nil
+Q block 48 in-subset nil
+Q shape 48 in-subset nil
+Q sphere 48 group-g2 nil
+Q block 48 group-g2 nil
+Q shape 48 group-g2 nil
+Q sphere 49 nil nil
+Q block 49 nil nil
+Q shape 49 nil nil
+Q sphere 49 ex-actor nil
+Q block 49 ex-actor nil
+Q shape 49 ex-actor nil
+Q sphere 49 in-subset nil
+Q block 49 in-subset nil
+Q shape 49 in-subset nil
+Q sphere 49 group-g2 nil
+Q block 49 group-g2 nil
+Q shape 49 group-g2 nil
+Q sphere 50 nil Workspace.Terrain -28.0959,0.0156,-206.5434 -0.0000,1.0000,-0.0000 Grass 31.6294
+Q block 50 nil Workspace.Terrain -28.7020,0.0156,-208.0280 -0.0000,1.0000,-0.0000 Grass 32.1294
+Q shape 50 nil Workspace.Terrain -27.3932,0.0156,-205.6422 -0.0000,1.0000,-0.0000 Grass 31.4155
+Q sphere 50 ex-actor Workspace.Terrain -28.0959,0.0156,-206.5434 -0.0000,1.0000,-0.0000 Grass 31.6294
+Q block 50 ex-actor Workspace.Terrain -28.7020,0.0156,-208.0280 -0.0000,1.0000,-0.0000 Grass 32.1294
+Q shape 50 ex-actor Workspace.Terrain -27.3932,0.0156,-205.6422 -0.0000,1.0000,-0.0000 Grass 31.4155
+Q sphere 50 in-subset nil
+Q block 50 in-subset nil
+Q shape 50 in-subset nil
+Q sphere 50 group-g2 nil
+Q block 50 group-g2 nil
+Q shape 50 group-g2 nil
+Q sphere 51 nil nil
+Q block 51 nil nil
+Q shape 51 nil nil
+Q sphere 51 ex-actor nil
+Q block 51 ex-actor nil
+Q shape 51 ex-actor nil
+Q sphere 51 in-subset nil
+Q block 51 in-subset nil
+Q shape 51 in-subset nil
+Q sphere 51 group-g2 nil
+Q block 51 group-g2 nil
+Q shape 51 group-g2 nil
+Q sphere 52 nil nil
+Q block 52 nil nil
+Q shape 52 nil nil
+Q sphere 52 ex-actor nil
+Q block 52 ex-actor nil
+Q shape 52 ex-actor nil
+Q sphere 52 in-subset nil
+Q block 52 in-subset nil
+Q shape 52 in-subset nil
+Q sphere 52 group-g2 nil
+Q block 52 group-g2 nil
+Q shape 52 group-g2 nil
+Q sphere 53 nil Workspace.Terrain 17.1298,0.0156,-183.4638 -0.0000,1.0000,-0.0000 Grass 4.2932
+Q block 53 nil Workspace.Terrain 17.8020,0.0156,-184.6474 0.0000,1.0000,0.0000 Grass 4.7932
+Q shape 53 nil Workspace.Terrain 17.6524,0.0156,-182.4741 -0.0000,1.0000,-0.0000 Grass 4.0620
+Q sphere 53 ex-actor Workspace.Terrain 17.1298,0.0156,-183.4638 -0.0000,1.0000,-0.0000 Grass 4.2932
+Q block 53 ex-actor Workspace.Terrain 17.8020,0.0156,-184.6474 0.0000,1.0000,0.0000 Grass 4.7932
+Q shape 53 ex-actor Workspace.Terrain 17.6524,0.0156,-182.4741 -0.0000,1.0000,-0.0000 Grass 4.0620
+Q sphere 53 in-subset nil
+Q block 53 in-subset nil
+Q shape 53 in-subset nil
+Q sphere 53 group-g2 nil
+Q block 53 group-g2 nil
+Q shape 53 group-g2 nil
+Q sphere 54 nil nil
+Q block 54 nil nil
+Q shape 54 nil nil
+Q sphere 54 ex-actor nil
+Q block 54 ex-actor nil
+Q shape 54 ex-actor nil
+Q sphere 54 in-subset nil
+Q block 54 in-subset nil
+Q shape 54 in-subset nil
+Q sphere 54 group-g2 nil
+Q block 54 group-g2 nil
+Q shape 54 group-g2 nil
+Q sphere 55 nil Workspace.Terrain -168.9189,0.0156,-46.7663 0.0000,1.0000,-0.0001 Grass 9.5304
+Q block 55 nil Workspace.Terrain -169.6391,0.0156,-48.0000 -0.0000,1.0000,-0.0000 Grass 10.0304
+Q shape 55 nil Workspace.Terrain -169.8955,0.0156,-46.0619 0.0000,1.0000,-0.0000 Grass 9.3573
+Q sphere 55 ex-actor Workspace.Terrain -168.9189,0.0156,-46.7663 0.0000,1.0000,-0.0001 Grass 9.5304
+Q block 55 ex-actor Workspace.Terrain -169.6391,0.0156,-48.0000 -0.0000,1.0000,-0.0000 Grass 10.0304
+Q shape 55 ex-actor Workspace.Terrain -169.8955,0.0156,-46.0619 0.0000,1.0000,-0.0000 Grass 9.3573
+Q sphere 55 in-subset nil
+Q block 55 in-subset nil
+Q shape 55 in-subset nil
+Q sphere 55 group-g2 nil
+Q block 55 group-g2 nil
+Q shape 55 group-g2 nil
+Q sphere 56 nil Workspace.Terrain -152.7062,0.0156,-93.1080 0.0000,1.0000,-0.0000 Grass 11.3201
+Q block 56 nil Workspace.Terrain -152.8907,0.0156,-95.1093 0.0000,1.0000,-0.0000 Grass 11.8201
+Q shape 56 nil Workspace.Terrain -152.3681,0.0156,-92.0522 0.0000,1.0000,-0.0000 Grass 11.0768
+Q sphere 56 ex-actor Workspace.Terrain -152.7062,0.0156,-93.1080 0.0000,1.0000,-0.0000 Grass 11.3201
+Q block 56 ex-actor Workspace.Terrain -152.8907,0.0156,-95.1093 0.0000,1.0000,-0.0000 Grass 11.8201
+Q shape 56 ex-actor Workspace.Terrain -152.3681,0.0156,-92.0522 0.0000,1.0000,-0.0000 Grass 11.0768
+Q sphere 56 in-subset nil
+Q block 56 in-subset nil
+Q shape 56 in-subset nil
+Q sphere 56 group-g2 nil
+Q block 56 group-g2 nil
+Q shape 56 group-g2 nil
+Q sphere 57 nil nil
+Q block 57 nil nil
+Q shape 57 nil nil
+Q sphere 57 ex-actor nil
+Q block 57 ex-actor nil
+Q shape 57 ex-actor nil
+Q sphere 57 in-subset nil
+Q block 57 in-subset nil
+Q shape 57 in-subset nil
+Q sphere 57 group-g2 nil
+Q block 57 group-g2 nil
+Q shape 57 group-g2 nil
+Q sphere 58 nil nil
+Q block 58 nil nil
+Q shape 58 nil nil
+Q sphere 58 ex-actor nil
+Q block 58 ex-actor nil
+Q shape 58 ex-actor nil
+Q sphere 58 in-subset nil
+Q block 58 in-subset nil
+Q shape 58 in-subset nil
+Q sphere 58 group-g2 nil
+Q block 58 group-g2 nil
+Q shape 58 group-g2 nil
+Q sphere 59 nil nil
+Q block 59 nil nil
+Q shape 59 nil nil
+Q sphere 59 ex-actor nil
+Q block 59 ex-actor nil
+Q shape 59 ex-actor nil
+Q sphere 59 in-subset nil
+Q block 59 in-subset nil
+Q shape 59 in-subset nil
+Q sphere 59 group-g2 nil
+Q block 59 group-g2 nil
+Q shape 59 group-g2 nil
+Q sphere 60 nil nil
+Q block 60 nil nil
+Q shape 60 nil nil
+Q sphere 60 ex-actor nil
+Q block 60 ex-actor nil
+Q shape 60 ex-actor nil
+Q sphere 60 in-subset nil
+Q block 60 in-subset nil
+Q shape 60 in-subset nil
+Q sphere 60 group-g2 nil
+Q block 60 group-g2 nil
+Q shape 60 group-g2 nil
+Q box 1 nil 1 Workspace.Level.p1143
+Q radius 1 nil 1 Workspace.Level.p1143
+Q inpart 1 nil 1 Workspace.Level.p1143
+Q box 1 ex-actor 0 
+Q radius 1 ex-actor 0 
+Q inpart 1 ex-actor 1 Workspace.Level.p1143
+Q box 1 in-subset 0 
+Q radius 1 in-subset 0 
+Q inpart 1 in-subset 0 
+Q box 1 collide 0 
+Q radius 1 collide 0 
+Q inpart 1 collide 1 Workspace.Level.p1143
+Q box 1 group-g2 1 Workspace.Level.p1143
+Q radius 1 group-g2 1 Workspace.Level.p1143
+Q inpart 1 group-g2 1 Workspace.Level.p1143
+Q box 1 max5 0 
+Q radius 1 max5 0 
+Q inpart 1 max5 1 Workspace.Level.p1143
+Q box 2 nil 3 Workspace.Level.p780,Workspace.Level.p836,Workspace.Level.p890
+Q radius 2 nil 1 Workspace.Level.p836
+Q inpart 2 nil 1 Workspace.Level.p836
+Q box 2 ex-actor 3 Workspace.Level.p780,Workspace.Level.p836,Workspace.Level.p890
+Q radius 2 ex-actor 1 Workspace.Level.p836
+Q inpart 2 ex-actor 1 Workspace.Level.p836
+Q box 2 in-subset 2 Workspace.Level.p780,Workspace.Level.p890
+Q radius 2 in-subset 0 
+Q inpart 2 in-subset 0 
+Q box 2 collide 3 Workspace.Level.p780,Workspace.Level.p836,Workspace.Level.p890
+Q radius 2 collide 1 Workspace.Level.p836
+Q inpart 2 collide 1 Workspace.Level.p836
+Q box 2 group-g2 0 
+Q radius 2 group-g2 0 
+Q inpart 2 group-g2 1 Workspace.Level.p836
+Q box 2 max5 3 Workspace.Level.p780,Workspace.Level.p836,Workspace.Level.p890
+Q radius 2 max5 1 Workspace.Level.p836
+Q inpart 2 max5 1 Workspace.Level.p836
+Q box 3 nil 1 Workspace.Level.p523
+Q radius 3 nil 1 Workspace.Level.p523
+Q inpart 3 nil 1 Workspace.Level.p523
+Q box 3 ex-actor 1 Workspace.Level.p523
+Q radius 3 ex-actor 1 Workspace.Level.p523
+Q inpart 3 ex-actor 1 Workspace.Level.p523
+Q box 3 in-subset 0 
+Q radius 3 in-subset 0 
+Q inpart 3 in-subset 0 
+Q box 3 collide 1 Workspace.Level.p523
+Q radius 3 collide 1 Workspace.Level.p523
+Q inpart 3 collide 1 Workspace.Level.p523
+Q box 3 group-g2 0 
+Q radius 3 group-g2 0 
+Q inpart 3 group-g2 1 Workspace.Level.p523
+Q box 3 max5 1 Workspace.Level.p523
+Q radius 3 max5 1 Workspace.Level.p523
+Q inpart 3 max5 1 Workspace.Level.p523
+Q box 4 nil 2 Workspace.Level.p1360,Workspace.Level.p1416
+Q radius 4 nil 2 Workspace.Level.p1360,Workspace.Level.p1416
+Q inpart 4 nil 1 Workspace.Level.p1360
+Q box 4 ex-actor 2 Workspace.Level.p1360,Workspace.Level.p1416
+Q radius 4 ex-actor 2 Workspace.Level.p1360,Workspace.Level.p1416
+Q inpart 4 ex-actor 1 Workspace.Level.p1360
+Q box 4 in-subset 0 
+Q radius 4 in-subset 0 
+Q inpart 4 in-subset 0 
+Q box 4 collide 2 Workspace.Level.p1360,Workspace.Level.p1416
+Q radius 4 collide 2 Workspace.Level.p1360,Workspace.Level.p1416
+Q inpart 4 collide 1 Workspace.Level.p1360
+Q box 4 group-g2 0 
+Q radius 4 group-g2 0 
+Q inpart 4 group-g2 1 Workspace.Level.p1360
+Q box 4 max5 2 Workspace.Level.p1360,Workspace.Level.p1416
+Q radius 4 max5 2 Workspace.Level.p1360,Workspace.Level.p1416
+Q inpart 4 max5 1 Workspace.Level.p1360
+Q box 5 nil 0 
+Q radius 5 nil 1 Workspace.Level.p2623
+Q inpart 5 nil 0 
+Q box 5 ex-actor 0 
+Q radius 5 ex-actor 1 Workspace.Level.p2623
+Q inpart 5 ex-actor 0 
+Q box 5 in-subset 0 
+Q radius 5 in-subset 0 
+Q inpart 5 in-subset 0 
+Q box 5 collide 0 
+Q radius 5 collide 1 Workspace.Level.p2623
+Q inpart 5 collide 0 
+Q box 5 group-g2 0 
+Q radius 5 group-g2 0 
+Q inpart 5 group-g2 0 
+Q box 5 max5 0 
+Q radius 5 max5 1 Workspace.Level.p2623
+Q inpart 5 max5 0 
+Q box 6 nil 0 
+Q radius 6 nil 0 
+Q inpart 6 nil 0 
+Q box 6 ex-actor 0 
+Q radius 6 ex-actor 0 
+Q inpart 6 ex-actor 0 
+Q box 6 in-subset 0 
+Q radius 6 in-subset 0 
+Q inpart 6 in-subset 0 
+Q box 6 collide 0 
+Q radius 6 collide 0 
+Q inpart 6 collide 0 
+Q box 6 group-g2 0 
+Q radius 6 group-g2 0 
+Q inpart 6 group-g2 0 
+Q box 6 max5 0 
+Q radius 6 max5 0 
+Q inpart 6 max5 0 
+Q box 7 nil 1 Workspace.Level.p1146
+Q radius 7 nil 1 Workspace.Level.p1146
+Q inpart 7 nil 1 Workspace.Level.p1146
+Q box 7 ex-actor 1 Workspace.Level.p1146
+Q radius 7 ex-actor 1 Workspace.Level.p1146
+Q inpart 7 ex-actor 1 Workspace.Level.p1146
+Q box 7 in-subset 0 
+Q radius 7 in-subset 0 
+Q inpart 7 in-subset 0 
+Q box 7 collide 1 Workspace.Level.p1146
+Q radius 7 collide 1 Workspace.Level.p1146
+Q inpart 7 collide 1 Workspace.Level.p1146
+Q box 7 group-g2 0 
+Q radius 7 group-g2 0 
+Q inpart 7 group-g2 1 Workspace.Level.p1146
+Q box 7 max5 1 Workspace.Level.p1146
+Q radius 7 max5 1 Workspace.Level.p1146
+Q inpart 7 max5 1 Workspace.Level.p1146
+Q box 8 nil 1 Workspace.Level.p1250
+Q radius 8 nil 1 Workspace.Level.p1250
+Q inpart 8 nil 1 Workspace.Level.p1250
+Q box 8 ex-actor 1 Workspace.Level.p1250
+Q radius 8 ex-actor 1 Workspace.Level.p1250
+Q inpart 8 ex-actor 1 Workspace.Level.p1250
+Q box 8 in-subset 0 
+Q radius 8 in-subset 0 
+Q inpart 8 in-subset 0 
+Q box 8 collide 1 Workspace.Level.p1250
+Q radius 8 collide 1 Workspace.Level.p1250
+Q inpart 8 collide 1 Workspace.Level.p1250
+Q box 8 group-g2 0 
+Q radius 8 group-g2 0 
+Q inpart 8 group-g2 1 Workspace.Level.p1250
+Q box 8 max5 1 Workspace.Level.p1250
+Q radius 8 max5 1 Workspace.Level.p1250
+Q inpart 8 max5 1 Workspace.Level.p1250
+Q box 9 nil 0 
+Q radius 9 nil 0 
+Q inpart 9 nil 0 
+Q box 9 ex-actor 0 
+Q radius 9 ex-actor 0 
+Q inpart 9 ex-actor 0 
+Q box 9 in-subset 0 
+Q radius 9 in-subset 0 
+Q inpart 9 in-subset 0 
+Q box 9 collide 0 
+Q radius 9 collide 0 
+Q inpart 9 collide 0 
+Q box 9 group-g2 0 
+Q radius 9 group-g2 0 
+Q inpart 9 group-g2 0 
+Q box 9 max5 0 
+Q radius 9 max5 0 
+Q inpart 9 max5 0 
+Q box 10 nil 1 Workspace.Level.p2300
+Q radius 10 nil 0 
+Q inpart 10 nil 0 
+Q box 10 ex-actor 1 Workspace.Level.p2300
+Q radius 10 ex-actor 0 
+Q inpart 10 ex-actor 0 
+Q box 10 in-subset 0 
+Q radius 10 in-subset 0 
+Q inpart 10 in-subset 0 
+Q box 10 collide 1 Workspace.Level.p2300
+Q radius 10 collide 0 
+Q inpart 10 collide 0 
+Q box 10 group-g2 0 
+Q radius 10 group-g2 0 
+Q inpart 10 group-g2 0 
+Q box 10 max5 1 Workspace.Level.p2300
+Q radius 10 max5 0 
+Q inpart 10 max5 0 
+Q box 11 nil 1 Workspace.Level.p1393
+Q radius 11 nil 1 Workspace.Level.p1393
+Q inpart 11 nil 1 Workspace.Level.p1393
+Q box 11 ex-actor 1 Workspace.Level.p1393
+Q radius 11 ex-actor 1 Workspace.Level.p1393
+Q inpart 11 ex-actor 1 Workspace.Level.p1393
+Q box 11 in-subset 0 
+Q radius 11 in-subset 0 
+Q inpart 11 in-subset 0 
+Q box 11 collide 1 Workspace.Level.p1393
+Q radius 11 collide 1 Workspace.Level.p1393
+Q inpart 11 collide 1 Workspace.Level.p1393
+Q box 11 group-g2 0 
+Q radius 11 group-g2 0 
+Q inpart 11 group-g2 1 Workspace.Level.p1393
+Q box 11 max5 1 Workspace.Level.p1393
+Q radius 11 max5 1 Workspace.Level.p1393
+Q inpart 11 max5 1 Workspace.Level.p1393
+Q box 12 nil 1 Workspace.Level.p460
+Q radius 12 nil 0 
+Q inpart 12 nil 0 
+Q box 12 ex-actor 1 Workspace.Level.p460
+Q radius 12 ex-actor 0 
+Q inpart 12 ex-actor 0 
+Q box 12 in-subset 0 
+Q radius 12 in-subset 0 
+Q inpart 12 in-subset 0 
+Q box 12 collide 1 Workspace.Level.p460
+Q radius 12 collide 0 
+Q inpart 12 collide 0 
+Q box 12 group-g2 0 
+Q radius 12 group-g2 0 
+Q inpart 12 group-g2 0 
+Q box 12 max5 1 Workspace.Level.p460
+Q radius 12 max5 0 
+Q inpart 12 max5 0 
+Q box 13 nil 0 
+Q radius 13 nil 0 
+Q inpart 13 nil 0 
+Q box 13 ex-actor 0 
+Q radius 13 ex-actor 0 
+Q inpart 13 ex-actor 0 
+Q box 13 in-subset 0 
+Q radius 13 in-subset 0 
+Q inpart 13 in-subset 0 
+Q box 13 collide 0 
+Q radius 13 collide 0 
+Q inpart 13 collide 0 
+Q box 13 group-g2 0 
+Q radius 13 group-g2 0 
+Q inpart 13 group-g2 0 
+Q box 13 max5 0 
+Q radius 13 max5 0 
+Q inpart 13 max5 0 
+Q box 14 nil 0 
+Q radius 14 nil 0 
+Q inpart 14 nil 0 
+Q box 14 ex-actor 0 
+Q radius 14 ex-actor 0 
+Q inpart 14 ex-actor 0 
+Q box 14 in-subset 0 
+Q radius 14 in-subset 0 
+Q inpart 14 in-subset 0 
+Q box 14 collide 0 
+Q radius 14 collide 0 
+Q inpart 14 collide 0 
+Q box 14 group-g2 0 
+Q radius 14 group-g2 0 
+Q inpart 14 group-g2 0 
+Q box 14 max5 0 
+Q radius 14 max5 0 
+Q inpart 14 max5 0 
+Q box 15 nil 2 Workspace.Level.p370,Workspace.Level.p423
+Q radius 15 nil 2 Workspace.Level.p370,Workspace.Level.p423
+Q inpart 15 nil 0 
+Q box 15 ex-actor 1 Workspace.Level.p370
+Q radius 15 ex-actor 1 Workspace.Level.p370
+Q inpart 15 ex-actor 0 
+Q box 15 in-subset 0 
+Q radius 15 in-subset 0 
+Q inpart 15 in-subset 0 
+Q box 15 collide 1 Workspace.Level.p370
+Q radius 15 collide 1 Workspace.Level.p370
+Q inpart 15 collide 0 
+Q box 15 group-g2 1 Workspace.Level.p423
+Q radius 15 group-g2 1 Workspace.Level.p423
+Q inpart 15 group-g2 0 
+Q box 15 max5 1 Workspace.Level.p370
+Q radius 15 max5 1 Workspace.Level.p370
+Q inpart 15 max5 0 
+Q box 16 nil 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q radius 16 nil 1 Workspace.Level.p1736
+Q inpart 16 nil 1 Workspace.Level.p1736
+Q box 16 ex-actor 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q radius 16 ex-actor 1 Workspace.Level.p1736
+Q inpart 16 ex-actor 1 Workspace.Level.p1736
+Q box 16 in-subset 0 
+Q radius 16 in-subset 0 
+Q inpart 16 in-subset 0 
+Q box 16 collide 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q radius 16 collide 1 Workspace.Level.p1736
+Q inpart 16 collide 1 Workspace.Level.p1736
+Q box 16 group-g2 0 
+Q radius 16 group-g2 0 
+Q inpart 16 group-g2 1 Workspace.Level.p1736
+Q box 16 max5 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q radius 16 max5 1 Workspace.Level.p1736
+Q inpart 16 max5 1 Workspace.Level.p1736
+Q box 17 nil 1 Workspace.Level.p853
+Q radius 17 nil 1 Workspace.Level.p853
+Q inpart 17 nil 1 Workspace.Level.p853
+Q box 17 ex-actor 1 Workspace.Level.p853
+Q radius 17 ex-actor 1 Workspace.Level.p853
+Q inpart 17 ex-actor 1 Workspace.Level.p853
+Q box 17 in-subset 0 
+Q radius 17 in-subset 0 
+Q inpart 17 in-subset 0 
+Q box 17 collide 1 Workspace.Level.p853
+Q radius 17 collide 1 Workspace.Level.p853
+Q inpart 17 collide 1 Workspace.Level.p853
+Q box 17 group-g2 0 
+Q radius 17 group-g2 0 
+Q inpart 17 group-g2 1 Workspace.Level.p853
+Q box 17 max5 1 Workspace.Level.p853
+Q radius 17 max5 1 Workspace.Level.p853
+Q inpart 17 max5 1 Workspace.Level.p853
+Q box 18 nil 1 Workspace.Level.p2003
+Q radius 18 nil 1 Workspace.Level.p2003
+Q inpart 18 nil 0 
+Q box 18 ex-actor 1 Workspace.Level.p2003
+Q radius 18 ex-actor 1 Workspace.Level.p2003
+Q inpart 18 ex-actor 0 
+Q box 18 in-subset 0 
+Q radius 18 in-subset 0 
+Q inpart 18 in-subset 0 
+Q box 18 collide 1 Workspace.Level.p2003
+Q radius 18 collide 1 Workspace.Level.p2003
+Q inpart 18 collide 0 
+Q box 18 group-g2 0 
+Q radius 18 group-g2 0 
+Q inpart 18 group-g2 0 
+Q box 18 max5 1 Workspace.Level.p2003
+Q radius 18 max5 1 Workspace.Level.p2003
+Q inpart 18 max5 0 
+Q box 19 nil 0 
+Q radius 19 nil 0 
+Q inpart 19 nil 0 
+Q box 19 ex-actor 0 
+Q radius 19 ex-actor 0 
+Q inpart 19 ex-actor 0 
+Q box 19 in-subset 0 
+Q radius 19 in-subset 0 
+Q inpart 19 in-subset 0 
+Q box 19 collide 0 
+Q radius 19 collide 0 
+Q inpart 19 collide 0 
+Q box 19 group-g2 0 
+Q radius 19 group-g2 0 
+Q inpart 19 group-g2 0 
+Q box 19 max5 0 
+Q radius 19 max5 0 
+Q inpart 19 max5 0 
+Q box 20 nil 1 Workspace.Level.p2516
+Q radius 20 nil 1 Workspace.Level.p2516
+Q inpart 20 nil 0 
+Q box 20 ex-actor 1 Workspace.Level.p2516
+Q radius 20 ex-actor 1 Workspace.Level.p2516
+Q inpart 20 ex-actor 0 
+Q box 20 in-subset 0 
+Q radius 20 in-subset 0 
+Q inpart 20 in-subset 0 
+Q box 20 collide 1 Workspace.Level.p2516
+Q radius 20 collide 1 Workspace.Level.p2516
+Q inpart 20 collide 0 
+Q box 20 group-g2 0 
+Q radius 20 group-g2 0 
+Q inpart 20 group-g2 0 
+Q box 20 max5 1 Workspace.Level.p2516
+Q radius 20 max5 1 Workspace.Level.p2516
+Q inpart 20 max5 0 
+Q box 21 nil 1 Workspace.Level.p953
+Q radius 21 nil 1 Workspace.Level.p953
+Q inpart 21 nil 0 
+Q box 21 ex-actor 1 Workspace.Level.p953
+Q radius 21 ex-actor 1 Workspace.Level.p953
+Q inpart 21 ex-actor 0 
+Q box 21 in-subset 0 
+Q radius 21 in-subset 0 
+Q inpart 21 in-subset 0 
+Q box 21 collide 1 Workspace.Level.p953
+Q radius 21 collide 1 Workspace.Level.p953
+Q inpart 21 collide 0 
+Q box 21 group-g2 0 
+Q radius 21 group-g2 0 
+Q inpart 21 group-g2 0 
+Q box 21 max5 1 Workspace.Level.p953
+Q radius 21 max5 1 Workspace.Level.p953
+Q inpart 21 max5 0 
+Q box 22 nil 0 
+Q radius 22 nil 0 
+Q inpart 22 nil 0 
+Q box 22 ex-actor 0 
+Q radius 22 ex-actor 0 
+Q inpart 22 ex-actor 0 
+Q box 22 in-subset 0 
+Q radius 22 in-subset 0 
+Q inpart 22 in-subset 0 
+Q box 22 collide 0 
+Q radius 22 collide 0 
+Q inpart 22 collide 0 
+Q box 22 group-g2 0 
+Q radius 22 group-g2 0 
+Q inpart 22 group-g2 0 
+Q box 22 max5 0 
+Q radius 22 max5 0 
+Q inpart 22 max5 0 
+Q box 23 nil 1 Workspace.Level.p920
+Q radius 23 nil 1 Workspace.Level.p920
+Q inpart 23 nil 0 
+Q box 23 ex-actor 1 Workspace.Level.p920
+Q radius 23 ex-actor 1 Workspace.Level.p920
+Q inpart 23 ex-actor 0 
+Q box 23 in-subset 0 
+Q radius 23 in-subset 0 
+Q inpart 23 in-subset 0 
+Q box 23 collide 1 Workspace.Level.p920
+Q radius 23 collide 1 Workspace.Level.p920
+Q inpart 23 collide 0 
+Q box 23 group-g2 0 
+Q radius 23 group-g2 0 
+Q inpart 23 group-g2 0 
+Q box 23 max5 1 Workspace.Level.p920
+Q radius 23 max5 1 Workspace.Level.p920
+Q inpart 23 max5 0 
+Q box 24 nil 2 Workspace.Level.p700,Workspace.Level.p756
+Q radius 24 nil 2 Workspace.Level.p700,Workspace.Level.p756
+Q inpart 24 nil 1 Workspace.Level.p700
+Q box 24 ex-actor 2 Workspace.Level.p700,Workspace.Level.p756
+Q radius 24 ex-actor 2 Workspace.Level.p700,Workspace.Level.p756
+Q inpart 24 ex-actor 1 Workspace.Level.p700
+Q box 24 in-subset 0 
+Q radius 24 in-subset 0 
+Q inpart 24 in-subset 0 
+Q box 24 collide 2 Workspace.Level.p700,Workspace.Level.p756
+Q radius 24 collide 2 Workspace.Level.p700,Workspace.Level.p756
+Q inpart 24 collide 1 Workspace.Level.p700
+Q box 24 group-g2 0 
+Q radius 24 group-g2 0 
+Q inpart 24 group-g2 1 Workspace.Level.p700
+Q box 24 max5 2 Workspace.Level.p700,Workspace.Level.p756
+Q radius 24 max5 2 Workspace.Level.p700,Workspace.Level.p756
+Q inpart 24 max5 1 Workspace.Level.p700
+Q box 25 nil 0 
+Q radius 25 nil 0 
+Q inpart 25 nil 0 
+Q box 25 ex-actor 0 
+Q radius 25 ex-actor 0 
+Q inpart 25 ex-actor 0 
+Q box 25 in-subset 0 
+Q radius 25 in-subset 0 
+Q inpart 25 in-subset 0 
+Q box 25 collide 0 
+Q radius 25 collide 0 
+Q inpart 25 collide 0 
+Q box 25 group-g2 0 
+Q radius 25 group-g2 0 
+Q inpart 25 group-g2 0 
+Q box 25 max5 0 
+Q radius 25 max5 0 
+Q inpart 25 max5 0 
+Q box 26 nil 0 
+Q radius 26 nil 0 
+Q inpart 26 nil 0 
+Q box 26 ex-actor 0 
+Q radius 26 ex-actor 0 
+Q inpart 26 ex-actor 0 
+Q box 26 in-subset 0 
+Q radius 26 in-subset 0 
+Q inpart 26 in-subset 0 
+Q box 26 collide 0 
+Q radius 26 collide 0 
+Q inpart 26 collide 0 
+Q box 26 group-g2 0 
+Q radius 26 group-g2 0 
+Q inpart 26 group-g2 0 
+Q box 26 max5 0 
+Q radius 26 max5 0 
+Q inpart 26 max5 0 
+Q box 27 nil 1 Workspace.Level.p2436
+Q radius 27 nil 1 Workspace.Level.p2436
+Q inpart 27 nil 1 Workspace.Level.p2436
+Q box 27 ex-actor 1 Workspace.Level.p2436
+Q radius 27 ex-actor 1 Workspace.Level.p2436
+Q inpart 27 ex-actor 1 Workspace.Level.p2436
+Q box 27 in-subset 0 
+Q radius 27 in-subset 0 
+Q inpart 27 in-subset 0 
+Q box 27 collide 1 Workspace.Level.p2436
+Q radius 27 collide 1 Workspace.Level.p2436
+Q inpart 27 collide 1 Workspace.Level.p2436
+Q box 27 group-g2 0 
+Q radius 27 group-g2 0 
+Q inpart 27 group-g2 1 Workspace.Level.p2436
+Q box 27 max5 1 Workspace.Level.p2436
+Q radius 27 max5 1 Workspace.Level.p2436
+Q inpart 27 max5 1 Workspace.Level.p2436
+Q box 28 nil 2 Workspace.Level.p1673,Workspace.Level.p1783
+Q radius 28 nil 1 Workspace.Level.p1673
+Q inpart 28 nil 0 
+Q box 28 ex-actor 2 Workspace.Level.p1673,Workspace.Level.p1783
+Q radius 28 ex-actor 1 Workspace.Level.p1673
+Q inpart 28 ex-actor 0 
+Q box 28 in-subset 0 
+Q radius 28 in-subset 0 
+Q inpart 28 in-subset 0 
+Q box 28 collide 2 Workspace.Level.p1673,Workspace.Level.p1783
+Q radius 28 collide 1 Workspace.Level.p1673
+Q inpart 28 collide 0 
+Q box 28 group-g2 0 
+Q radius 28 group-g2 0 
+Q inpart 28 group-g2 0 
+Q box 28 max5 2 Workspace.Level.p1673,Workspace.Level.p1783
+Q radius 28 max5 1 Workspace.Level.p1673
+Q inpart 28 max5 0 
+Q box 29 nil 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q radius 29 nil 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q inpart 29 nil 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q box 29 ex-actor 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q radius 29 ex-actor 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q inpart 29 ex-actor 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q box 29 in-subset 0 
+Q radius 29 in-subset 0 
+Q inpart 29 in-subset 0 
+Q box 29 collide 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q radius 29 collide 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q inpart 29 collide 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q box 29 group-g2 0 
+Q radius 29 group-g2 0 
+Q inpart 29 group-g2 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q box 29 max5 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q radius 29 max5 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q inpart 29 max5 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q box 30 nil 0 
+Q radius 30 nil 0 
+Q inpart 30 nil 0 
+Q box 30 ex-actor 0 
+Q radius 30 ex-actor 0 
+Q inpart 30 ex-actor 0 
+Q box 30 in-subset 0 
+Q radius 30 in-subset 0 
+Q inpart 30 in-subset 0 
+Q box 30 collide 0 
+Q radius 30 collide 0 
+Q inpart 30 collide 0 
+Q box 30 group-g2 0 
+Q radius 30 group-g2 0 
+Q inpart 30 group-g2 0 
+Q box 30 max5 0 
+Q radius 30 max5 0 
+Q inpart 30 max5 0 
+Q box 31 nil 1 Workspace.Level.p1076
+Q radius 31 nil 1 Workspace.Level.p1076
+Q inpart 31 nil 1 Workspace.Level.p1076
+Q box 31 ex-actor 1 Workspace.Level.p1076
+Q radius 31 ex-actor 1 Workspace.Level.p1076
+Q inpart 31 ex-actor 1 Workspace.Level.p1076
+Q box 31 in-subset 0 
+Q radius 31 in-subset 0 
+Q inpart 31 in-subset 0 
+Q box 31 collide 1 Workspace.Level.p1076
+Q radius 31 collide 1 Workspace.Level.p1076
+Q inpart 31 collide 1 Workspace.Level.p1076
+Q box 31 group-g2 0 
+Q radius 31 group-g2 0 
+Q inpart 31 group-g2 1 Workspace.Level.p1076
+Q box 31 max5 1 Workspace.Level.p1076
+Q radius 31 max5 1 Workspace.Level.p1076
+Q inpart 31 max5 1 Workspace.Level.p1076
+Q box 32 nil 1 Workspace.Level.p1736
+Q radius 32 nil 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q inpart 32 nil 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q box 32 ex-actor 1 Workspace.Level.p1736
+Q radius 32 ex-actor 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q inpart 32 ex-actor 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q box 32 in-subset 0 
+Q radius 32 in-subset 0 
+Q inpart 32 in-subset 0 
+Q box 32 collide 1 Workspace.Level.p1736
+Q radius 32 collide 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q inpart 32 collide 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q box 32 group-g2 0 
+Q radius 32 group-g2 0 
+Q inpart 32 group-g2 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q box 32 max5 1 Workspace.Level.p1736
+Q radius 32 max5 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q inpart 32 max5 2 Workspace.Level.p1626,Workspace.Level.p1736
+Q box 33 nil 1 Workspace.Level.p1943
+Q radius 33 nil 1 Workspace.Level.p1943
+Q inpart 33 nil 1 Workspace.Level.p1943
+Q box 33 ex-actor 1 Workspace.Level.p1943
+Q radius 33 ex-actor 1 Workspace.Level.p1943
+Q inpart 33 ex-actor 1 Workspace.Level.p1943
+Q box 33 in-subset 0 
+Q radius 33 in-subset 0 
+Q inpart 33 in-subset 0 
+Q box 33 collide 1 Workspace.Level.p1943
+Q radius 33 collide 1 Workspace.Level.p1943
+Q inpart 33 collide 1 Workspace.Level.p1943
+Q box 33 group-g2 0 
+Q radius 33 group-g2 0 
+Q inpart 33 group-g2 1 Workspace.Level.p1943
+Q box 33 max5 1 Workspace.Level.p1943
+Q radius 33 max5 1 Workspace.Level.p1943
+Q inpart 33 max5 1 Workspace.Level.p1943
+Q box 34 nil 2 Workspace.Level.p1796,Workspace.Level.p1850
+Q radius 34 nil 2 Workspace.Level.p1796,Workspace.Level.p1850
+Q inpart 34 nil 1 Workspace.Level.p1850
+Q box 34 ex-actor 2 Workspace.Level.p1796,Workspace.Level.p1850
+Q radius 34 ex-actor 2 Workspace.Level.p1796,Workspace.Level.p1850
+Q inpart 34 ex-actor 1 Workspace.Level.p1850
+Q box 34 in-subset 0 
+Q radius 34 in-subset 0 
+Q inpart 34 in-subset 0 
+Q box 34 collide 2 Workspace.Level.p1796,Workspace.Level.p1850
+Q radius 34 collide 2 Workspace.Level.p1796,Workspace.Level.p1850
+Q inpart 34 collide 1 Workspace.Level.p1850
+Q box 34 group-g2 0 
+Q radius 34 group-g2 0 
+Q inpart 34 group-g2 1 Workspace.Level.p1850
+Q box 34 max5 2 Workspace.Level.p1796,Workspace.Level.p1850
+Q radius 34 max5 2 Workspace.Level.p1796,Workspace.Level.p1850
+Q inpart 34 max5 1 Workspace.Level.p1850
+Q box 35 nil 1 Workspace.Level.p1586
+Q radius 35 nil 1 Workspace.Level.p1586
+Q inpart 35 nil 1 Workspace.Level.p1586
+Q box 35 ex-actor 1 Workspace.Level.p1586
+Q radius 35 ex-actor 1 Workspace.Level.p1586
+Q inpart 35 ex-actor 1 Workspace.Level.p1586
+Q box 35 in-subset 0 
+Q radius 35 in-subset 0 
+Q inpart 35 in-subset 0 
+Q box 35 collide 1 Workspace.Level.p1586
+Q radius 35 collide 1 Workspace.Level.p1586
+Q inpart 35 collide 1 Workspace.Level.p1586
+Q box 35 group-g2 0 
+Q radius 35 group-g2 0 
+Q inpart 35 group-g2 1 Workspace.Level.p1586
+Q box 35 max5 1 Workspace.Level.p1586
+Q radius 35 max5 1 Workspace.Level.p1586
+Q inpart 35 max5 1 Workspace.Level.p1586
+Q box 36 nil 0 
+Q radius 36 nil 0 
+Q inpart 36 nil 0 
+Q box 36 ex-actor 0 
+Q radius 36 ex-actor 0 
+Q inpart 36 ex-actor 0 
+Q box 36 in-subset 0 
+Q radius 36 in-subset 0 
+Q inpart 36 in-subset 0 
+Q box 36 collide 0 
+Q radius 36 collide 0 
+Q inpart 36 collide 0 
+Q box 36 group-g2 0 
+Q radius 36 group-g2 0 
+Q inpart 36 group-g2 0 
+Q box 36 max5 0 
+Q radius 36 max5 0 
+Q inpart 36 max5 0 
+Q box 37 nil 1 Workspace.Level.p866
+Q radius 37 nil 1 Workspace.Level.p866
+Q inpart 37 nil 1 Workspace.Level.p866
+Q box 37 ex-actor 1 Workspace.Level.p866
+Q radius 37 ex-actor 1 Workspace.Level.p866
+Q inpart 37 ex-actor 1 Workspace.Level.p866
+Q box 37 in-subset 0 
+Q radius 37 in-subset 0 
+Q inpart 37 in-subset 0 
+Q box 37 collide 1 Workspace.Level.p866
+Q radius 37 collide 1 Workspace.Level.p866
+Q inpart 37 collide 1 Workspace.Level.p866
+Q box 37 group-g2 0 
+Q radius 37 group-g2 0 
+Q inpart 37 group-g2 1 Workspace.Level.p866
+Q box 37 max5 1 Workspace.Level.p866
+Q radius 37 max5 1 Workspace.Level.p866
+Q inpart 37 max5 1 Workspace.Level.p866
+Q box 38 nil 0 
+Q radius 38 nil 0 
+Q inpart 38 nil 0 
+Q box 38 ex-actor 0 
+Q radius 38 ex-actor 0 
+Q inpart 38 ex-actor 0 
+Q box 38 in-subset 0 
+Q radius 38 in-subset 0 
+Q inpart 38 in-subset 0 
+Q box 38 collide 0 
+Q radius 38 collide 0 
+Q inpart 38 collide 0 
+Q box 38 group-g2 0 
+Q radius 38 group-g2 0 
+Q inpart 38 group-g2 0 
+Q box 38 max5 0 
+Q radius 38 max5 0 
+Q inpart 38 max5 0 
+Q box 39 nil 0 
+Q radius 39 nil 0 
+Q inpart 39 nil 0 
+Q box 39 ex-actor 0 
+Q radius 39 ex-actor 0 
+Q inpart 39 ex-actor 0 
+Q box 39 in-subset 0 
+Q radius 39 in-subset 0 
+Q inpart 39 in-subset 0 
+Q box 39 collide 0 
+Q radius 39 collide 0 
+Q inpart 39 collide 0 
+Q box 39 group-g2 0 
+Q radius 39 group-g2 0 
+Q inpart 39 group-g2 0 
+Q box 39 max5 0 
+Q radius 39 max5 0 
+Q inpart 39 max5 0 
+Q box 40 nil 0 
+Q radius 40 nil 1 Workspace.Level.p1133
+Q inpart 40 nil 0 
+Q box 40 ex-actor 0 
+Q radius 40 ex-actor 1 Workspace.Level.p1133
+Q inpart 40 ex-actor 0 
+Q box 40 in-subset 0 
+Q radius 40 in-subset 0 
+Q inpart 40 in-subset 0 
+Q box 40 collide 0 
+Q radius 40 collide 1 Workspace.Level.p1133
+Q inpart 40 collide 0 
+Q box 40 group-g2 0 
+Q radius 40 group-g2 0 
+Q inpart 40 group-g2 0 
+Q box 40 max5 0 
+Q radius 40 max5 1 Workspace.Level.p1133
+Q inpart 40 max5 0 
+Q FindPartOnRay 1 nil 313.9152,-54.0706,-160.4465 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 1 nil 313.9152,-54.0706,-160.4465 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 1 nil 313.9152,-54.0706,-160.4465 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 1 nil 313.9152,-54.0706,-160.4465 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 2 Workspace.Level.p836 -329.5518,6.4013,-251.3433 0.0000,1.0000,0.0000 Enum.Material.Plastic
+Q FindPartOnRayWithIgnoreList 2 Workspace.Level.p836 -329.5518,6.4013,-251.3433 0.0000,1.0000,0.0000 Enum.Material.Plastic
+Q FindPartOnRayWithWhitelist 2 nil -329.5518,-16.3274,-251.3433 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 2 Workspace.Level.p836 -329.5518,6.4013,-251.3433 0.0000,1.0000,0.0000 Enum.Material.Plastic
+Q FindPartOnRay 3 nil -162.4249,76.2727,-425.3993 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 3 nil -162.4249,76.2727,-425.3993 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 3 nil -162.4249,76.2727,-425.3993 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 3 nil -162.4249,76.2727,-425.3993 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 4 Workspace.Level.p1360 250.6866,9.2131,-67.0354 0.0000,1.0000,0.0000 Enum.Material.Plastic
+Q FindPartOnRayWithIgnoreList 4 Workspace.Level.p1360 250.6866,9.2131,-67.0354 0.0000,1.0000,0.0000 Enum.Material.Plastic
+Q FindPartOnRayWithWhitelist 4 nil 250.6866,-49.1041,-67.0354 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 4 Workspace.Level.p1360 250.6866,9.2131,-67.0354 0.0000,1.0000,0.0000 Enum.Material.Plastic
+Q FindPartOnRay 5 nil 219.9476,19.7086,364.4581 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 5 nil 219.9476,19.7086,364.4581 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 5 nil 219.9476,19.7086,364.4581 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 5 nil 219.9476,19.7086,364.4581 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 6 nil -21.2285,-146.7450,499.3655 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 6 nil -21.2285,-146.7450,499.3655 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 6 nil -21.2285,-146.7450,499.3655 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 6 nil -21.2285,-146.7450,499.3655 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 7 nil 377.1880,-70.6048,-154.5710 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 7 nil 377.1880,-70.6048,-154.5710 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 7 nil 377.1880,-70.6048,-154.5710 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 7 nil 377.1880,-70.6048,-154.5710 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 8 Workspace.Terrain 233.2936,0.0156,-104.0971 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithIgnoreList 8 Workspace.Terrain 233.2936,0.0156,-104.0971 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithWhitelist 8 nil 233.2936,-14.9215,-104.0971 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 8 Workspace.Terrain 233.2936,0.0156,-104.0971 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 9 Workspace.Level.p1300 154.2592,4.9324,-86.1132 0.0000,1.0000,0.0000 Enum.Material.Plastic
+Q FindPartOnRayWithIgnoreList 9 Workspace.Level.p1300 154.2592,4.9324,-86.1132 0.0000,1.0000,0.0000 Enum.Material.Plastic
+Q FindPartOnRayWithWhitelist 9 nil 115.5776,-99.8810,-168.4344 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 9 Workspace.Level.p1300 154.2592,4.9324,-86.1132 0.0000,1.0000,0.0000 Enum.Material.Plastic
+Q FindPartOnRay 10 nil 336.7319,-71.2106,280.4935 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 10 nil 336.7319,-71.2106,280.4935 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 10 nil 336.7319,-71.2106,280.4935 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 10 nil 336.7319,-71.2106,280.4935 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 11 Workspace.Terrain -196.6152,0.0156,-47.5052 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithIgnoreList 11 Workspace.Terrain -196.6152,0.0156,-47.5052 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithWhitelist 11 nil -196.6152,-14.7584,-47.5052 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 11 Workspace.Terrain -196.6152,0.0156,-47.5052 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 12 Workspace.Level.p733 -187.2477,10.1120,-284.7054 0.0000,1.0000,0.0000 Enum.Material.Plastic
+Q FindPartOnRayWithIgnoreList 12 Workspace.Level.p733 -187.2477,10.1120,-284.7054 0.0000,1.0000,0.0000 Enum.Material.Plastic
+Q FindPartOnRayWithWhitelist 12 nil -198.8175,9.7943,-199.8694 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 12 Workspace.Level.p733 -187.2477,10.1120,-284.7054 0.0000,1.0000,0.0000 Enum.Material.Plastic
+Q FindPartOnRay 13 nil 383.7710,-20.1707,217.3460 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 13 nil 383.7710,-20.1707,217.3460 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 13 nil 383.7710,-20.1707,217.3460 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 13 nil 383.7710,-20.1707,217.3460 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 14 nil -87.0029,-28.5962,-316.0824 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 14 nil -87.0029,-28.5962,-316.0824 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 14 nil -87.0029,-28.5962,-316.0824 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 14 nil -87.0029,-28.5962,-316.0824 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 15 nil 252.0204,186.4453,-305.1738 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 15 nil 252.0204,186.4453,-305.1738 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 15 nil 252.0204,186.4453,-305.1738 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 15 nil 252.0204,186.4453,-305.1738 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 16 Workspace.Terrain 55.7062,0.0000,53.2778 0.0000,1.0000,0.0000 Enum.Material.Water
+Q FindPartOnRayWithIgnoreList 16 Workspace.Terrain 55.7062,0.0000,53.2778 0.0000,1.0000,0.0000 Enum.Material.Water
+Q FindPartOnRayWithWhitelist 16 nil 55.7062,-30.0000,53.2778 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 16 Workspace.Terrain 55.7062,-7.9844,53.2778 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 17 Workspace.Terrain 8.4504,0.0156,-245.4397 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithIgnoreList 17 Workspace.Terrain 8.4504,0.0156,-245.4397 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithWhitelist 17 nil 8.4504,-8.0535,-245.4397 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 17 Workspace.Terrain 8.4504,0.0156,-245.4397 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 18 Workspace.Level.p2166 -123.5499,1.0978,228.4441 0.0000,0.8954,-0.4453 Enum.Material.Plastic
+Q FindPartOnRayWithIgnoreList 18 Workspace.Level.p2166 -123.5499,1.0978,228.4441 0.0000,0.8954,-0.4453 Enum.Material.Plastic
+Q FindPartOnRayWithWhitelist 18 nil -183.0786,-80.2111,330.0891 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 18 Workspace.Level.p2166 -123.5499,1.0978,228.4441 0.0000,0.8954,-0.4453 Enum.Material.Plastic
+Q FindPartOnRay 19 nil -179.6428,-67.3502,279.8558 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 19 nil -179.6428,-67.3502,279.8558 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 19 nil -179.6428,-67.3502,279.8558 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 19 nil -179.6428,-67.3502,279.8558 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 20 nil 279.5678,-12.5920,331.4797 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 20 nil 279.5678,-12.5920,331.4797 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 20 nil 279.5678,-12.5920,331.4797 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 20 nil 279.5678,-12.5920,331.4797 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 21 nil -38.4069,76.4470,-117.3899 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 21 nil -38.4069,76.4470,-117.3899 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 21 nil -38.4069,76.4470,-117.3899 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 21 nil -38.4069,76.4470,-117.3899 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 22 Workspace.Terrain -11.0398,0.0156,-52.4988 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithIgnoreList 22 Workspace.Terrain -11.0398,0.0156,-52.4988 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithWhitelist 22 nil -11.0398,-72.2230,-52.4988 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 22 Workspace.Terrain -11.0398,0.0156,-52.4988 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 23 nil 222.1595,4.3305,-231.4833 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 23 nil 222.1595,4.3305,-231.4833 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 23 nil 222.1595,4.3305,-231.4833 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 23 nil 222.1595,4.3305,-231.4833 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 24 nil 407.3346,87.6369,-451.0514 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 24 nil 407.3346,87.6369,-451.0514 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 24 nil 407.3346,87.6369,-451.0514 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 24 nil 407.3346,87.6369,-451.0514 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 25 nil -258.8079,-51.7122,45.7238 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 25 nil -258.8079,-51.7122,45.7238 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 25 nil -258.8079,-51.7122,45.7238 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 25 nil -258.8079,-51.7122,45.7238 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 26 nil -189.4140,21.1920,-257.6211 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 26 nil -189.4140,21.1920,-257.6211 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 26 nil -189.4140,21.1920,-257.6211 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 26 nil -189.4140,21.1920,-257.6211 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 27 nil -406.5294,-75.1069,378.3751 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 27 nil -406.5294,-75.1069,378.3751 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 27 nil -406.5294,-75.1069,378.3751 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 27 nil -406.5294,-75.1069,378.3751 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 28 Workspace.Terrain -106.6639,0.0156,68.1922 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithIgnoreList 28 Workspace.Terrain -106.6639,0.0156,68.1922 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithWhitelist 28 nil -106.6639,-68.6088,68.1922 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 28 Workspace.Terrain -106.6639,0.0156,68.1922 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 29 Workspace.Terrain 80.3712,-0.1856,54.2085 0.4472,0.8944,0.0000 Enum.Material.Water
+Q FindPartOnRayWithIgnoreList 29 Workspace.Terrain 80.3712,-0.1856,54.2085 0.4472,0.8944,0.0000 Enum.Material.Water
+Q FindPartOnRayWithWhitelist 29 nil 80.3712,-7.0763,54.2085 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 29 Workspace.Terrain 80.3712,-1.9261,54.2085 -0.8327,0.5537,0.0000 Enum.Material.Grass
+Q FindPartOnRay 30 nil -19.5646,147.9699,-248.5957 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 30 nil -19.5646,147.9699,-248.5957 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 30 nil -19.5646,147.9699,-248.5957 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 30 nil -19.5646,147.9699,-248.5957 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 31 Workspace.Terrain 65.0677,0.0156,-162.3063 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithIgnoreList 31 Workspace.Terrain 65.0677,0.0156,-162.3063 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithWhitelist 31 nil 65.0677,-46.4288,-162.3063 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 31 Workspace.Terrain 65.0677,0.0156,-162.3063 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 32 Workspace.Terrain 64.9045,0.0000,51.4028 0.0000,1.0000,0.0000 Enum.Material.Water
+Q FindPartOnRayWithIgnoreList 32 Workspace.Terrain 64.9045,0.0000,51.4028 0.0000,1.0000,0.0000 Enum.Material.Water
+Q FindPartOnRayWithWhitelist 32 nil 64.9045,-30.0000,51.4028 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 32 Workspace.Terrain 64.9045,-7.9844,51.4028 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 33 Workspace.Terrain -198.7054,0.0156,141.4798 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithIgnoreList 33 Workspace.Terrain -198.7054,0.0156,141.4798 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithWhitelist 33 nil -238.0322,-126.2648,28.6071 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 33 Workspace.Terrain -198.7054,0.0156,141.4798 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 34 Workspace.Terrain 157.7110,0.0156,100.1417 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithIgnoreList 34 Workspace.Terrain 157.7110,0.0156,100.1417 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithWhitelist 34 nil 157.7110,-65.9628,100.1417 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 34 Workspace.Terrain 157.7110,0.0156,100.1417 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 35 nil 368.0562,-7.9362,0.6097 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 35 nil 368.0562,-7.9362,0.6097 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 35 nil 368.0562,-7.9362,0.6097 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 35 nil 368.0562,-7.9362,0.6097 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 36 Workspace.Terrain 61.2223,0.0156,-76.4382 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithIgnoreList 36 Workspace.Terrain 61.2223,0.0156,-76.4382 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithWhitelist 36 nil 71.5145,-4.3236,-68.3815 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 36 Workspace.Terrain 61.2223,0.0156,-76.4382 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 37 nil 288.1248,-56.7977,-245.0309 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 37 nil 288.1248,-56.7977,-245.0309 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 37 nil 288.1248,-56.7977,-245.0309 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 37 nil 288.1248,-56.7977,-245.0309 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 38 Workspace.Terrain -221.0233,0.0156,-203.3990 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithIgnoreList 38 Workspace.Terrain -221.0233,0.0156,-203.3990 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithWhitelist 38 nil -221.0233,-13.6133,-203.3990 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 38 Workspace.Terrain -221.0233,0.0156,-203.3990 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 39 nil -352.9824,-163.6896,-214.9887 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 39 nil -352.9824,-163.6896,-214.9887 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 39 nil -352.9824,-163.6896,-214.9887 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 39 nil -352.9824,-163.6896,-214.9887 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 40 Workspace.Terrain 108.1709,0.0156,-162.0438 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithIgnoreList 40 Workspace.Terrain 108.1709,0.0156,-162.0438 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithWhitelist 40 nil 108.1709,-41.1194,-162.0438 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 40 Workspace.Terrain 108.1709,0.0156,-162.0438 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 41 nil -145.5392,-10.9375,-360.7119 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 41 nil -145.5392,-10.9375,-360.7119 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 41 nil -145.5392,-10.9375,-360.7119 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 41 nil -145.5392,-10.9375,-360.7119 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 42 nil -417.1736,-159.0057,480.3370 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 42 nil -417.1736,-159.0057,480.3370 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 42 nil -417.1736,-159.0057,480.3370 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 42 nil -417.1736,-159.0057,480.3370 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 43 Workspace.Terrain 208.9746,0.0156,-44.0507 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithIgnoreList 43 Workspace.Terrain 208.9746,0.0156,-44.0507 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithWhitelist 43 nil 208.9746,-31.8390,-44.0507 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 43 Workspace.Terrain 208.9746,0.0156,-44.0507 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 44 nil -241.5872,17.4726,129.4846 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 44 nil -241.5872,17.4726,129.4846 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 44 nil -241.5872,17.4726,129.4846 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 44 nil -241.5872,17.4726,129.4846 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 45 nil 253.7494,104.5413,49.0142 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 45 nil 253.7494,104.5413,49.0142 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 45 nil 253.7494,104.5413,49.0142 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 45 nil 253.7494,104.5413,49.0142 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 46 Workspace.Terrain -28.6862,0.0156,-108.1470 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithIgnoreList 46 Workspace.Terrain -28.6862,0.0156,-108.1470 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithWhitelist 46 nil -28.6862,-53.7368,-108.1470 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 46 Workspace.Terrain -28.6862,0.0156,-108.1470 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 47 nil 381.2838,0.6607,164.7825 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 47 nil 381.2838,0.6607,164.7825 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 47 nil 381.2838,0.6607,164.7825 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 47 nil 381.2838,0.6607,164.7825 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 48 Workspace.Level.p1736 68.7646,4.6138,57.3957 0.0000,1.0000,0.0000 Enum.Material.Plastic
+Q FindPartOnRayWithIgnoreList 48 Workspace.Level.p1736 68.7646,4.6138,57.3957 0.0000,1.0000,0.0000 Enum.Material.Plastic
+Q FindPartOnRayWithWhitelist 48 nil 68.7646,-30.0000,57.3957 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 48 Workspace.Level.p1736 68.7646,4.6138,57.3957 0.0000,1.0000,0.0000 Enum.Material.Plastic
+Q FindPartOnRay 49 nil 317.1767,-34.5385,-7.1886 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 49 nil 317.1767,-34.5385,-7.1886 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 49 nil 317.1767,-34.5385,-7.1886 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 49 nil 317.1767,-34.5385,-7.1886 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 50 Workspace.Terrain -28.0958,0.0156,-206.5471 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithIgnoreList 50 Workspace.Terrain -28.0958,0.0156,-206.5471 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithWhitelist 50 nil -28.0958,-2.8550,-206.5471 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 50 Workspace.Terrain -28.0958,0.0156,-206.5471 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 51 nil -385.0483,23.9793,-502.9568 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 51 nil -385.0483,23.9793,-502.9568 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 51 nil -385.0483,23.9793,-502.9568 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 51 nil -385.0483,23.9793,-502.9568 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 52 nil -354.5478,-37.6345,-288.9301 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 52 nil -354.5478,-37.6345,-288.9301 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 52 nil -354.5478,-37.6345,-288.9301 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 52 nil -354.5478,-37.6345,-288.9301 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 53 Workspace.Terrain 17.1300,0.0156,-183.4641 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithIgnoreList 53 Workspace.Terrain 17.1300,0.0156,-183.4641 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithWhitelist 53 nil 17.1300,-30.1912,-183.4641 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 53 Workspace.Terrain 17.1300,0.0156,-183.4641 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 54 nil 174.3225,70.6760,-100.2837 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 54 nil 174.3225,70.6760,-100.2837 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 54 nil 174.3225,70.6760,-100.2837 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 54 nil 174.3225,70.6760,-100.2837 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 55 Workspace.Terrain -168.9178,0.0156,-46.7654 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithIgnoreList 55 Workspace.Terrain -168.9178,0.0156,-46.7654 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithWhitelist 55 nil -168.9178,-68.9540,-46.7654 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 55 Workspace.Terrain -168.9178,0.0156,-46.7654 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 56 Workspace.Terrain -152.6998,0.0156,-93.1016 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithIgnoreList 56 Workspace.Terrain -152.6998,0.0156,-93.1016 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRayWithWhitelist 56 nil -152.6998,-23.1643,-93.1016 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 56 Workspace.Terrain -152.6998,0.0156,-93.1016 0.0000,1.0000,0.0000 Enum.Material.Grass
+Q FindPartOnRay 57 nil -415.5980,-79.4684,351.2533 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 57 nil -415.5980,-79.4684,351.2533 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 57 nil -415.5980,-79.4684,351.2533 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 57 nil -415.5980,-79.4684,351.2533 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 58 nil 160.1531,-45.9075,379.5791 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 58 nil 160.1531,-45.9075,379.5791 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 58 nil 160.1531,-45.9075,379.5791 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 58 nil 160.1531,-45.9075,379.5791 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 59 nil -247.0714,-12.1573,322.1679 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 59 nil -247.0714,-12.1573,322.1679 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 59 nil -247.0714,-12.1573,322.1679 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 59 nil -247.0714,-12.1573,322.1679 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 60 nil 323.0309,110.6558,-554.9005 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithIgnoreList 60 nil 323.0309,110.6558,-554.9005 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRayWithWhitelist 60 nil 323.0309,110.6558,-554.9005 0.0000,0.0000,0.0000 Enum.Material.Air
+Q FindPartOnRay 60 nil 323.0309,110.6558,-554.9005 0.0000,0.0000,0.0000 Enum.Material.Air
+S writes changed=4 cfsig=4 bone=3 att=3
+S itemchanged connected item=2 cf=1
+S itemchanged after disconnect item=2
+S itemchanged wait part Transparency
+S moved ray Workspace.Level.p10 1000.0000,502.6065,1000.0000 0.0000,1.0000,0.0000 Plastic 17.3935
+S moved back ray nil
+V tostring 1, 2, 3, 0.936293423, -0.289629489, 0.198669329, 0.312991828, 0.944702566, -0.0978434011, -0.15934509, 0.153791994, 0.975170374 | 4, -5, 6, 0.159744576, -0.92611599, -0.341746747, 0.817941248, 0.317998797, -0.47942555, 0.552678704, -0.202943116, 0.808307052
+V mul 7.38533735, -2.05860567, 7.44468212, 0.0224681944, -0.999536693, -0.0205336362, 0.768634021, 0.0304041933, -0.638965964, 0.639294207, -0.00142639875, 0.768960953 | -1.08424187, -2.06115174, -2.92849374, 0.936293423, 0.312991828, -0.15934509, -0.289629489, 0.944702566, 0.153791994, 0.198669329, -0.0978434011, 0.975170374 | 3.6521146297454834, 0.05037665367126465, 5.340461730957031
+V comps 1,2,3,0.9362934231758118,-0.2896294891834259,0.19866932928562164,0.31299182772636414,0.9447025656700134,-0.09784340113401413,-0.1593450903892517,0.15379199385643005,0.975170373916626
+V lerp 1.9000001, -0.100000024, 3.9000001, 0.824402809, -0.565928459, -0.00922309235, 0.55739212, 0.814583838, -0.160521775, 0.0983567983, 0.127193719, 0.9869892 | 0.139901996, -7.02043056, 4.20642281, 0.317510068, -0.735247314, -0.598831296, 0.811442018, 0.537433743, -0.229623437, 0.490662128, -0.413009048, 0.767251134 | -0.8620685338973999, -4.159801006317139, 0.5151691436767578
+V props 1, 2, 3 -0.19866932928562164, 0.09784340113401413, -0.975170373916626 0.9362934231758118, 0.31299182772636414, -0.1593450903892517 -0.2896294891834259, 0.9447025656700134, 0.15379199385643005 1 2 3
+V typeof CFrame Vector3 Vector3 Color3 UDim2
+V eq true false false true
+V keys 3 4 nil
+V angles 0, 0, 0, 0.411982268, 0.0587266423, 0.909297407, -0.681242704, -0.64287281, 0.35017547, 0.605127156, -0.763718367, -0.224845082 | 0, 0, 0, 0.764842212, -0.455530703, 0.455530703, 0.455530703, 0.882421136, 0.117578909, -0.455530703, 0.117578909, 0.882421136 | 1, 2, 3, -0.768221378, 0.229550034, 0.597614288, 0, 0.933503449, -0.358568579, -0.640184462, -0.275460035, -0.717137158
+V ops 2.5, -0.25, 6, 0.936293423, -0.289629489, 0.198669329, 0.312991828, 0.944702566, -0.0978434011, -0.15934509, 0.153791994, 0.975170374 | -0.5, 4.25, 0, 0.936293423, -0.289629489, 0.198669329, 0.312991828, 0.944702566, -0.0978434011, -0.15934509, 0.153791994, 0.975170374 | 1.5, -2.25, 3, 1, 0, 0, 0, 1, 0, 0, 0, 1 | 1, 2, 3, 1, 0, 0, 0, 1, 0, 0, 0, 1
+V part 0, 40, 0, 1, 0, 0, 0, 1, -0, -0, 0, 1 0, 40, 0 true false
+V err false invalid argument #2 (Vector3 expected, got string)
+V err2 false invalid argument #1 to 'new' (Vector3 expected, got string)

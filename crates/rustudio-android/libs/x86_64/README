@@ -1,0 +1,2 @@
+# xbuild needs a folder per built ABI under runtime_libs; nothing ships for
+# x86_64 (the emulator): Turnip only exists for Adreno, i.e. arm64-v8a.

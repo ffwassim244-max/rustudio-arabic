@@ -1,0 +1,85 @@
+name: Bug Report
+description: Report an issue, glitch, crash, or unexpected behavior in rustudio on Android
+title: "[Bug]: "
+labels: ["bug", "android"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue with **rustudio for Android**!
+        
+        > **PC / Desktop Notice**: If you are encountering an issue on PC (Linux, Windows, or macOS), please report it upstream at **[rippelz/rustudio/issues](https://github.com/rippelz/rustudio/issues)** as the PC version is maintained there.
+        
+        Please read [CONTRIBUTING.md](https://github.com/GoyDevv/Rustudio-Android/blob/main/CONTRIBUTING.md) and [docs/ANDROID.md](https://github.com/GoyDevv/Rustudio-Android/blob/main/docs/ANDROID.md) before submitting.
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is on Android.
+      placeholder: Describe the mobile problem...
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Android Target / Environment
+      description: Which Android platform or architecture did you encounter this issue on?
+      options:
+        - Android (arm64-v8a Physical Device)
+        - Android (x86_64 Emulator)
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Device & GPU Details
+      description: Your Android device model and GPU (e.g. Vivo Y27 / Mali-G52 MC2, Samsung Galaxy S23 / Adreno 740, Pixel 7 / Mali-G710)
+      placeholder: Device model, Android OS version, GPU chipset
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the issue on Android.
+      placeholder: |
+        1. Launch rustudio APK on device
+        2. Open place '...'
+        3. Tap on '...' or use virtual joystick / touch controls
+        4. Observe crash / rendering glitch / UI touch issue
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen based on Roblox Studio behavior?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logcat / Output Window Traces
+      description: Copy and paste relevant Android logcat lines (`adb logcat -s rustudio`) or Output panel messages.
+      render: shell
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or Screen Recording
+      description: Drag and drop screenshots or screen recordings showing the issue.
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have verified this is not a duplicate of an existing issue.
+          required: true
+        - label: I am using native Android graphics drivers (no Turnip, PanVK, or libadrenotools shims per CONTRIBUTING.md).
+          required: true

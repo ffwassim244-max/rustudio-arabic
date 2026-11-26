@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: PC / Desktop rustudio Repository
+    url: https://github.com/rippelz/rustudio/issues
+    about: For PC (Linux, Windows, macOS) bugs and feature requests, please use rippelz/rustudio.
+  - name: rustudio Discord
+    url: https://discord.gg/8EX6cpgsRx
+    about: Join the community to chat, ask questions, or discuss mobile features!
+  - name: Contributing Guide
+    url: https://github.com/GoyDevv/Rustudio-Android/blob/main/CONTRIBUTING.md
+    about: Review our Android coding standards, mobile engineering rules, and verification checklist.

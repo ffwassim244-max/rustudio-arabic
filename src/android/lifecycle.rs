@@ -1,0 +1,209 @@
+//! The activity's end, which winit 0.30 never passes on (`MainEvent::Destroy`
+//! is logged and dropped), and the Back button.
+//!
+//! `NativeActivity.onDestroy` runs on the Java main thread and, in
+//! android-activity's glue, waits there until `android_main` has returned.
+//! With the destroy notice dropped, the editor's loop never returns, the
+//! main thread stays blocked (an ANR after a while) and a launch in the
+//! meantime, which lands in this same process, shows a blank window with
+//! no frames until the system has killed the process: the "black screen
+//! until I leave and come back" of the first device runs. So [`hook`]
+//! wraps the glue's `onDestroy`: it asks the loop to close (a save and a
+//! clean return, when the loop still runs frames), waits a moment, and
+//! leaves the process otherwise. [`run`](super::run) leaves the process
+//! after the loop too, so `android_main` never runs twice in one process
+//! (the statics here and in [`super`] are per activity).
+//!
+//! The hook needs the `ANativeActivity` itself, which android-activity's
+//! `AndroidApp` doesn't give out (`activity_as_ptr` is the Java `Activity`
+//! reference, a JNI handle: reading it as the struct was the first APK's
+//! crash at start). The library's entry point has it: manifest.yaml names
+//! `rustudio_on_create` (crates/rustudio-android) as the activity's
+//! `android.app.func_name`, and that calls the glue's
+//! `ANativeActivity_onCreate` and then [`hook`].
+
+use std::sync::atomic::{AtomicBool, Ordering};
+use std::sync::Mutex;
+use std::time::{Duration, Instant};
+
+/// The editor's egui context, for the hook's close request.
+static CTX: Mutex<Option<egui::Context>> = Mutex::new(None);
+/// The glue's own `onDestroy`.
+static ORIGINAL: Mutex<Option<unsafe extern "C" fn(*mut ndk_sys::ANativeActivity)>> = Mutex::new(None);
+/// The glue's own `onLowMemory`.
+static ORIGINAL_LOW_MEMORY: Mutex<Option<unsafe extern "C" fn(*mut ndk_sys::ANativeActivity)>> = Mutex::new(None);
+/// The system said memory is short (`Activity.onLowMemory`) since the
+/// last [`take_low_memory`].
+static LOW_MEMORY: AtomicBool = AtomicBool::new(false);
+static BACKGROUNDED: AtomicBool = AtomicBool::new(false);
+/// `run_native` has returned.
+pub static LOOP_DONE: AtomicBool = AtomicBool::new(false);
+/// [`hook`] ran: the process has its activity, the one the editor's loop
+/// belongs to. Any activity created after that is a second one
+/// (src/android/intent.rs).
+static LOOP_OWNED: AtomicBool = AtomicBool::new(false);
+/// How long the hook gives the loop to close on its own.
+const GRACE: Duration = Duration::from_millis(1500);
+
+/// Keeps the context the hook will close.
+pub fn note_context(ctx: &egui::Context) {
+    *CTX.lock().unwrap() = Some(ctx.clone());
+}
+
+/// Whether an activity already owns the editor's loop in this process.
+pub fn loop_owned() -> bool {
+    LOOP_OWNED.load(Ordering::SeqCst)
+}
+
+/// Asks the editor's loop for a frame (a file was queued for it while it
+/// may be paused in the background).
+pub fn wake() {
+    if let Some(ctx) = CTX.lock().unwrap_or_else(|e| e.into_inner()).clone() {
+        ctx.request_repaint();
+    }
+}
+
+/// Puts [`on_destroy`] in front of the glue's `onDestroy` callback. Called
+/// on the Java main thread by the library's entry point, right after the
+/// glue's `ANativeActivity_onCreate` returned.
+///
+/// # Safety
+/// `activity` must be the `ANativeActivity` the framework passed to the
+/// entry point (it stays valid until `onDestroy` returns, and the hook is
+/// the one that returns from it), with the glue's callbacks installed.
+pub unsafe fn hook(activity: *mut std::ffi::c_void) {
+    let activity = activity.cast::<ndk_sys::ANativeActivity>();
+    if activity.is_null() {
+        log::error!("destroy hook: no ANativeActivity");
+        return;
+    }
+    // SAFETY: the live ANativeActivity; `callbacks` points at the
+    // framework's own struct (NativeCode::callbacks) for its lifetime, and
+    // nothing else writes it after onCreate.
+    unsafe {
+        let callbacks = (*activity).callbacks;
+        if callbacks.is_null() {
+            log::error!("destroy hook: no callbacks");
+            return;
+        }
+        let original = (*callbacks).onDestroy;
+        if original.is_none() {
+            log::warn!("destroy hook: the glue installed no onDestroy");
+        }
+        *ORIGINAL.lock().unwrap() = original;
+        (*callbacks).onDestroy = Some(on_destroy);
+        // The low-memory notice too: the glue turns it into an event winit
+        // reports as a memory warning, which eframe drops; the flag here
+        // reaches the editor's frame (src/android/memory.rs).
+        *ORIGINAL_LOW_MEMORY.lock().unwrap() = (*callbacks).onLowMemory;
+        (*callbacks).onLowMemory = Some(on_low_memory);
+    }
+    LOOP_OWNED.store(true, Ordering::SeqCst);
+    log::info!("destroy hook installed");
+}
+
+unsafe extern "C" fn on_low_memory(activity: *mut ndk_sys::ANativeActivity) {
+    LOW_MEMORY.store(true, Ordering::SeqCst);
+    let original = *ORIGINAL_LOW_MEMORY.lock().unwrap_or_else(|e| e.into_inner());
+    if let Some(f) = original {
+        // SAFETY: the glue's own callback, with the activity it was
+        // registered for.
+        unsafe { f(activity) };
+    }
+}
+
+/// Whether the system sent a low-memory notice since the last call.
+pub fn take_low_memory() -> bool {
+    LOW_MEMORY.swap(false, Ordering::SeqCst)
+}
+
+/// True while the Android Activity is paused/stopped in the background.
+pub fn is_backgrounded() -> bool {
+    BACKGROUNDED.load(Ordering::Relaxed)
+}
+
+/// Called from RustudioActivity.onPause(1) / onStop(2) / onResume(3).
+pub fn on_java_lifecycle(state: i32) {
+    match state {
+        1 | 2 => {
+            let was = BACKGROUNDED.swap(true, Ordering::SeqCst);
+            super::sensors::set_backgrounded(true);
+            if state == 2 || !was {
+                super::perf_hint::stop();
+                rustudio_core::heap::trim();
+            }
+        }
+        3 => {
+            BACKGROUNDED.store(false, Ordering::SeqCst);
+            super::sensors::set_backgrounded(false);
+        }
+        _ => {}
+    }
+}
+
+/// Called from RustudioActivity.onTrimMemory / onLowMemory.
+pub fn on_trim_memory(level: i32) {
+    if level >= 20 {
+        LOW_MEMORY.store(true, Ordering::SeqCst);
+        rustudio_core::heap::trim();
+    }
+}
+
+unsafe extern "C" fn on_destroy(activity: *mut ndk_sys::ANativeActivity) {
+    crate::crash::begin_shutdown();
+    rustudio_core::crash::begin_shutdown();
+    log::info!("activity destroyed: closing the editor");
+    if let Some(ctx) = CTX.lock().unwrap().clone() {
+        ctx.send_viewport_cmd(egui::ViewportCommand::Close);
+        ctx.request_repaint();
+    }
+    let since = Instant::now();
+    while !LOOP_DONE.load(Ordering::SeqCst) && since.elapsed() < GRACE {
+        std::thread::sleep(Duration::from_millis(25));
+    }
+    if LOOP_DONE.load(Ordering::SeqCst) {
+        // The loop returned: the glue's onDestroy no longer has to wait.
+        let original = *ORIGINAL.lock().unwrap();
+        if let Some(f) = original {
+            // SAFETY: the glue's own callback, with the activity it was
+            // registered for.
+            unsafe { f(activity) };
+        }
+        return;
+    }
+    // Paused activities run no frames (winit), so the close request can't
+    // be seen: the window's state went to disk when the surface was lost
+    // (App::save) and a fresh process serves the next launch.
+    log::warn!("the editor's loop didn't end in {GRACE:?}: leaving the process cleanly");
+    unsafe { libc::_exit(0) };
+}
+
+/// The Back button (`Key::BrowserBack` through winit): closes what is open
+/// on top (as Escape does), opens and closes the Roblox menu while a game
+/// is played (`playing`: Escape's job in Play, what Back does in Roblox's
+/// own app), and otherwise sends the app to the background, where it
+/// stays ready, instead of tearing the activity down.
+pub fn back_pressed(_ctx: &egui::Context, raw: &mut egui::RawInput, _playing: bool) {
+    let mut back = false;
+    raw.events.retain(|e| match e {
+        egui::Event::Key { key: egui::Key::BrowserBack, pressed, .. } => {
+            back |= *pressed;
+            false
+        }
+        _ => true,
+    });
+    if !back {
+        return;
+    }
+    // Always behave like Esc (close menus/dialogs/popups or toggle Play pause menu)
+    // instead of exiting or backgrounding the app.
+    for pressed in [true, false] {
+        raw.events.push(egui::Event::Key {
+            key: egui::Key::Escape,
+            physical_key: Some(egui::Key::Escape),
+            pressed,
+            repeat: false,
+            modifiers: egui::Modifiers::NONE,
+        });
+    }
+}

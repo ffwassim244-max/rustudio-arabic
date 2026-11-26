@@ -1,0 +1,401 @@
+<roblox version="4">
+<Item class="Workspace" referent="Workspace"><Properties><string name="Name">Workspace</string><bool name="StreamingEnabled">true</bool><int name="StreamingMinRadius">64</int><int name="StreamingTargetRadius">128</int><token name="StreamOutBehavior">0</token><token name="ModelStreamingBehavior">1</token><token name="StreamingIntegrityMode">3</token></Properties>
+<Item class="SpawnLocation" referent="Spawn"><Properties><string name="Name">Spawn</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>50</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+</Item>
+<Item class="StringValue" referent="Always"><Properties><string name="Name">Always</string></Properties>
+</Item>
+<Item class="Terrain" referent="Terrain"><Properties><string name="Name">Terrain</string></Properties>
+</Item>
+<Item class="Part" referent="Ring1536"><Properties><string name="Name">Ring1536</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>1536</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="Ring1536Gui"><Properties><string name="Name">Ring1536Gui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="Ring1024"><Properties><string name="Name">Ring1024</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>1024</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="Ring1024Gui"><Properties><string name="Name">Ring1024Gui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="Ring768"><Properties><string name="Name">Ring768</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>768</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="Ring768Gui"><Properties><string name="Name">Ring768Gui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="Ring512"><Properties><string name="Name">Ring512</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>512</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="Ring512Gui"><Properties><string name="Name">Ring512Gui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="Ring320"><Properties><string name="Name">Ring320</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>320</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="Ring320Gui"><Properties><string name="Name">Ring320Gui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="Ring256"><Properties><string name="Name">Ring256</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>256</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="Ring256Gui"><Properties><string name="Name">Ring256Gui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="Ring192"><Properties><string name="Name">Ring192</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>192</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="Ring192Gui"><Properties><string name="Name">Ring192Gui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="Ring160"><Properties><string name="Name">Ring160</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>160</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="Ring160Gui"><Properties><string name="Name">Ring160Gui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="Ring144"><Properties><string name="Name">Ring144</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>144</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="Ring144Gui"><Properties><string name="Name">Ring144Gui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="Ring128"><Properties><string name="Name">Ring128</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>128</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="Ring128Gui"><Properties><string name="Name">Ring128Gui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="Ring112"><Properties><string name="Name">Ring112</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>112</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="Ring112Gui"><Properties><string name="Name">Ring112Gui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="Ring96"><Properties><string name="Name">Ring96</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>96</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="Ring96Gui"><Properties><string name="Name">Ring96Gui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="Ring80"><Properties><string name="Name">Ring80</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>80</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="Ring80Gui"><Properties><string name="Name">Ring80Gui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="Ring64"><Properties><string name="Name">Ring64</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>64</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="Ring64Gui"><Properties><string name="Name">Ring64Gui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="Ring48"><Properties><string name="Name">Ring48</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>48</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="Ring48Gui"><Properties><string name="Name">Ring48Gui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="Ring32"><Properties><string name="Name">Ring32</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>32</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="Ring32Gui"><Properties><string name="Name">Ring32Gui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="Ring16"><Properties><string name="Name">Ring16</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>16</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="Ring16Gui"><Properties><string name="Name">Ring16Gui</string></Properties>
+</Item>
+</Item>
+<Item class="Model" referent="Default"><Properties><string name="Name">Default</string><token name="ModelStreamingMode">0</token></Properties>
+<Item class="Part" referent="DefaultNear"><Properties><string name="Name">DefaultNear</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>32</X><Y>55</Y><Z>12</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="DefaultNearGui"><Properties><string name="Name">DefaultNearGui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="DefaultFar"><Properties><string name="Name">DefaultFar</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>1024</X><Y>55</Y><Z>12</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="DefaultFarGui"><Properties><string name="Name">DefaultFarGui</string></Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Model" referent="DefaultDistant"><Properties><string name="Name">DefaultDistant</string><token name="ModelStreamingMode">0</token></Properties>
+<Item class="Part" referent="DefaultRemote"><Properties><string name="Name">DefaultRemote</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>1024</X><Y>55</Y><Z>20</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="DefaultRemoteGui"><Properties><string name="Name">DefaultRemoteGui</string></Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Model" referent="Atomic"><Properties><string name="Name">Atomic</string><token name="ModelStreamingMode">1</token></Properties>
+<Item class="Part" referent="AtomicNear"><Properties><string name="Name">AtomicNear</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>32</X><Y>55</Y><Z>12</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="AtomicNearGui"><Properties><string name="Name">AtomicNearGui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="AtomicFar"><Properties><string name="Name">AtomicFar</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>1024</X><Y>55</Y><Z>12</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="AtomicFarGui"><Properties><string name="Name">AtomicFarGui</string></Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Model" referent="AtomicDistant"><Properties><string name="Name">AtomicDistant</string><token name="ModelStreamingMode">1</token></Properties>
+<Item class="Part" referent="AtomicRemote"><Properties><string name="Name">AtomicRemote</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>1024</X><Y>55</Y><Z>20</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="AtomicRemoteGui"><Properties><string name="Name">AtomicRemoteGui</string></Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Model" referent="Persistent"><Properties><string name="Name">Persistent</string><token name="ModelStreamingMode">2</token></Properties>
+<Item class="Part" referent="PersistentNear"><Properties><string name="Name">PersistentNear</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>32</X><Y>55</Y><Z>12</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="PersistentNearGui"><Properties><string name="Name">PersistentNearGui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="PersistentFar"><Properties><string name="Name">PersistentFar</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>1024</X><Y>55</Y><Z>12</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="PersistentFarGui"><Properties><string name="Name">PersistentFarGui</string></Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Model" referent="PersistentDistant"><Properties><string name="Name">PersistentDistant</string><token name="ModelStreamingMode">2</token></Properties>
+<Item class="Part" referent="PersistentRemote"><Properties><string name="Name">PersistentRemote</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>1024</X><Y>55</Y><Z>20</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="PersistentRemoteGui"><Properties><string name="Name">PersistentRemoteGui</string></Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Model" referent="PerPlayer"><Properties><string name="Name">PerPlayer</string><token name="ModelStreamingMode">3</token></Properties>
+<Item class="Part" referent="PerPlayerNear"><Properties><string name="Name">PerPlayerNear</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>32</X><Y>55</Y><Z>12</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="PerPlayerNearGui"><Properties><string name="Name">PerPlayerNearGui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="PerPlayerFar"><Properties><string name="Name">PerPlayerFar</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>1024</X><Y>55</Y><Z>12</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="PerPlayerFarGui"><Properties><string name="Name">PerPlayerFarGui</string></Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Model" referent="PerPlayerDistant"><Properties><string name="Name">PerPlayerDistant</string><token name="ModelStreamingMode">3</token></Properties>
+<Item class="Part" referent="PerPlayerRemote"><Properties><string name="Name">PerPlayerRemote</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>1024</X><Y>55</Y><Z>20</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="PerPlayerRemoteGui"><Properties><string name="Name">PerPlayerRemoteGui</string></Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Model" referent="Nonatomic"><Properties><string name="Name">Nonatomic</string><token name="ModelStreamingMode">4</token></Properties>
+<Item class="Part" referent="NonatomicNear"><Properties><string name="Name">NonatomicNear</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>32</X><Y>55</Y><Z>12</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="NonatomicNearGui"><Properties><string name="Name">NonatomicNearGui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="NonatomicFar"><Properties><string name="Name">NonatomicFar</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>1024</X><Y>55</Y><Z>12</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="NonatomicFarGui"><Properties><string name="Name">NonatomicFarGui</string></Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Model" referent="NonatomicDistant"><Properties><string name="Name">NonatomicDistant</string><token name="ModelStreamingMode">4</token></Properties>
+<Item class="Part" referent="NonatomicRemote"><Properties><string name="Name">NonatomicRemote</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>1024</X><Y>55</Y><Z>20</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="NonatomicRemoteGui"><Properties><string name="Name">NonatomicRemoteGui</string></Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Part" referent="Focus"><Properties><string name="Name">Focus</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-1500</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="FocusGui"><Properties><string name="Name">FocusGui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="FocusNeighbor"><Properties><string name="Name">FocusNeighbor</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-1480</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>4</X><Y>2</Y><Z>4</Z></Vector3></Properties>
+<Item class="SurfaceGui" referent="FocusNeighborGui"><Properties><string name="Name">FocusNeighborGui</string></Properties>
+</Item>
+</Item>
+<Item class="Part" referent="Cell_-205,-161"><Properties><string name="Name">Cell_-205,-161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-205</X><Y>55</Y><Z>-161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-205,-129"><Properties><string name="Name">Cell_-205,-129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-205</X><Y>55</Y><Z>-129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-205,-97"><Properties><string name="Name">Cell_-205,-97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-205</X><Y>55</Y><Z>-97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-205,0"><Properties><string name="Name">Cell_-205,0</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-205</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-205,97"><Properties><string name="Name">Cell_-205,97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-205</X><Y>55</Y><Z>97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-205,129"><Properties><string name="Name">Cell_-205,129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-205</X><Y>55</Y><Z>129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-205,161"><Properties><string name="Name">Cell_-205,161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-205</X><Y>55</Y><Z>161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-193,-161"><Properties><string name="Name">Cell_-193,-161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-193</X><Y>55</Y><Z>-161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-193,-129"><Properties><string name="Name">Cell_-193,-129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-193</X><Y>55</Y><Z>-129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-193,-97"><Properties><string name="Name">Cell_-193,-97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-193</X><Y>55</Y><Z>-97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-193,0"><Properties><string name="Name">Cell_-193,0</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-193</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-193,97"><Properties><string name="Name">Cell_-193,97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-193</X><Y>55</Y><Z>97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-193,129"><Properties><string name="Name">Cell_-193,129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-193</X><Y>55</Y><Z>129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-193,161"><Properties><string name="Name">Cell_-193,161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-193</X><Y>55</Y><Z>161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-191,-161"><Properties><string name="Name">Cell_-191,-161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-191</X><Y>55</Y><Z>-161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-191,-129"><Properties><string name="Name">Cell_-191,-129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-191</X><Y>55</Y><Z>-129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-191,-97"><Properties><string name="Name">Cell_-191,-97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-191</X><Y>55</Y><Z>-97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-191,0"><Properties><string name="Name">Cell_-191,0</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-191</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-191,97"><Properties><string name="Name">Cell_-191,97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-191</X><Y>55</Y><Z>97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-191,129"><Properties><string name="Name">Cell_-191,129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-191</X><Y>55</Y><Z>129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-191,161"><Properties><string name="Name">Cell_-191,161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-191</X><Y>55</Y><Z>161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-161,-161"><Properties><string name="Name">Cell_-161,-161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-161</X><Y>55</Y><Z>-161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-161,-129"><Properties><string name="Name">Cell_-161,-129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-161</X><Y>55</Y><Z>-129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-161,-97"><Properties><string name="Name">Cell_-161,-97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-161</X><Y>55</Y><Z>-97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-161,0"><Properties><string name="Name">Cell_-161,0</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-161</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-161,97"><Properties><string name="Name">Cell_-161,97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-161</X><Y>55</Y><Z>97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-161,129"><Properties><string name="Name">Cell_-161,129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-161</X><Y>55</Y><Z>129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-161,161"><Properties><string name="Name">Cell_-161,161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-161</X><Y>55</Y><Z>161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-129,-161"><Properties><string name="Name">Cell_-129,-161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-129</X><Y>55</Y><Z>-161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-129,-129"><Properties><string name="Name">Cell_-129,-129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-129</X><Y>55</Y><Z>-129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-129,-97"><Properties><string name="Name">Cell_-129,-97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-129</X><Y>55</Y><Z>-97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-129,0"><Properties><string name="Name">Cell_-129,0</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-129</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-129,97"><Properties><string name="Name">Cell_-129,97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-129</X><Y>55</Y><Z>97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-129,129"><Properties><string name="Name">Cell_-129,129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-129</X><Y>55</Y><Z>129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-129,161"><Properties><string name="Name">Cell_-129,161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-129</X><Y>55</Y><Z>161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-127,-161"><Properties><string name="Name">Cell_-127,-161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-127</X><Y>55</Y><Z>-161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-127,-129"><Properties><string name="Name">Cell_-127,-129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-127</X><Y>55</Y><Z>-129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-127,-97"><Properties><string name="Name">Cell_-127,-97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-127</X><Y>55</Y><Z>-97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-127,0"><Properties><string name="Name">Cell_-127,0</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-127</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-127,97"><Properties><string name="Name">Cell_-127,97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-127</X><Y>55</Y><Z>97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-127,129"><Properties><string name="Name">Cell_-127,129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-127</X><Y>55</Y><Z>129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-127,161"><Properties><string name="Name">Cell_-127,161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-127</X><Y>55</Y><Z>161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-97,-161"><Properties><string name="Name">Cell_-97,-161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-97</X><Y>55</Y><Z>-161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-97,-129"><Properties><string name="Name">Cell_-97,-129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-97</X><Y>55</Y><Z>-129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-97,-97"><Properties><string name="Name">Cell_-97,-97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-97</X><Y>55</Y><Z>-97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-97,0"><Properties><string name="Name">Cell_-97,0</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-97</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-97,97"><Properties><string name="Name">Cell_-97,97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-97</X><Y>55</Y><Z>97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-97,129"><Properties><string name="Name">Cell_-97,129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-97</X><Y>55</Y><Z>129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_-97,161"><Properties><string name="Name">Cell_-97,161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>-97</X><Y>55</Y><Z>161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_0,-161"><Properties><string name="Name">Cell_0,-161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>55</Y><Z>-161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_0,-129"><Properties><string name="Name">Cell_0,-129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>55</Y><Z>-129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_0,-97"><Properties><string name="Name">Cell_0,-97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>55</Y><Z>-97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_0,0"><Properties><string name="Name">Cell_0,0</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_0,97"><Properties><string name="Name">Cell_0,97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>55</Y><Z>97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_0,129"><Properties><string name="Name">Cell_0,129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>55</Y><Z>129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_0,161"><Properties><string name="Name">Cell_0,161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>0</X><Y>55</Y><Z>161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_97,-161"><Properties><string name="Name">Cell_97,-161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>97</X><Y>55</Y><Z>-161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_97,-129"><Properties><string name="Name">Cell_97,-129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>97</X><Y>55</Y><Z>-129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_97,-97"><Properties><string name="Name">Cell_97,-97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>97</X><Y>55</Y><Z>-97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_97,0"><Properties><string name="Name">Cell_97,0</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>97</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_97,97"><Properties><string name="Name">Cell_97,97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>97</X><Y>55</Y><Z>97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_97,129"><Properties><string name="Name">Cell_97,129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>97</X><Y>55</Y><Z>129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_97,161"><Properties><string name="Name">Cell_97,161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>97</X><Y>55</Y><Z>161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_127,-161"><Properties><string name="Name">Cell_127,-161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>127</X><Y>55</Y><Z>-161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_127,-129"><Properties><string name="Name">Cell_127,-129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>127</X><Y>55</Y><Z>-129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_127,-97"><Properties><string name="Name">Cell_127,-97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>127</X><Y>55</Y><Z>-97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_127,0"><Properties><string name="Name">Cell_127,0</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>127</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_127,97"><Properties><string name="Name">Cell_127,97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>127</X><Y>55</Y><Z>97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_127,129"><Properties><string name="Name">Cell_127,129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>127</X><Y>55</Y><Z>129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_127,161"><Properties><string name="Name">Cell_127,161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>127</X><Y>55</Y><Z>161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_129,-161"><Properties><string name="Name">Cell_129,-161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>129</X><Y>55</Y><Z>-161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_129,-129"><Properties><string name="Name">Cell_129,-129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>129</X><Y>55</Y><Z>-129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_129,-97"><Properties><string name="Name">Cell_129,-97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>129</X><Y>55</Y><Z>-97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_129,0"><Properties><string name="Name">Cell_129,0</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>129</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_129,97"><Properties><string name="Name">Cell_129,97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>129</X><Y>55</Y><Z>97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_129,129"><Properties><string name="Name">Cell_129,129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>129</X><Y>55</Y><Z>129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_129,161"><Properties><string name="Name">Cell_129,161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>129</X><Y>55</Y><Z>161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_161,-161"><Properties><string name="Name">Cell_161,-161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>161</X><Y>55</Y><Z>-161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_161,-129"><Properties><string name="Name">Cell_161,-129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>161</X><Y>55</Y><Z>-129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_161,-97"><Properties><string name="Name">Cell_161,-97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>161</X><Y>55</Y><Z>-97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_161,0"><Properties><string name="Name">Cell_161,0</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>161</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_161,97"><Properties><string name="Name">Cell_161,97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>161</X><Y>55</Y><Z>97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_161,129"><Properties><string name="Name">Cell_161,129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>161</X><Y>55</Y><Z>129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_161,161"><Properties><string name="Name">Cell_161,161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>161</X><Y>55</Y><Z>161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_191,-161"><Properties><string name="Name">Cell_191,-161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>191</X><Y>55</Y><Z>-161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_191,-129"><Properties><string name="Name">Cell_191,-129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>191</X><Y>55</Y><Z>-129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_191,-97"><Properties><string name="Name">Cell_191,-97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>191</X><Y>55</Y><Z>-97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_191,0"><Properties><string name="Name">Cell_191,0</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>191</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_191,97"><Properties><string name="Name">Cell_191,97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>191</X><Y>55</Y><Z>97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_191,129"><Properties><string name="Name">Cell_191,129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>191</X><Y>55</Y><Z>129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_191,161"><Properties><string name="Name">Cell_191,161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>191</X><Y>55</Y><Z>161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_193,-161"><Properties><string name="Name">Cell_193,-161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>193</X><Y>55</Y><Z>-161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_193,-129"><Properties><string name="Name">Cell_193,-129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>193</X><Y>55</Y><Z>-129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_193,-97"><Properties><string name="Name">Cell_193,-97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>193</X><Y>55</Y><Z>-97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_193,0"><Properties><string name="Name">Cell_193,0</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>193</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_193,97"><Properties><string name="Name">Cell_193,97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>193</X><Y>55</Y><Z>97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_193,129"><Properties><string name="Name">Cell_193,129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>193</X><Y>55</Y><Z>129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_193,161"><Properties><string name="Name">Cell_193,161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>193</X><Y>55</Y><Z>161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_205,-161"><Properties><string name="Name">Cell_205,-161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>205</X><Y>55</Y><Z>-161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_205,-129"><Properties><string name="Name">Cell_205,-129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>205</X><Y>55</Y><Z>-129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_205,-97"><Properties><string name="Name">Cell_205,-97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>205</X><Y>55</Y><Z>-97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_205,0"><Properties><string name="Name">Cell_205,0</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>205</X><Y>55</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_205,97"><Properties><string name="Name">Cell_205,97</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>205</X><Y>55</Y><Z>97</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_205,129"><Properties><string name="Name">Cell_205,129</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>205</X><Y>55</Y><Z>129</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+<Item class="Part" referent="Cell_205,161"><Properties><string name="Name">Cell_205,161</string><bool name="Anchored">true</bool><CoordinateFrame name="CFrame"><X>205</X><Y>55</Y><Z>161</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3></Properties>
+</Item>
+</Item>
+<Item class="ServerScriptService" referent="ServerScriptService"><Properties><string name="Name">ServerScriptService</string></Properties>
+<Item class="Script" referent="server"><Properties><string name="Name">server</string><ProtectedString name="Source">local Players = game:GetService("Players")
+local function probe(player)
+    local root = (player.Character or player.CharacterAdded:Wait()):WaitForChild("HumanoidRootPart")
+    root.Anchored = true
+    root.CFrame = CFrame.new(0, 55, 0)
+end
+Players.PlayerAdded:Connect(probe)
+for _, player in Players:GetPlayers() do task.spawn(probe, player) end
+</ProtectedString></Properties>
+</Item>
+</Item>
+<Item class="StarterPlayer" referent="StarterPlayer"><Properties><string name="Name">StarterPlayer</string><bool name="LoadCharacterAppearance">false</bool></Properties>
+<Item class="StarterPlayerScripts" referent="StarterPlayerScripts"><Properties><string name="Name">StarterPlayerScripts</string></Properties>
+<Item class="LocalScript" referent="client"><Properties><string name="Name">client</string><ProtectedString name="Source">task.wait(3)
+local cells = {}
+for _, i in workspace:GetChildren() do
+    if i.Name:match("^Cell_") then table.insert(cells, i.Name:sub(6)) end
+end
+table.sort(cells)
+print("STREAM grid", #cells, table.concat(cells, " "))
+</ProtectedString></Properties>
+</Item>
+</Item>
+</Item>
+</roblox>

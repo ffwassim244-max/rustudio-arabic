@@ -1,0 +1,302 @@
+name: Android
+
+# APKs for aarch64 (arm64-v8a) and x86_64 (the emulator), debug and release,
+# built with xbuild (https://github.com/rust-mobile/xbuild): `x build
+# -p rustudio-android --platform android --arch <arm64|x64> --format apk`.
+# crates/rustudio-android is the cdylib NativeActivity loads; its
+# manifest.yaml is the AndroidManifest. Nothing here touches the desktop
+# builds (ci.yml).
+
+on:
+  push:
+    branches: [main, master]
+    # A v* tag (ci.yml's release) also gets the release APKs; path filters
+    # don't apply to tag pushes.
+    tags: ["v*"]
+    paths:
+      - "src/**"
+      - "crates/**"
+      - "vendor/**"
+      - "assets/**"
+      - "Cargo.toml"
+      - "Cargo.lock"
+      - "build.rs"
+      - "api-dump.json"
+      - "mechanics.json"
+      - "tools/android/**"
+      - ".github/workflows/android.yml"
+  pull_request:
+    paths:
+      - "src/**"
+      - "crates/**"
+      - "vendor/**"
+      - "assets/**"
+      - "Cargo.toml"
+      - "Cargo.lock"
+      - "build.rs"
+      - "api-dump.json"
+      - "mechanics.json"
+      - "tools/android/**"
+      - ".github/workflows/android.yml"
+  workflow_dispatch:
+    inputs:
+      profile:
+        description: "Build profile (debug, release, or both)"
+        required: false
+        default: "both"
+        type: choice
+        options: [debug, release, both]
+      turnip:
+        description: "Ship the Turnip (Mesa) Vulkan driver + libadrenotools in the arm64 APK (docs/ANDROID.md, Turnip driver)"
+        required: false
+        default: true
+        type: boolean
+      turnip_zip:
+        description: "Turnip driver zip URL (libvulkan_freedreno.so inside; nihui/mesa-turnip-android-driver release)"
+        required: false
+        default: "https://github.com/nihui/mesa-turnip-android-driver/releases/download/26.3.1/mesa-turnip-android-26.3.1.zip"
+        type: string
+      adrenotools_zip:
+        description: "libadrenotools zip URL (libadrenotools.so + hook libraries inside; a TouseefX/libadrenotools-native release or CI artifact via nightly.link)"
+        required: false
+        default: "https://nightly.link/TouseefX/libadrenotools-native/actions/runs/44679007919/libadrenotools-arm64-v8a.zip"
+        type: string
+      panvk:
+        description: "Also ship the PanVK (Mesa) Vulkan driver for Mali GPUs (18 MB more APK; needs turnip on)"
+        required: false
+        default: true
+        type: boolean
+      panvk_zip:
+        description: "PanVK driver URL (a zip with libvulkan_panfrost.so inside — a JimVulkan/mali-panvk release, Mesa PanVK on the stock Arm kbase driver — or a bare .so of your own)"
+        required: false
+        default: "https://github.com/JimVulkan/mali-panvk/releases/download/v1.6.0/mali-panvk-27.0.0-devel-r10.zip"
+        type: string
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CARGO_TERM_COLOR: always
+  # xbuild at this commit (crates.io's 0.2.0 from 2022 predates the
+  # manifest.yaml format and NDK downloads used here).
+  XBUILD_REV: e67b501cbe0e9ca5436c223aa7ec0fe5e27544d1
+  # The Mesa Vulkan drivers (Turnip for Adreno, PanVK for Mali) and
+  # libadrenotools that go into the arm64 APK's lib/arm64-v8a (push / PR
+  # builds; a manual run's inputs above can name others or leave them
+  # out). tools/android/fetch-turnip.sh checks these against pinned
+  # SHA-256 sums; docs/ANDROID.md "Turnip driver". The libadrenotools
+  # build is the fork's CI artifact of 2026-11-20 05:08 (commit 8c7d9f5,
+  # run 44679007919: the driver.cpp rewrite of 4d4d482 — HyperOS' vendor
+  # Vulkan paths, its own initialisation switchable off, which the app
+  # does, a working PanVK path — plus the 2026-11-18 fixes for
+  # whole-device reboots with Turnip: the GSL free hook's bad
+  # IOCTL_KGSL_GPUOBJ_FREE, the KGSL_PROP_PWRCTRL ioctl at init; and
+  # noubwc in its TU_DEBUG default for an Adreno 6xx, the UBWC restarts —
+  # the app switches UBWC off there itself, src/android/turnip.rs) through
+  # nightly.link; GitHub keeps artifacts for 90 days — a release of the
+  # fork replaces it then (the script's comments name the last one,
+  # V0.7). The script strips the debug info out of the libraries that
+  # carry some (libadrenotools' two Rust ones, Turnip) with llvm-strip
+  # (the `llvm` package above).
+  TURNIP_ZIP_URL: https://github.com/nihui/mesa-turnip-android-driver/releases/download/26.3.1/mesa-turnip-android-26.3.1.zip
+  ADRENOTOOLS_ZIP_URL: https://nightly.link/TouseefX/libadrenotools-native/actions/runs/44679007919/libadrenotools-arm64-v8a.zip
+  PANVK_ZIP_URL: https://github.com/JimVulkan/mali-panvk/releases/download/v1.6.0/mali-panvk-27.0.0-devel-r10.zip
+
+jobs:
+  apk:
+    name: APK ${{ matrix.arch }} ${{ matrix.profile }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        arch: [arm64, x64]
+        # push / pull_request build both profiles; a manual run can narrow
+        # it to one (github.event.inputs is empty outside workflow_dispatch);
+        # a v* tag builds the release only.
+        profile: ${{ fromJSON(startsWith(github.ref, 'refs/tags/v') && '["release"]' || github.event.inputs.profile == 'debug' && '["debug"]' || github.event.inputs.profile == 'release' && '["release"]' || '["debug", "release"]') }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # JDK 17: javac for xbuild's resource compiler checks and the Android
+      # SDK's platform tools (xbuild itself needs no Gradle).
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      # The Android SDK (adb, platform tools) for `x doctor` and anyone
+      # running the emulator step later; xbuild fetches the platform jar and
+      # its own NDK sysroot into ~/.cache/x on first use.
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+        with:
+          packages: "platform-tools platforms;android-33"
+
+      - name: Rust toolchain with Android targets
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-linux-android,x86_64-linux-android
+
+      - name: Build dependencies (clang / lld for the NDK targets, ALSA headers for the host build scripts, zstd for xbuild's sysroot tarball)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends clang lld llvm pkg-config libasound2-dev zstd
+
+      - name: Cache cargo registry and the per-target build dir
+        uses: Swatinem/rust-cache@v2
+        with:
+          key: android-${{ matrix.arch }}-${{ matrix.profile }}
+          # xbuild builds into target/x/<profile>/android/<arch>/cargo.
+          workspaces: ". -> target/x/${{ matrix.profile }}/android/${{ matrix.arch }}/cargo"
+          cache-directories: |
+            ~/.cache/x
+
+      - name: Cache xbuild binary
+        id: xbuild-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cargo/bin/x
+          key: xbuild-${{ runner.os }}-${{ env.XBUILD_REV }}
+
+      - name: Install xbuild
+        if: steps.xbuild-cache.outputs.cache-hit != 'true'
+        run: cargo install --git https://github.com/rust-mobile/xbuild --rev "$XBUILD_REV" xbuild
+
+      - name: x doctor
+        run: x doctor
+
+      # The arm64 APK carries the Mesa Vulkan drivers (Turnip for Adreno,
+      # PanVK for Mali) and libadrenotools in lib/arm64-v8a
+      # (tools/android/fetch-turnip.sh → crates/rustudio-android/libs/arm64-v8a,
+      # manifest.yaml runtime_libs); the app swaps the driver in on
+      # Snapdragon and kbase Mali devices at start (src/android/turnip.rs).
+      # Push / PR builds take the pinned releases; a manual run can point
+      # at other builds or leave the drivers out. The script ends with
+      # xbuild's library check: a bundled library's NEEDED names must be
+      # bundled or in xbuild's NDK sysroot (~/.cache/x/Android.ndk), else
+      # `x build` stops at the APK step ("Shared library `libhardware.so`
+      # not found" — PanVK links that system library, which the NDK
+      # doesn't export); the script fetches the sysroot tarball when the
+      # cache above didn't bring it (the same one xbuild fetches, which
+      # it then skips) and leaves an empty marker file of that name in
+      # it, nothing goes into the APK (the script's comment on it).
+      - name: Mesa drivers (Turnip, PanVK) + libadrenotools (arm64-v8a)
+        if: matrix.arch == 'arm64' && github.event.inputs.turnip != 'false'
+        env:
+          # A manual run's inputs, else the pinned releases (env above).
+          TURNIP_ZIP: ${{ github.event.inputs.turnip_zip || env.TURNIP_ZIP_URL }}
+          ADRENOTOOLS_ZIP: ${{ github.event.inputs.adrenotools_zip || env.ADRENOTOOLS_ZIP_URL }}
+          PANVK_ZIP: ${{ github.event.inputs.panvk_zip || env.PANVK_ZIP_URL }}
+          PANVK: ${{ github.event.inputs.panvk == 'false' && '0' || '1' }}
+        run: |
+          set -euo pipefail
+          echo "Turnip driver: $TURNIP_ZIP"
+          echo "libadrenotools: $ADRENOTOOLS_ZIP"
+          echo "PanVK driver: $PANVK_ZIP (PANVK=$PANVK)"
+          bash tools/android/fetch-turnip.sh
+
+      - name: Build APK
+        env:
+          # A release signing key (PEM: private key + certificate, the
+          # format `x`'s --pem takes). Without one xbuild signs with its
+          # built-in debug key, which installs fine with adb.
+          SIGNING_PEM: ${{ secrets.ANDROID_SIGNING_PEM }}
+          # The release APK's code: thin LTO across the crates (phones
+          # are CPU-bound sooner than desktops; the workspace's own
+          # release profile is left as it is for desktop builds).
+          CARGO_PROFILE_RELEASE_LTO: thin
+        run: |
+          set -euo pipefail
+          if [ "${{ matrix.profile }}" = "release" ] && [ -n "${SIGNING_PEM:-}" ]; then
+            export X_PEM="$SIGNING_PEM"
+            echo "Signing the release APK with the provided key"
+          fi
+          args=(build -p rustudio-android --platform android --arch "${{ matrix.arch }}" --format apk)
+          if [ "${{ matrix.profile }}" = "release" ]; then
+            args+=(--release)
+          fi
+          x "${args[@]}"
+          apk="target/x/${{ matrix.profile }}/android/rustudio-android.apk"
+          test -f "$apk"
+          mkdir -p dist
+          cp "$apk" "dist/rustudio-${{ matrix.arch }}-${{ matrix.profile }}.apk"
+          ls -l dist
+
+      - name: APK contents
+        run: |
+          apk="dist/rustudio-${{ matrix.arch }}-${{ matrix.profile }}.apk"
+          unzip -l "$apk" | grep -E "lib/|assets/|AndroidManifest" || true
+          # The drivers the arm64 build fetched must have made it in.
+          if [ "${{ matrix.arch }}" = "arm64" ] && [ "${{ github.event.inputs.turnip }}" != "false" ]; then
+            for f in libadrenotools.so libhook_impl.so libmain_hook.so libvulkan_freedreno.so; do
+              unzip -l "$apk" | grep -q "lib/arm64-v8a/$f" || { echo "::error::$f is not in the APK"; exit 1; }
+            done
+            if [ "${{ github.event.inputs.panvk }}" != "false" ]; then
+              unzip -l "$apk" | grep -q "lib/arm64-v8a/libvulkan_panfrost.so" || { echo "::error::libvulkan_panfrost.so is not in the APK"; exit 1; }
+            fi
+          fi
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: rustudio-${{ matrix.arch }}-${{ matrix.profile }}.apk
+          path: dist/rustudio-${{ matrix.arch }}-${{ matrix.profile }}.apk
+          if-no-files-found: error
+          retention-days: 14
+
+  # A v* tag: the release APKs join the tag's GitHub release (ci.yml's
+  # release job makes it with the desktop downloads; whichever job comes
+  # first creates it, the other adds its files). An APK is installed by hand
+  # (`adb install`, or opened on the phone); the editor's own update notice
+  # stays off on Android (src/update.rs).
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: apk
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: apks
+          merge-multiple: true
+      - name: Name the downloads
+        run: |
+          mkdir -p dist
+          cp apks/rustudio-arm64-release.apk dist/rustudio-android-arm64-v8a.apk
+          cp apks/rustudio-x64-release.apk dist/rustudio-android-x86_64.apk
+          cd dist && sha256sum * | tee SHA256SUMS-android
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          # Upload, or create the release when ci.yml hasn't yet (and upload
+          # again if both tried to create it at once).
+          for try in 1 2 3; do
+            gh release upload "$GITHUB_REF_NAME" dist/* --clobber && exit 0
+            gh release create "$GITHUB_REF_NAME" dist/* --title "rustudio $GITHUB_REF_NAME" --notes-file - <<'NOTES' && exit 0
+          Android (arm64-v8a phones and tablets; x86_64 for the emulator): install the APK with `adb install` or by opening it on the device. SHA256SUMS-android lists each file's checksum.
+          NOTES
+            sleep 15
+          done
+          exit 1
+
+  # The same gates the desktop CI relies on, from the Android side: the
+  # desktop binary still builds with the Android module compiled out.
+  desktop-still-builds:
+    name: Desktop check (cfg gates)
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: android-desktop-check
+      # (libudev-dev: gilrs, the gamepad crate, links libudev on Linux)
+      - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends pkg-config libasound2-dev libudev-dev
+      - run: cargo check --workspace --all-targets
