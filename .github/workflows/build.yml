@@ -11,6 +11,10 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+      - name: Install Android Platform 30
+        run: sdkmanager "platforms;android-30" "build-tools;30.0.3" "ndk;25.2.9519653"
       - name: Install Rust
         uses: dtolnay/rust-toolchain@stable
         with:
